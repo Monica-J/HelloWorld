@@ -130,7 +130,7 @@
 }
 .ui-widget-content {
 	border: 1px solid #058bb7;
-	background: #03a4d9 ;
+	background: #ffa042 ;
 	color: #ffffff;
 }
 .ui-widget-content a {
@@ -174,7 +174,7 @@
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: 1px solid #058bb7;
-	background: #03a4d9 ;
+	background: #ffa042 ;
 	font-weight: normal;
 	color: #ffffff;
 }
@@ -194,7 +194,7 @@
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 1px solid #058bb7;
-	background: #03a4d9 ;
+	background: #ffa042 ;
 	font-weight: normal;
 	color: #ffffff;
 	height:35px
