@@ -13,7 +13,8 @@
     padding: 20px;
     overflow-x: hidden;
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #20bdf0;
+    background-color: #ff7110
+;
 	
     border-right: 1px solid #eee;
 	font-size:12px;
@@ -137,7 +138,8 @@
 }
 .ui-widget-header {
 	border: 1px solid #aaaaaa;
-	background: #20bdf0 ;
+	background: #ff7110
+ ;
 	color: #222222;
 	font-weight: bold;
 }
@@ -150,8 +152,10 @@
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-	border: 1px solid #20bdf0;
-	background: #20bdf0 ;
+	border: 1px solid #ff7110
+;
+	background: #ff7110
+ ;
 	font-weight: normal;
 	color: #ffffff;
 	height:35px
