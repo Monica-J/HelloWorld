@@ -1,0 +1,54 @@
+[ 2017-05-15T16:23:33+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-05-15T16:25:12+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-05-15T16:29:22+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-05-15T16:31:26+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-05-15T16:45:05+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-05-15T16:46:12+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-05-15T16:47:21+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-05-15T16:56:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Application/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+ERR: 无法加载模块:Application
+
+[ 2017-05-15T16:56:55+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Admin
+
