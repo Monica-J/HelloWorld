@@ -1,0 +1,27 @@
+[ 2017-05-16T08:30:32+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/common
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Common
+
+[ 2017-05-16T08:34:29+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/common
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-05-16T08:35:39+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/common
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:Common
+
+[ 2017-05-16T08:35:44+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+ERR: 无法加载模块:Admin
+
