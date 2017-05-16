@@ -1,10 +1,11 @@
 .Main {
-    max-width: 600px;
+    max-width: 800px;
+    height: 400px;
+
 }
 
 .Input_Box {
     width: 100%;
-    min-height: 160px;
     border: 1px solid #ccc;
     transition: border linear .2s, box-shadow linear .5s;
     -moz-transition: border linear .2s, -moz-box-shadow linear .5s;
