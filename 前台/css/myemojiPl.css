@@ -1,12 +1,7 @@
-.Main {
-    max-width: 800px;
-    height: 400px;
-
-}
 
 .Input_Box {
     width: 100%;
-    border: 1px solid #ccc;
+    height: 220px;
     transition: border linear .2s, box-shadow linear .5s;
     -moz-transition: border linear .2s, -moz-box-shadow linear .5s;
     -webkit-transition: border linear .2s, -webkit-box-shadow linear .5s;
@@ -15,34 +10,34 @@
     border-radius: 5px;
     background-color: #fff;
     overflow: hidden;
-    -moz-box-shadow: 0 0 5px #ccc;
-    -webkit-box-shadow: 0 0 5px #ccc;
-    box-shadow: 0 0 5px #ccc;
+    
 }
 
 .Input_text {
-    width: 100%;
-    min-height: 111px;
+    width: 90%;
+    height: 140px;
     padding: 5px;
     outline: none;
-    border: 0px solid #fff;
+    border: 1px solid #dcdcdc;
     resize: none;
-    font: 13px "微软雅黑", Arial, Helvetica, sans-serif;
+    font: 15px "微软雅黑", Arial, Helvetica, sans-serif;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    margin: 20px 0 0 35px;
 }
 
 .Input_Foot {
     width: 100%;
     height: 35px;
-    border-top: 1px solid #ccc;
+    border-top:1px solid #dcdcdc;
     background-color: #fff;
     -moz-border-radius: 0 0 5px 5px;
     -webkit-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
     position: relative;
     bottom: 0;
+    margin-top: 25px;
 }
 
 .imgBtn {
@@ -63,7 +58,9 @@
 }
 
 .imgBtn:hover {
-    background-position: 0 -31px
+    background-position: 0 -31px;
+    color:#FFA500;
+    text-decoration: none;
 }
 
 .postBtn {
@@ -79,8 +76,8 @@
 }
 
 .postBtn:hover {
-    color: #333;
-    background-color: #efefef;
+    color: #FFF;
+    background-color: #FFA500;
 }
 
 .postBtn:active {
@@ -89,7 +86,7 @@
 
 .faceDiv {
     width: 100%;
-    border: 1px solid gray;
+    border: 1px solid #dcdcdc;
     position: relative;
     display: none;
     background-color: #fff;
@@ -99,7 +96,7 @@
 }
 
 .faceDiv> .emoji_container >section >._img img {
-    border: 1px solid #ccc;
+    border: 1px solid #dcdcdc;
     float: left;
     max-width: 48px;
     max-height: 48px;
@@ -119,8 +116,8 @@
 
 .emoji_tab {
     position: relative;
-    border-top: 1px solid gray;
-    height: 2em;
+    border-top: 1px solid #dcdcdc;
+    height: 2.7em;
     line-height: 2em;
     white-space: nowrap;
     overflow-x: auto;
@@ -132,13 +129,16 @@
 .emoji_tab a {
     display: inline-block;
     text-decoration: none;
-    height: 1em;
+    height: 2em;
     line-height: 1em;
-    padding: .2em .5em;
-    background-color: gray;
+    padding: .5em .5em;
+    background-color: #FFA500;
     box-shadow: 1px 1px 3px gray;
     border-radius: 5px;
-    margin: 0 .2em;
+    margin: 2px;
+}
+.emoji_tab a:hover,.emoji_tab a:active{
+    color: black;
 }
 
 .emoji_container {
