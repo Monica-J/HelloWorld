@@ -11,6 +11,7 @@ return array(
     'DB_USER'               =>  'root',      // 用户名
     'DB_PWD'                =>  '',          // 密码
     'DB_PORT'               =>  '3306',        // 端口
+    'DB_CHARSET'            =>   'utf8',
 //  'LAYOUT_ON'             =>  ''
 	// 'LOG_RECORD'            =>  true,  // 进行日志记录
 	// 'LOG_EXCEPTION_RECORD'  =>  true,    // 是否记录异常信息日志

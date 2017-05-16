@@ -25,3 +25,117 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
 ERR: 无法加载模块:Admin
 
+[ 2017-05-16T14:21:46+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/homemodel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Homemodel
+
+[ 2017-05-16T14:53:08+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T14:54:37+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T14:54:45+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T14:55:44+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T14:59:57+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:00:57+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:01:03+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:02:08+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:03:38+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:04:27+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:04:29+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:04:33+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:04:58+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:05:12+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:07:44+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:07:46+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:07:47+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-16T15:09:25+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:User
+
