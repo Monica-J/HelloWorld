@@ -654,6 +654,7 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
 
+<<<<<<< HEAD
 [ 2017-05-16T14:13:19+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
@@ -728,4 +729,38 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+=======
+[ 2017-05-16T14:23:58+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016172s ]
+
+[ 2017-05-16T14:24:15+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-05-16T14:24:42+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+>>>>>>> 745224f1d3bdebbf3d8669cf370aeff6de1e038a
 
