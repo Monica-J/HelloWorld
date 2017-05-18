@@ -1,0 +1,59 @@
+/*index*/
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+button{
+	color:#fff;
+	background-color: #ffA500;
+	font-size: 12px;
+}
+.btn-group-lg>.btn, .btn-lg{
+	padding: 5px 10px;
+}
+.header{
+	height: 65px;
+	background-color: #ffA500; 
+}
+.content{
+	width: 70%;
+	height: 100%;
+	margin-left: 205px;
+	background-color: #fff;
+}
+.navbar-default{
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #ffA500;
+}
+.nav>li>a{
+	padding: 15px 22px;
+}		
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #ffA500;
+	color: #fff;
+}
+.bor{
+	border-bottom:1px solid #dcdcdc;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+}
+.page{
+	width: 78%;
+	height: 220px;
+	margin-top: -20px;
+}
+.wri{
+	border-top: 1px solid #dcdcdc;
+	width: 95%;
+	height: 150px;
+	margin-left: 18px;
+}
+.admin{
+	width: 20%;
+	height: 220px;
+	float: right;
+	margin-top: -220px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>首页</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/fileUpload.css">
+    
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+		
+</head>
+<body>
+	<!--顶部-->
+	<div class="header">
+		<!--顶部左侧-->
+		<div class="logo" style="margin:0 0 0 30px;">
+			<img src="img/logo.png">
+		</div>
+		
+		<div class="search" style="margin:-40px 0 0 370px;">
+			<input type="text" >
+			<button type="submit" class="btn btn-sm" style="margin-top:-2px;background:#fff;color:#ffA500;">搜 索</button>
+		</div>
+
+		<!--顶部右侧--->
+		<div class="user" style="float:right; margin:-30px 30px 0 0;">
+			<div class="btn-group">
+			  	<button type="button" class="btn btn-lg">
+			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
+			  	</button>			  	
+			   	<button type="button" class="btn btn-lg">
+			   		<span class="glyphicon glyphicon-envelope"></span>
+			   	</button>
+			   	<button type="button" class="btn btn-lg">
+			   		<span class="glyphicon glyphicon-cog"></span>
+			   	</button>
+			   	<button type="button" class="btn btn-lg">
+			   		<span class="glyphicon glyphicon-pencil"></span>
+			   	</button>
+			</div>
+		</div>
+
+	</div>
+
+	<!--内容-->
+	<div class="content">
+		<!--导航栏-->
+		<nav class="navbar navbar-default" role="navigation">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">首页</a></li>
+				<li><a href="#">我的收藏</a></li>
+				<li><img src="img/line.png"></li>
+				<li><a href="#">热门话题</a></li>
+				<li><a href="#">公告通知</a></li>
+				<li><a href="#">学生活动</a></li>
+				<li><a href="#">技术交流</a></li>
+				<li><a href="files_share.html">资料共享</a></li>
+				<li><a href="#">树洞吐槽</a></li>
+				<li><a href="#">院友录</a></li>
+			</ul>
+		</nav>
+		
+		<div class="page">
+			
+			<div class="Main">     
+		        <div id="fileUploadContent" class="fileUploadContent"></div>
+	    	</div>
+	    	
+		</div>
+		
+	</div>
+	
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/fileUpload.js"></script>
+<script type="text/javascript">
+    $("#fileUploadContent").initUpload({
+        "uploadUrl":"#",//上传文件信息地址
+        "progressUrl":"#",//获取进度信息地址，可选，注意需要返回的data格式如下（{bytesRead: 102516060, contentLength: 102516060, items: 1, percent: 100, startTime: 1489223136317, useTime: 2767}）
+        "showSummerProgress":false,//总进度条，默认限制
+        //"size":350,//文件大小限制，单位kb,默认不限制
+        //"maxFileNumber":1,//文件个数限制，为整数
+        //"filelSavePath":"",//文件上传地址，后台设置的根目录
+        //"beforeUpload":beforeUploadFun,//在上传前执行的函数
+        //"onUpload":onUploadFun，//在上传后执行的函数
+        autoCommit:false,//文件是否自动上传
+        //"fileType":['png','jpg','docx','doc']，//文件类型限制，默认不限制，注意写的是文件后缀
+    })
+    function beforeUploadFun(opt){
+        opt.otherData =[{"name":"你要上传的参数","value":"你要上传的值"}];
+    }
+    function onUploadFun(opt,data){
+        alert(data);
+        uploadTools.uploadError(opt);//显示上传错误
+    }
+</script>
+
+</body>
+</html>
