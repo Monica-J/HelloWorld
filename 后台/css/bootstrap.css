@@ -910,7 +910,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #ff7110;
+  color: #ffA500;
   text-decoration: none;
 }
 a:hover,
@@ -1150,7 +1150,7 @@ mark,
   color: #777777;
 }
 .text-primary {
-  color: #ff7110;
+  color: #ffA500;
 }
 a.text-primary:hover {
   color: #03a4d9;
@@ -1181,7 +1181,7 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #ff7110;
+  background-color: #ffA500;
 }
 a.bg-primary:hover {
   background-color: #03a4d9;
@@ -2891,7 +2891,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #ff7110;
+  background-color: #ffA500;
   border-color: #0fb0e4;
 }
 .btn-primary:hover,
@@ -2927,11 +2927,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #ff7110;
+  background-color: #ffA500;
   border-color: #0fb0e4;
 }
 .btn-primary .badge {
-  color: #ff7110;
+  color: #ffA500;
   background-color: #ffffff;
 }
 .btn-success {
@@ -3115,7 +3115,7 @@ fieldset[disabled] .btn-danger.active {
   background-color: #ffffff;
 }
 .btn-link {
-  color: #ff7110;
+  color: #ffA500;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3279,7 +3279,7 @@ tbody.collapse.in {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: #ff7110;
+  background-color: #ffA500;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
@@ -3711,7 +3711,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #ff7110;
+  border-color: #ffA500;
 }
 .nav .nav-divider {
   height: 1px;
@@ -3804,7 +3804,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #ff7110;
+  background-color: #ffA500;
 }
 .nav-stacked > li {
   float: none;
@@ -4200,7 +4200,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #ff7110;
+  background-color: #ffA500;
   border-color: #058bb7;
   
 }
@@ -4434,7 +4434,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #ff7110;
+  color: #ffA500;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -4466,8 +4466,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #ff7110;
-  border-color: #ff7110;
+  background-color: #ffA500;
+  border-color: #ffA500;
   cursor: default;
 }
 .pagination > .disabled > span,
@@ -4582,7 +4582,7 @@ a.label:focus {
   background-color: #5e5e5e;
 }
 .label-primary {
-  background-color: #ff7110;
+  background-color: #ffA500;
 }
 .label-primary[href]:hover,
 .label-primary[href]:focus {
@@ -4649,7 +4649,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #ff7110;
+  color: #ffA500;
   background-color: #ffffff;
 }
 .nav-pills > li > a > .badge {
@@ -4713,7 +4713,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #ff7110;
+  border-color: #ffA500;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -4827,7 +4827,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: #ffffff;
   text-align: center;
-  background-color: #ff7110;
+  background-color: #ffA500;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -4976,8 +4976,8 @@ a.list-group-item:focus {
 .list-group-item.active:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #ff7110;
-  border-color: #ff7110;
+  background-color: #ffA500;
+  border-color: #ffA500;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
@@ -5342,22 +5342,22 @@ a.list-group-item-danger.active:focus {
   border-bottom-color: #dddddd;
 }
 .panel-primary {
-  border-color: #ff7110;
+  border-color: #ffA500;
 }
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #ff7110;
-  border-color: #ff7110;
+  background-color: #ffA500;
+  border-color: #ffA500;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #ff7110;
+  border-top-color: #ffA500;
 }
 .panel-primary > .panel-heading .badge {
-  color: #ff7110;
+  color: #ffA500;
   background-color: #ffffff;
 }
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #ff7110;
+  border-bottom-color: #ffA500;
 }
 .panel-success {
   border-color: #d6e9c6;
