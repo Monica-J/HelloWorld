@@ -1,0 +1,17 @@
+[ 2017-05-18T08:12:06+08:00 ] 127.0.0.1 /Hello%20World!/helloworld-houtai/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010727s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.085595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.085664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.062348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.062459s ]
+
