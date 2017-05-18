@@ -40,10 +40,15 @@ button{
 	border-right:1px solid #dcdcdc;
 	border-left:1px solid #dcdcdc;
 }
+<<<<<<< HEAD
 .page{
 	width: 78%;
 	height: 220px;
 	margin-top: -20px;
+=======
+.left{
+	width: 78%;
+>>>>>>> d649c9483c8657119f09752d883ebce613e48df4
 }
 .wri{
 	border-top: 1px solid #dcdcdc;
@@ -51,9 +56,100 @@ button{
 	height: 150px;
 	margin-left: 18px;
 }
+<<<<<<< HEAD
 .admin{
 	width: 20%;
 	height: 220px;
 	float: right;
 	margin-top: -220px;
 }
+=======
+.page{
+	border: 1px solid #dcdcdc;
+	margin-top: 20px;
+}
+.bt{
+	margin-top: -6px;
+}
+.bt button{
+	background-color: #fff;
+	color: #ffA500;
+}
+
+.right{
+	/*width: 20%;*/
+	float: right;
+	margin-top: -305px;
+	position: absolute;
+	right: 200px;
+	top: 422px;
+}
+.admin{
+	height: 220px;
+}
+
+.name{
+	text-align: center;
+	margin-top: 8px;
+	font-size: 15px;
+}
+.title{
+	text-align: center;
+	font-size: 14px;
+	margin-top: -8px;
+}
+.adnav{
+	font-size: 14px;
+	height: 30px;
+	margin-left: 12px;
+	margin-top: -5px;
+}
+.adnav li a{
+	padding: 1px 10px;
+	color: black;
+}
+.adnav li a:hover,.adnav li a:visited{
+	background-color: #fff;
+	height: 18px;
+}
+.adnav li img{
+	height: 35px;
+}
+.book{
+	margin-top: 20px;
+	border-top: 1px solid #dcdcdc;
+}
+.bktitle{
+	color: #ffA500;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+.book1{
+	border-top: 1px solid #dcdcdc;
+}
+/*轮播图*/
+.carousel{
+	height: 220px;
+}
+.carousel-indicators{
+	bottom: -10px;
+	color: black;
+}
+.carousel-indicators .active{
+	background-color: #ffA500;
+}
+.carousel-indicators li{
+	background-color: #ccc;
+}
+.item{
+	margin-top: 5px;
+}
+.footer{
+	height: 100px;
+	background-color: #eee;
+}
+.footer p{
+	text-align: center;
+	font-size: 15px;
+}
+>>>>>>> d649c9483c8657119f09752d883ebce613e48df4
