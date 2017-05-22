@@ -48,11 +48,23 @@ button{
 .left{
 	width: 78%;
 }
+.left{
+	width: 78%;
+
+
 .wri{
 	border-top: 1px solid #dcdcdc;
 	width: 95%;
 	height: 150px;
 	margin-left: 18px;
+}
+
+
+.admin{
+	width: 20%;
+	height: 220px;
+	float: right;
+	margin-top: -220px;
 }
 
 .page{
@@ -144,3 +156,4 @@ button{
 	text-align: center;
 	font-size: 15px;
 }
+
