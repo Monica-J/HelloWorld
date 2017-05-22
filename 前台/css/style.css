@@ -40,15 +40,13 @@ button{
 	border-right:1px solid #dcdcdc;
 	border-left:1px solid #dcdcdc;
 }
-<<<<<<< HEAD
 .page{
 	width: 78%;
 	height: 220px;
 	margin-top: -20px;
-=======
+}
 .left{
 	width: 78%;
->>>>>>> d649c9483c8657119f09752d883ebce613e48df4
 }
 .wri{
 	border-top: 1px solid #dcdcdc;
@@ -56,20 +54,11 @@ button{
 	height: 150px;
 	margin-left: 18px;
 }
-<<<<<<< HEAD
-.admin{
-	width: 20%;
-	height: 220px;
-	float: right;
-	margin-top: -220px;
-}
-=======
+
 .page{
 	border: 1px solid #dcdcdc;
 	margin-top: 20px;
-}
-.bt{
-	margin-top: -6px;
+	width: 738px;
 }
 .bt button{
 	background-color: #fff;
@@ -84,8 +73,9 @@ button{
 	right: 200px;
 	top: 422px;
 }
-.admin{
+.admin{	
 	height: 220px;
+	float: right;
 }
 
 .name{
@@ -116,8 +106,10 @@ button{
 	height: 35px;
 }
 .book{
-	margin-top: 20px;
+	width: 179px;
+	margin-top: 240px;
 	border-top: 1px solid #dcdcdc;
+	height: 260px;
 }
 .bktitle{
 	color: #ffA500;
@@ -152,4 +144,3 @@ button{
 	text-align: center;
 	font-size: 15px;
 }
->>>>>>> d649c9483c8657119f09752d883ebce613e48df4
