@@ -8,6 +8,9 @@ button{
 	background-color: #ffA500;
 	font-size: 12px;
 }
+body{
+	background-image: url(../img/bg.png);
+}
 .btn-group-lg>.btn, .btn-lg{
 	padding: 5px 10px;
 }
