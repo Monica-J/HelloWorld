@@ -15,11 +15,10 @@
 		
 </head>
 <body>
-	<!--顶部-->
 	<div class="header">
-		<!--顶部左侧-->
+		
 		<div class="logo" style="margin:0 0 0 30px;">
-			<img src="img/logo.png">
+			<a href="index.html"><img src="img/logo.png"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
@@ -27,7 +26,6 @@
 			<button type="submit" class="btn btn-sm" style="margin-top:-2px;background:#fff;color:#ffA500;">搜 索</button>
 		</div>
 
-		<!--顶部右侧--->
 		<div class="user" style="float:right; margin:-30px 30px 0 0;">
 			<div class="btn-group">
 			  	<button type="button" class="btn btn-lg">
@@ -47,9 +45,8 @@
 
 	</div>
 
-	<!--内容-->
 	<div class="content">
-		<!--导航栏-->
+		
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="index.html">首页</a></li>
@@ -64,16 +61,68 @@
 				<li><a href="#">院友录</a></li>
 			</ul>
 		</nav>
-		
-		<div class="page">
+
+		<div class="right">
+
+			<div class="admin bor">
+				<a href=""><img src="img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
+				<p class="name">你的梦里有我吗</p>
+				<p class="title"><img src="img/title.png">工程师</p>
+				
+				<nav class="navbar adnav" role="navigation">
+					<ul class="nav navbar-nav">
+						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
+						<li><img src="img/line.png"></li>
+						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
+						<li><img src="img/line.png"></li>
+						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子</p></a></li>				
+					</ul>
+				</nav>
+			</div>
+
+			<div class="book bor">
+				<p class="bktitle">推荐书单</p>
+				<div id="myCarousel" class="carousel slide">
+					<!-- 轮播（Carousel）指标 -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>   
+					<!-- 轮播（Carousel）项目 -->
+					<div class="carousel-inner" style="border-top:1px solid #dcdcdc;">
+						<div class="item active">
+							<img src="img/HTML5.jpg" alt="First slide">
+						</div>
+						<div class="item">
+							<img src="img/HTML5.jpg" alt="Second slide">
+						</div>
+						<div class="item">
+							<img src="img/HTML5.jpg" alt="Third slide">
+						</div>
+						<br/>
+					</div>
+				</div>  
+			</div>
 			
+		</div>
+
+		<div class="left">
 			<div class="Main">     
 		        <div id="fileUploadContent" class="fileUploadContent"></div>
 	    	</div>
-	    	
 		</div>
 		
 	</div>
+
+	<br/>		
+	<footer class="footer">
+		<br/>
+		<br/>
+		<p>地址：石家庄市裕华区南二环东路20号</p>
+	</footer>
+		
+		
 	
 <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
 <script type="text/javascript" src="js/fileUpload.js"></script>
