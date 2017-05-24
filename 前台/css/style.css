@@ -22,7 +22,7 @@ body{
 	width: 70%;
 	height: 100%;
 	margin-left: 205px;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 .navbar-default{
 	background-color: #fff;
@@ -59,7 +59,7 @@ body{
 
 
 .admin{
-	
+	background-color: #fff;
 	height: 220px;
 	float: right;
 	margin-top: 0px;
@@ -69,6 +69,7 @@ body{
 	border: 1px solid #dcdcdc;
 	margin-top: 20px;
 	width: 738px;
+	background-color: #fff;
 }
 .bt button{
 	background-color: #fff;
@@ -118,7 +119,7 @@ body{
 	height: 35px;
 }
 .book{
-	width: 179px;
+	width: 187px;
 	margin-top: 260px;
 	border: 1px solid #dcdcdc;
 	height: 260px;
@@ -157,3 +158,50 @@ body{
 	font-size: 15px;
 }
 
+/*admin页面*/
+.touxiang{
+	background-image: url(../img/admin-bg.jpg);
+}
+/*guanzhu页面*/
+.guanzhu{
+	width: 78%; 
+	border: 1px solid #dcdcdc;
+	float: right;
+	margin-top: -50px;
+	background-color: #fff;
+}
+/*fensi页面  公用*/
+.fensi{
+	width: 78%; 
+	border: 1px solid #dcdcdc;
+	float: right;
+	margin-top: -50px;
+	background-color: #fff;
+}
+.fs{
+	border: 1px solid #dcdcdc;
+	width: 210px;
+	margin: 23px 0 0 10px;
+}
+.fs img{
+	margin: 23px 0 0 5px;
+}
+.f-name{
+	float: right;
+	margin: -60px 10px 0 0;
+}
+.fsgz{
+	margin-top: 50px;
+}
+.fs2{
+	margin: -104px 0 0 267px;
+}
+.fs3{
+	float: right;
+	margin: -104px 10px 0 0px;
+}	
+
+/*xiaoxi页面*/
+.xiaoxi{
+	margin-top: 20px;
+}
