@@ -10,6 +10,7 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/myemojiPl.js"></script> 
+	<script src="js/layer.js"></script>
 		
 </head>
 <body>
@@ -29,13 +30,13 @@
 			  	<a href="admin.html"><button type="button" class="btn btn-lg">
 			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
 			  	</button></a>	  	
-			   	<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
+			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-envelope"></span>
-			   	</button></a>
+			   	</button></a>-->
 			   	<a href="shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
-			   	<a href=""><button type="button" class="btn btn-lg">
+			   <a href="#"><button type="button" class="btn btn-lg" id="write">
 			   		<span class="glyphicon glyphicon-pencil"></span>
 			   	</button></a>
 			</div>
@@ -107,7 +108,7 @@
 
 		<div class="left">			
 				
-			<div class="Main">     
+			<div class="Main" id="opwri">     
 			    <div class="Input_Box">     
 			        <div contenteditable="true" class="Input_text"></div>		     
 			        <div class="Input_Foot">
@@ -246,7 +247,7 @@
 		<p>地址：石家庄市裕华区南二环东路20号</p>
 	</div>
 
-<script>
+	<script>
 	var emojiconfig = {
 	    tieba: {
 	        name: "表情",
@@ -367,7 +368,17 @@
 	    }
 	  };
 	jQuery('.Main').myEmoji({emojiconfig : emojiconfig});
-</script>
+
+	jQuery('#write').on('click', function(){
+		layer.open({
+		    type: 1,
+		 	area: ['800px', '360px'],
+		 	anim:1,
+		 	shadeClose: true, //点击遮罩关闭
+		 	content: jQuery('#opwri')
+		});
+	});
+	</script>
 	
 </body>
 </html>
