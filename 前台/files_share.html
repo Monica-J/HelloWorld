@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-	<title>首页资料共享</title>
+	<title>资料共享</title>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
@@ -16,6 +17,14 @@
 	<script src="js/myemojiPl.js"></script> 
 	<script src="js/layer.js"></script>
 		
+<style>
+	th,td{
+		
+		height:50px;
+		border:1px solid #eee;
+		};
+
+</style>
 </head>
 <body>
 	<div class="header">
@@ -74,7 +83,7 @@
 				<li><a href="#">技术交流</a></li>
 				<li  class="active"><a href="files_share.html">资料共享</a></li>
 				<li><a href="#">树洞吐槽</a></li>
-				<li><a href="#">院友录</a></li>
+				<li><a href="contacts.html">院友录</a></li>
 			</ul>
 		</nav>
 
@@ -124,13 +133,39 @@
 		</div>
 
 		<div class="left">
-			<div class="Main">     
+			<div class="Main" >     
 		        <div id="fileUploadContent" class="fileUploadContent"></div>
+	    	</div>
+	    	<br/>
+	    	<div class="list">
+	    		<p style="font-size: 24px;">我上传的文件</p>
+	    		<table class="fileList">
+	    			<tr>
+	    				<th style="width:350px;">名称</th>
+	    				<th style="width:100px;">上传时间</th>
+	    				<th style="width:300px;">类型</th>
+	    				<th style="width:100px;">大小</th>
+	    			</tr>
+	    			<tr>
+	    				<td><img src="img/pdf.png" style="width:20px;height:20px;" />二战学长的挥泪经验</td>
+	    				<td>2017-05-24</td>
+	    				<td>Adobe Acrobat Document</td>
+	    				<td>655KB</td>
+	    			</tr>
+	    			<tr>
+	    				<td><img src="img/rar.png" style="width:20px;height:20px;" />二战学长的挥泪经验</td>
+	    				<td>2017-05-24</td>
+	    				<td>WinRAR ZIP压缩文件</td>
+	    				<td>6,143KB</td>
+	    			</tr>
+	    		</table>
 	    	</div>
 		</div>
 		
 	</div>
 
+	<br/>
+	<br/>
 	<br/>		
 	<div class="footer">
 		<br/>
