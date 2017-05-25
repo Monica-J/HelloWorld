@@ -1,90 +1,89 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-	<title>资料共享</title>
+  	<title>资料共享</title>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
-	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+  	<meta charset="utf-8">
+  	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	
+  	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
     <link rel="stylesheet" type="text/css" href="css/fileUpload.css">
-    <link rel="stylesheet" href="css/myemojiPl.css"><!--表情-->
-    
-    <script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/myemojiPl.js"></script> 
-	<script src="js/layer.js"></script>
-		
-<style>
-	#list { 
-    margin: 50px auto 0 auto; 
-    font-family: Arial, Helvetica; 
-    font-size: 16px; 
-    background-color: #eee;  
-  }
-  #tabs {
-    overflow: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  #tabs li {
-    float: left;
-    margin: 0 -15px 0 0;
-  }
-  #tabs a {
-    float: left;
-    position: relative;
-    padding: 0 40px;
-    height: 0;
-    line-height: 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;      
-    border-right: 30px solid transparent;
-    border-bottom: 30px solid #3D3D3D;
-    border-bottom-color: #777\9;
-    opacity: .3;
-    filter: alpha(opacity=30);      
-  }
-  #tabs a:hover,
-  #tabs a:focus {
-    border-bottom-color: #2ac7e1;
-    opacity: 1;
-    filter: alpha(opacity=100);
-  }
-  #tabs a:focus {
-    outline: 0;
-  }
-  #tabs #current {
-    z-index: 3;
-    border-bottom-color: #3d3d3d;
-    opacity: 1;
-    filter: alpha(opacity=100);      
-  }
 
-  #tabsContent {
-    background: #fff;
-    border-top: 2px solid #3d3d3d;
-    padding: 2em;
-    /*height: 220px;*/
-  }
-  #tabsContent h2,#tabsContent h3,#tabsContent p {
-    margin: 0 0 15px 0;
-  }  
-/* Demo page only */
-  #about {
-    color: #999;
-    text-align: center;
-    font: 0.9em Arial, Helvetica;
-  }
-  #about a {
-    color: #777;
-  } 
-</style>
+      
+    <script src="js/jquery.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="js/layer.js"></script>
+
+    <style>
+    	#list { 
+            margin: 50px auto 0 auto; 
+            font-family: Arial, Helvetica; 
+            font-size: 16px; 
+            background-color: #eee;  
+        }
+        #tabs {
+            overflow: hidden;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #tabs li {
+            float: left;
+            margin: 0 -15px 0 0;
+        }
+        #tabs a {
+            float: left;
+            position: relative;
+            padding: 0 40px;
+            height: 0;
+            line-height: 30px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;      
+            border-right: 30px solid transparent;
+            border-bottom: 30px solid #3D3D3D;
+            border-bottom-color: #777\9;
+            opacity: .3;
+            filter: alpha(opacity=30);      
+        }
+        #tabs a:hover,
+        #tabs a:focus {
+            border-bottom-color: #2ac7e1;
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+        #tabs a:focus {
+            outline: 0;
+        }
+        #tabs #current {
+            z-index: 3;
+            border-bottom-color: #3d3d3d;
+            opacity: 1;
+            filter: alpha(opacity=100);      
+        }
+
+        #tabsContent {
+            background: #fff;
+            border-top: 2px solid #3d3d3d;
+            padding: 2em;
+            /*height: 220px;*/
+        }
+        #tabsContent h2,#tabsContent h3,#tabsContent p {
+            margin: 0 0 15px 0;
+        }  
+        /* Demo page only */
+        #about {
+            color: #999;
+            text-align: center;
+            font: 0.9em Arial, Helvetica;
+        }
+        #about a {
+            color: #777;
+        } 
+    </style>
 
 </head>
 <body>
@@ -119,19 +118,6 @@
 	</div>
 
 	<div class="content">
-		
-		<div class="Main" id="opwri" style="display:none;">     
-			<div class="Input_Box">     
-				   <div contenteditable="true" class="Input_text"></div>		     
-				   <div class="Input_Foot">
-					     <a class="imgBtn" href="javascript:void(0);">'◡'</a><a class="postBtn">确定</a> 
-			</div>
-			</div>
-			<div class="faceDiv">
-				   <section class="emoji_container"></section>
-				   <section class="emoji_tab"></section>
-			</div>    
-		</div>
 
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
@@ -194,9 +180,20 @@
 		</div>
 
 		<div class="left">
-			<div class="Main" >     
-		        <div id="fileUploadContent" class="fileUploadContent"></div>
-	    	</div>
+            <div id="opwri" style="display:none;">     
+                <div class="Input_Box">     
+                    <form>
+                        <textarea id="httext"></textarea>      
+                        <div class="Input_Foot">
+                            <button type="button" class="btn btn-m" id="huati">
+                                <img src="img/huati.png">插入话题 
+                            </button>
+                        <input type="submit" class="submit" value="确认"> 
+                        </div>
+                    </form>
+                </div>   
+            </div>
+            <div id="fileUploadContent" class="fileUploadContent"></div>
 	    
 	    	<div id="list">
 	    		<ul id="tabs">
@@ -313,7 +310,6 @@
     		</div>
     		<p id="about">&nbsp;</p>
 
-	    	</div>
 		</div>
 		
 	</div>
@@ -394,6 +390,75 @@
         }
     })()
 </script>
+
+<script type="text/javascript">
+        jQuery('#write').on('click', function(){
+            layer.open({
+                type: 1,
+              area: ['800px', '360px'],
+              anim:1,
+              shadeClose: true, //点击遮罩关闭
+              content: jQuery('#opwri')
+            });
+        });
+
+        /*插入话题*/
+        var oButton = document.getElementById("huati"), oTextarea = document.getElementById("httext");
+        var TOPIC = "插入话题";
+        var funGetSelected = function(element) {
+            if (!window.getSelection) { 
+                //IE浏览器
+                return document.selection.createRange().text;
+            } 
+            else {
+                return element.value.substr(element.selectionStart, element.selectionEnd - element.selectionStart);
+            }
+        }, 
+        funInsertTopic = function(textObj) {
+            var topic = "#" + TOPIC + "#", value = textObj.value, index = value.indexOf(topic);
+            if (index === -1) {
+                //匹配
+                funTextAsTopic(textObj, topic);
+          } 
+            value = textObj.value;
+            index = value.indexOf(topic);
+            if (textObj.createTextRange) {
+                var range = textObj.createTextRange();
+                range.moveEnd("character", -1 * value.length)           
+                range.moveEnd("character", index + 5);
+                range.moveStart("character", index + 1);
+                range.select();    
+            } 
+            else {
+                textObj.setSelectionRange(index + 1, index + 5);
+                textObj.focus();
+            }
+        }, 
+        funTextAsTopic = function(textObj, textFeildValue) {
+            textObj.focus();
+            if (textObj.createTextRange) {
+                var caretPos = document.selection.createRange().duplicate();
+                document.selection.empty();
+                caretPos.text = textFeildValue;
+            } else if (textObj.setSelectionRange) {
+                var rangeStart = textObj.selectionStart;
+                var rangeEnd = textObj.selectionEnd;
+                var tempStr1 = textObj.value.substring(0, rangeStart);
+                var tempStr2 = textObj.value.substring(rangeEnd);
+                textObj.value = tempStr1 + textFeildValue + tempStr2;
+                textObj.blur();
+            }
+        };
+        oButton.onclick = function() {
+            var textSelection = funGetSelected(oTextarea);
+            if (!textSelection || textSelection === TOPIC) {
+                //没有文字选中，光标处插入
+                funInsertTopic(oTextarea);    
+            } else {
+                funTextAsTopic(oTextarea, "#" + textSelection + "#");
+            }
+        };
+    </script>
 
 </body>
 </html>
