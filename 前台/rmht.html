@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-	<title>首页</title>
+	<title>热门话题</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
@@ -48,10 +48,10 @@
 		
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.html">首页</a></li>
+				<li><a href="index.html">首页</a></li>
 				<li><a href="wdsc.html">我的收藏</a></li>
 				<li><img src="img/line.png"></li>
-				<li><a href="rmht.html">热门话题</a></li>
+				<li class="active"><a href="rmht.html">热门话题</a></li>
 				<li><a href="ggtz.html">公告通知</a></li>
 				<li><a href="xshd.html">学生活动</a></li>
 				<li><a href="jsjl.html">技术交流</a></li>
@@ -79,7 +79,25 @@
 				</nav>
 			</div>
 
-			<div class="book">
+			<div class="rmht">
+				<p>热门话题</p>
+				<div class="ht">
+					<ul>
+						<a href="rmht-1.html"><li>1.  软件男篮荣获冠军</li></a>
+						<a href=""><li>2.  软件男篮</li></a>
+						<a href=""><li>3.  留学生项目</li></a>
+						<a href=""><li>4.  期末考试</li></a>
+						<a href=""><li>5.  红鼻子晚会</li></a>
+						<a href=""><li>6.  教室装空调</li></a>
+						<a href=""><li>7.  研究生</li></a>
+						<a href=""><li>8.  毕业论文</li></a>
+						<a href=""><li>9.  项目实训</li></a>
+						<a href=""><li>10. 实习</li></a>
+					</ul>
+				</div>
+			</div>
+
+			<div class="book" style="margin-top:20px;">
 				<p class="bktitle">推荐书单</p>
 				<div id="myCarousel" class="carousel slide">
 					<!-- 轮播（Carousel）指标 -->
@@ -106,9 +124,9 @@
 			
 		</div>
 
-		<div class="left">			
-				
-			<div class="Main" id="opwri">     
+		<div class="left">
+
+			<div class="Main" id="opwri" style="display:none;">     
 			    <div class="Input_Box">     
 			        <div contenteditable="true" class="Input_text"></div>		     
 			        <div class="Input_Foot">
@@ -120,9 +138,9 @@
 			        </section>
 			        <section class="emoji_tab"></section>
 		        </div>    
-		    </div>
+		    </div>			
 
-		    <div class="tiezi">
+		    <div class="httz">
 		    		<div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="img/user-lit.png" style="margin:10px 0 0 10px;"></a>
