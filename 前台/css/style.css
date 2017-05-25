@@ -11,6 +11,12 @@ button{
 body{
 	background-image: url(../img/bg.png);
 }
+ul li{
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
 .btn-group-lg>.btn, .btn-lg{
 	padding: 5px 10px;
 }
@@ -45,10 +51,6 @@ body{
 }
 .left{
 	width: 78%;
-}
-.left{
-	width: 78%;
-
 }
 .wri{
 	border-top: 1px solid #dcdcdc;
@@ -207,4 +209,25 @@ body{
 /*xiaoxi页面*/
 .xiaoxi{
 	margin-top: 20px;
+}
+/*热门话题*/
+.rmht{
+	width: 187px;
+	height: 310px;
+	border: 1px solid #dcdcdc;
+	margin-top: 260px;
+}
+.rmht p{
+	color: #ffA500;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+.ht{
+	border-top: 1px solid #dcdcdc;
+	margin-left: -20px;
+}
+.ht ul li{
+	padding-top: 5px;
+	color: black;
+	font-size: 15px;
 }
