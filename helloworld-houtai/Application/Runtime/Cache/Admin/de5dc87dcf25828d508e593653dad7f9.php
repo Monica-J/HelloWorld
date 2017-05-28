@@ -1,13 +1,13 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>Hello World</title>
-<link rel="stylesheet" href="__PUBLIC__/end/css/bootstrap.css">
-<link href="__PUBLIC__/end/css/jquery-ui.css" rel="stylesheet">
-<link href="__PUBLIC__/end/css/mystyle.css" rel="stylesheet">
-<script src="__PUBLIC__/end/js/jquery.js"></script>    
-<script src="__PUBLIC__/end/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/end/css/bootstrap.css">
+<link href="/HelloWorld/helloworld-houtai/Public/end/css/jquery-ui.css" rel="stylesheet">
+<link href="/HelloWorld/helloworld-houtai/Public/end/css/mystyle.css" rel="stylesheet">
+<script src="/HelloWorld/helloworld-houtai/Public/end/js/jquery.js"></script>    
+<script src="/HelloWorld/helloworld-houtai/Public/end/js/bootstrap.min.js"></script>
 
 
 </head>

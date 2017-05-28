@@ -1,0 +1,84 @@
+[ 2017-05-28T13:30:48+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/css/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T13:52:31+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.phpadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+ERR: 无法加载模块:Index
+
+[ 2017-05-28T20:27:12+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/csscss/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T20:27:12+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/csscss/mystyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T20:27:12+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/cssjs/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T20:27:12+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/cssjs/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T20:27:12+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/cssjs/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T20:27:12+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/csscss/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T21:10:27+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/csscss/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T21:10:27+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/csscss/jquery-ui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T21:10:27+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/cssjs/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T21:10:27+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/cssjs/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T21:10:27+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/csscss/mystyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-28T21:10:27+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/end/cssjs/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Public
+
