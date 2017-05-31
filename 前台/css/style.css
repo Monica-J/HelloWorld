@@ -272,3 +272,21 @@ textarea{
 	color: black;
 	font-size: 15px;
 }
+
+/*shezhi*/
+.shezhi_box{
+	width: 200px;
+	height: 180px;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: 20px;
+	border: 1px solid #dcdcdc;
+}
+.shezhi_box p{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin: 8px auto 8px 8px;
+}
+.shezhi_box hr{
+	margin-top: 3px;
+}
