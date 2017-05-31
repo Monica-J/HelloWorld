@@ -41,8 +41,9 @@
             <label for="check"><span class="icon"></span> 记住密码</label>        
           </div>
           <div class="group">
-            <input type="submit" class="button" value="登录" style="color:#FFF;">
-          </div>          
+            <input  type="submit" class="button" onclick="window.open('/HelloWorld/helloworld-houtai/index.php/Admin/user/user_list.html')" value="登录" style="color:#FFF;">
+
+          </div>            
           <div class="foot-lnk">
             <a href="#forgot">忘记密码?</a>
           </div>

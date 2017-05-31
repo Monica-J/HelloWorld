@@ -17,7 +17,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
    
-    <span class="navbar-logo" >Hello World</span>
+    <span class="navbar-logo" ><img src="/HelloWorld/helloworld-houtai/Public/end/images/logo.png"></span>
    </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
