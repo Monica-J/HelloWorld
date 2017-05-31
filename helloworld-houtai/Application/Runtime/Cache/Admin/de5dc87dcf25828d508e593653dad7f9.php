@@ -17,7 +17,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
    
-    <span class="navbar-logo" > Hello World</span>
+    <span class="navbar-logo" ><img src="/HelloWorld/helloworld-houtai/Public/end/images/logo.png"></span>
    </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,30 +36,30 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li  ><a href="user_list.html">用户管理</a></li>
-               <li  ><a href="user_add.html">添加管理员</a></li>
-            <li ><a href="user_pass.html">修改个人密码</a></li>
-            <li ><a href="user_edit.html">修改个人信息</a></li>
+            <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_list.html">用户管理</a></li>
+               <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_add.html">添加管理员</a></li>
+            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_pass.html">修改个人密码</a></li>
+            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_edit.html">修改个人信息</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-file"></span>发帖管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li><a href="post_add.html">置顶帖子</a></li>
-            <li><a href="post_list.html">管理帖子</a></li>
+            <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/post/post_add.html">置顶帖子</a></li>
+            <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/post/post_list.html">管理帖子</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-book"></span>版块管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li ><a href="section_add.html">添加版块</a></li>
-            <li><a href="section_list.html">删除版块</a></li>
+            <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_add.html">添加版块</a></li>
+            <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_list.html">删除版块</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li ><a href="key_list.html">关键字管理</a></li>
+            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/key/key_list.html">关键字管理</a></li>
           </ul>
         </div>
       </div>
     	<div class="col-md-10 col-md-offset-2 ">
     	  <ol class="breadcrumb">
-    	    <li><a href="main.html">首页</a></li>
+    	    <li><a href="#">首页</a></li>
     	    <li><a href="#">标签/关键字</a></li>
     	    <li class="active">关键字管理</li>
   	    </ol>
@@ -186,7 +186,7 @@
         	
 	
 </div>
-<script src="js/jquery-ui.js"></script>
+<script src="/HelloWorld/helloworld-houtai/Public/end/js/jquery-ui.js"></script>
 <script>
 $( "#accordion" ).accordion({
       heightStyle: "content"
