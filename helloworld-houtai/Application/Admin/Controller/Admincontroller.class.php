@@ -3,7 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 class AdminController extends Controller {
     public function Index(){
-     $this->display('login');
+     $this->display();
 
 	
 
