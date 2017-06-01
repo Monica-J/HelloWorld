@@ -1,0 +1,292 @@
+/*index*/
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+button{
+	color:#fff;
+	background-color: #ffA500;
+	font-size: 12px;
+}
+body{
+	background-image: url(../img/bg.png);
+}
+ul li{
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+textarea{
+	width: 90%;
+	height: 140px;
+	margin: 20px 0 0 35px;
+	border: 1px solid #dcdcdc;
+}
+.btn-group-lg>.btn, .btn-lg{
+	padding: 5px 10px;
+}
+.header{
+	height: 65px;
+	background-color: #ffA500; 
+}
+.content{
+	width: 70%;
+	height: 100%;
+	margin-left: 205px;
+	/*background-color: #fff;*/
+}
+.navbar-default{
+	background-color: #fff;
+	border: 1px solid #dcdcdc;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #ffA500;
+}
+.nav>li>a{
+	padding: 15px 22px;
+}		
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #ffA500;
+	color: #fff;
+}
+.page{
+	width: 78%;
+	height: 220px;
+	margin-top: -20px;
+}
+.left{
+	width: 78%;
+}
+.Input_Box {
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 20px;
+    border: 1px solid #dcdcdc;
+    
+}
+.Input_Foot {
+    width: 100%;
+    height: 35px;
+    border-top:1px solid #dcdcdc;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    bottom: 0;
+    margin-top: 16px;
+}
+#huati{
+	margin-left: 10px;
+    margin-top: -25px;
+    height: 0px;
+    background-color: #fff;
+    color: #000;
+}
+.submit{
+	background-color: #ffA500;
+	border-radius: 5px;
+	color: #fff;
+	width: 50px;
+	height: 30px;
+	border: none;
+	margin: 3px 0 0 560px;
+}
+.wri{
+	border-top: 1px solid #dcdcdc;
+	width: 95%;
+	height: 150px;
+	margin-left: 18px;
+}
+
+
+.admin{
+	background-color: #fff;
+	height: 220px;
+	float: right;
+	margin-top: 0px;
+}
+
+.page{
+	border: 1px solid #dcdcdc;
+	margin-top: 20px;
+	width: 738px;
+	background-color: #fff;
+}
+.bt button{
+	background-color: #fff;
+	color: #ffA500;
+}
+
+.right{
+	/*width: 20%;*/
+	float: right;
+	margin-top: -305px;
+	position: absolute;
+	right: 200px;
+	top: 422px;
+}
+.admin{	
+	height: 220px;
+	float: right;
+	margin-top: 20px;
+	border: 1px solid #dcdcdc;
+}
+
+.name{
+	text-align: center;
+	margin-top: 8px;
+	font-size: 15px;
+}
+.title{
+	text-align: center;
+	font-size: 14px;
+	margin-top: -8px;
+}
+.adnav{
+	font-size: 14px;
+	height: 30px;
+	margin-left: 12px;
+	margin-top: -5px;
+}
+.adnav li a{
+	padding: 1px 10px;
+	color: black;
+}
+.adnav li a:hover,.adnav li a:visited{
+	background-color: #fff;
+	height: 18px;
+}
+.adnav li img{
+	height: 35px;
+}
+.book{
+	width: 187px;
+	margin-top: 260px;
+	border: 1px solid #dcdcdc;
+	height: 260px;
+}
+.bktitle{
+	color: #ffA500;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+.book1{
+	border-top: 1px solid #dcdcdc;
+}
+/*轮播图*/
+.carousel{
+	height: 220px;
+}
+.carousel-indicators{
+	bottom: -10px;
+	color: black;
+}
+.carousel-indicators .active{
+	background-color: #ffA500;
+}
+.carousel-indicators li{
+	background-color: #ccc;
+}
+.item{
+	margin-top: 5px;
+}
+.footer{
+	height: 100px;
+	width: 100%;
+	background-color: #eee;
+	
+	
+}
+.footer p{
+	text-align: center;
+	font-size: 15px;
+}
+
+/*admin页面*/
+.touxiang{
+	background-image: url(../img/admin-bg.jpg);
+}
+/*guanzhu页面*/
+.guanzhu{
+	width: 78%; 
+	border: 1px solid #dcdcdc;
+	float: right;
+	margin-top: -50px;
+	background-color: #fff;
+}
+/*fensi页面  公用*/
+.fensi{
+	width: 78%; 
+	border: 1px solid #dcdcdc;
+	float: right;
+	margin-top: -50px;
+	background-color: #fff;
+}
+.fs{
+	border: 1px solid #dcdcdc;
+	width: 210px;
+	margin: 23px 0 0 10px;
+}
+.fs img{
+	margin: 23px 0 0 5px;
+}
+.f-name{
+	float: right;
+	margin: -60px 10px 0 0;
+}
+.fsgz{
+	margin-top: 50px;
+}
+.fs2{
+	margin: -104px 0 0 267px;
+}
+.fs3{
+	float: right;
+	margin: -104px 10px 0 0px;
+}	
+
+/*xiaoxi页面*/
+.xiaoxi{
+	margin-top: 20px;
+}
+/*热门话题*/
+.rmht{
+	width: 187px;
+	height: 310px;
+	border: 1px solid #dcdcdc;
+	margin-top: 260px;
+}
+.rmht p{
+	color: #ffA500;
+	margin-top: 5px;
+	margin-left: 2px;
+}
+.ht{
+	border-top: 1px solid #dcdcdc;
+	margin-left: -20px;
+}
+.ht ul li{
+	padding-top: 5px;
+	color: black;
+	font-size: 15px;
+}
+
+/*shezhi*/
+.shezhi_box{
+	width: 200px;
+	height: 180px;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: 20px;
+	border: 1px solid #dcdcdc;
+}
+.shezhi_box p{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	margin: 8px auto 8px 8px;
+}
+.shezhi_box hr{
+	margin-top: 3px;
+}

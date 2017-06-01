@@ -1,0 +1,150 @@
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+ERR: 无法加载模块:Css
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+ERR: 无法加载模块:Css
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+ERR: 无法加载模块:Js
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:Js
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/index-user.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/HTML5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/user-lit.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/longline.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005870s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/title.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/huati.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Js
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/js/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Js
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/index-user.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/title.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/line.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/HTML5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/user-lit.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/longline.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:28:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/img/huati.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Img
+
+[ 2017-06-01T08:29:54+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/wdsc.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Wdsc
+
+[ 2017-06-01T08:32:38+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/styles.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-01T08:33:08+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/styles.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Public
+

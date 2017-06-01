@@ -4,7 +4,7 @@ use Think\Controller;
 class UserController extends Controller{
 	public function index(){
 	// echo 'user';
-		$this->display();
+		$this->display('admin');
 	}
 	// public function test($user,$pass){
 	// echo 'user:'.$user.'<br />pass:'.$pass;
