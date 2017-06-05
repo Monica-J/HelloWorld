@@ -8,6 +8,6 @@ class AdminController extends Controller {
 
     public function login(){
         
-         $this->display();
+         $this->display;
     }
 }
