@@ -15,9 +15,9 @@ return array(
     'DB_CHARSET'            =>   'utf8',
 //  'LAYOUT_ON'             =>  ''
 
-    /*'DB_PREFIX'             =>  '',          //数据库表前缀
-    'DB_FIELDTYPE_CHECK'    =>  false,           //是否进行字段类型检查
-    'DB_FIELDS_CACHE'       =>  true,        //数据库编码默认采用utf8*/
+    // 'DB_PREFIX'             =>  'think_',          //数据库表前缀
+    // 'DB_FIELDTYPE_CHECK'    =>  false,           //是否进行字段类型检查
+    // 'DB_FIELDS_CACHE'       =>  true,        //数据库编码默认采用utf8
     
 //  'LAYOUT_ON'             =>  
 

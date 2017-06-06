@@ -6,8 +6,8 @@ class AdminController extends Controller {
 	
 
 
-    public function login(){
+    public function index(){
         
-         $this->display;
+         $this->display('login');
     }
 }
