@@ -19,13 +19,15 @@
       <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
       <div class="login-form">
         <div class="sign-in-htm">
+          <form class="login-form"role="form" method="post"action="">
+
           <div class="group">
             <label for="user" class="label">用户名</label>
-            <input id="user" type="text" class="input">
+            <input id="user" name="name" type="text" class="input">
           </div>
           <div class="group">
             <label for="pass" class="label">密码</label>
-            <input id="pass" type="password" class="input" data-type="password">
+            <input id="pass" name="password" type="password" class="input" data-type="password">
           </div>
 
 
@@ -37,16 +39,19 @@
 
 
           <div class="group">
+         
+
             <input id="check" type="checkbox" class="check" checked>
             <label for="check"><span class="icon"></span> 记住密码</label>        
           </div>
           <div class="group">
-            <input  type="submit" class="button"  value="登录" style="color:#FFF;">
+            <input  type="submit" class="button" id="login" value="登录" style="color:#FFF;">
 
           </div>            
           <div class="foot-lnk">
             <a href="#forgot">忘记密码?</a>
           </div>
+          </form>
         </div>
         <!-- <div class="sign-up-htm">
           <div class="group">

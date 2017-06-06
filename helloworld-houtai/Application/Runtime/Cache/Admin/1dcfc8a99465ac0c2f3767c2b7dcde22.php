@@ -40,7 +40,7 @@
             <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html">添加管理员</a></li>
              <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html">管理员管理</a></li>
             <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_pass.html">修改个人密码</a></li>
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_edit.html">修改个人信息</a></li>
+            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_edit.html">修改个人信息</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-file"></span>发帖管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
@@ -62,28 +62,31 @@
     	  <ol class="breadcrumb">
     	    <li><a href="#">首页</a></li>
     	    <li><a href="#">帐户管理</a></li>
-    	    <li class="active">个人密码修改</li>
+    	    <li class="active">添加管理员</li>
   	    </ol>
     	  <div class="table-responsive ">
-    	    <h3>个人密码修改 <small>Password Modify</small></h3>
+    	    <h3>添加管理员 <small>User Add</small></h3>
     	    <div class="list-group ">
     	      <div class="list-group-item">
-    	        <form role="form" >
-    	          <div class="input-group"> <span class="input-group-addon">用户名：</span>
-    	            <input type="text" class="form-control" placeholder="administrator" readonly>
-  	            </div>
-    	          <div class="input-group "> <span class="input-group-addon" for="inputWarning1">真实姓名：</span>
-    	            <input type="text" class="form-control" placeholder="张黎明" id="input" readonly>
-  	            </div>
-    	          <div class="input-group"> <span class="input-group-addon">旧密码：</span>
-    	            <input type="text" class="form-control" placeholder="">
-  	            </div>
-    	          <div class="input-group"> <span class="input-group-addon">新密码：</span>
-    	            <input type="text" class="form-control" placeholder="">
-  	            </div>
-    	          <div class="input-group"> <span class="input-group-addon">确认新密码：</span>
+    	       <form role="form" action="/HelloWorld/helloworld-houtai/index.php/Admin/user/adminadd" method="post" enctype="multipart/form-data">
+
+    	         <!--  <div class="input-group"> <span class="input-group-addon">用<img src="images/em.png" alt="" width="6" height="20">户<img src="images/em.png" alt="" width="6" height="20">名：</span>
     	            <input type="text" class="form-control" placeholder="" >
+  	            </div> -->
+    	          <div class="input-group "> <span class="input-group-addon" for="inputWarning1">姓名：</span>
+    	            <input type="text" name="name" class="form-control" placeholder="" id="input">
   	            </div>
+    	          <div class="input-group"> <span class="input-group-addon">设置密码：</span>
+                  <input type="text" name="password" class="form-control" placeholder="123456" >
+                </div>
+    	          <div class="input-group"> <span class="input-group-addon">电子邮箱：</span>
+    	            <input type="email" name="email" class="form-control" placeholder="">
+  	            </div>
+    	         <!--  <div class="input-group"> <span class="input-group-addon">添加时间：</span>
+    	            <input type="text" class="form-control" placeholder="2014-05-22" >
+  	            </div> -->
+               
+               
     	          <div class="input-group">
     	            <button type="submit" class="btn btn-primary "> &nbsp;&nbsp;保<img src="images/em.png" alt="" width="20" height="20">存&nbsp;&nbsp;</button>
   	            </div>

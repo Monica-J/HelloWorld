@@ -1,0 +1,30 @@
+[ 2017-06-05T14:29:34+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/myemojiPl.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-05T14:29:34+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/myemojiPl.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-05T14:50:33+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/model
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:Model
+
+[ 2017-06-05T14:50:39+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:User
+
+[ 2017-06-05T15:11:58+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/houme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Houme
+

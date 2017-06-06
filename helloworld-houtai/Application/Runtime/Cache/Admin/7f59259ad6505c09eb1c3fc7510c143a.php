@@ -17,7 +17,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
    
-    <span class="navbar-logo" > Hello World</span>
+    <span class="navbar-logo" ><img src="/HelloWorld/helloworld-houtai/Public/end/images/logo.png"></span>
    </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,7 +59,7 @@
       </div>
     	<div class="col-md-10 col-md-offset-2 ">
     	  <ol class="breadcrumb">
-    	    <li><a href="main.html">首页</a></li>
+    	    <li><a href="#">首页</a></li>
     	    <li><a href="#">版块管理</a></li>
     	    <li class="active">版块列表</li>
   	    </ol>

@@ -37,9 +37,10 @@
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
             <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_list.html">用户管理</a></li>
-               <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_add.html">添加管理员</a></li>
+               <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html">添加管理员</a></li>
+                <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html">管理员管理</a></li>
             <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_pass.html">修改个人密码</a></li>
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_edit.html">修改个人信息</a></li>
+            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_edit.html">修改个人信息</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-file"></span>发帖管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
