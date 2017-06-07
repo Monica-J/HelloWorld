@@ -1,20 +1,20 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
 <head>
   	<title>资料共享</title>
 
   	<meta charset="utf-8">
   	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
-  	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/bootstrap.min.css" media="screen">
-  	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/style.css">
+  	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/bootstrap.min.css" media="screen">
+  	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/style.css">
   	
-  	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/iconfont.css">
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/fileUpload.css">
+  	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/fileUpload.css">
 
       
-    <script src="__PUBLIC__/front/js/jquery.js"></script>
-  	<script src="__PUBLIC__/front/js/bootstrap.min.js"></script>
-  	<script src="__PUBLIC__/front/js/layer.js"></script>
+    <script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
+  	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
+  	<script src="/HelloWorld/helloworld-houtai/Public/front/js/layer.js"></script>
 
     <style>
     	#list { 
@@ -90,7 +90,7 @@
 	<div class="header">
 		
 		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="index.html"><img src="__PUBLIC__/front/img/logo.png"></a>
+			<a href="index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
@@ -123,7 +123,7 @@
 			<ul class="nav navbar-nav">
 				<li><a href="index.html">首页</a></li>
 				<li><a href="wdsc.html">我的收藏</a></li>
-				<li><img src="__PUBLIC__/front/img/line.png"></li>
+				<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 				<li><a href="rmht.html">热门话题</a></li>
 				<li><a href="ggtz.html">公告通知</a></li>
 				<li><a href="xshd.html">学生活动</a></li>
@@ -137,16 +137,16 @@
 		<div class="right">
 
 			<div class="admin">
-				<a href="admin.html"><img src="__PUBLIC__/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
+				<a href="admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
 				<p class="name">你的梦里有我吗</p>
-				<p class="title"><img src="__PUBLIC__/front/img/title.png">工程师</p>
+				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
 				
 				<nav class="navbar adnav" role="navigation">
 					<ul class="nav navbar-nav">
 						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
-						<li><img src="__PUBLIC__/front/img/line.png"></li>
+						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
-						<li><img src="__PUBLIC__/front/img/line.png"></li>
+						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
 					</ul>
 				</nav>
@@ -164,13 +164,13 @@
 					<!-- 轮播（Carousel）项目 -->
 					<div class="carousel-inner" style="border-top:1px solid #dcdcdc;">
 						<div class="item active">
-							<img src="__PUBLIC__/front/img/HTML5.jpg" alt="First slide">
+							<img src="/HelloWorld/helloworld-houtai/Public/front/img/HTML5.jpg" alt="First slide">
 						</div>
 						<div class="item">
-							<img src="__PUBLIC__/front/img/HTML5.jpg" alt="Second slide">
+							<img src="/HelloWorld/helloworld-houtai/Public/front/img/HTML5.jpg" alt="Second slide">
 						</div>
 						<div class="item">
-							<img src="__PUBLIC__/front/img/HTML5.jpg" alt="Third slide">
+							<img src="/HelloWorld/helloworld-houtai/Public/front/img/HTML5.jpg" alt="Third slide">
 						</div>
 						<br/>
 					</div>
@@ -186,7 +186,7 @@
                         <textarea id="httext"></textarea>      
                         <div class="Input_Foot">
                             <button type="button" class="btn btn-m" id="huati">
-                                <img src="__PUBLIC__/front/img/huati.png">插入话题 
+                                <img src="/HelloWorld/helloworld-houtai/Public/front/img/huati.png">插入话题 
                             </button>
                         <input type="submit" class="submit" value="确认"> 
                         </div>
@@ -211,61 +211,61 @@
               					<th style="width:80px;">大小</th>
             				</tr>
             				<tr>
-              					<td><img src="__PUBLIC__/front/img/pdf.png" style="width:20px;height:20px;" />&nbsp;二战学长的挥泪经验</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/pdf.png" style="width:20px;height:20px;" />&nbsp;二战学长的挥泪经验</td>
               					<td>2017-05-24</td>
               					<td>Adobe Acrobat Document</td>
               					<td>655KB</td>
             				</tr>
             				<tr>
-              					<td><img src="__PUBLIC__/front/img/rar.png" style="width:20px;height:20px;" />&nbsp;常用英语8000词</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/rar.png" style="width:20px;height:20px;" />&nbsp;常用英语8000词</td>
               					<td>2017-05-24</td>
               					<td>WinRAR ZIP压缩文件</td>
               					<td>6,143KB</td>
             				</tr>
             				<tr>
-              					<td><img src="__PUBLIC__/front/img/excel.png" style="width:20px;height:20px;" />&nbsp;我院2016届考研情况</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/excel.png" style="width:20px;height:20px;" />&nbsp;我院2016届考研情况</td>
               					<td>2017-05-25</td>
              					<td>Microsoft Excel</td>
               					<td>465KB</td>
             				</tr>
             				<tr>
-              					<td><img src="__PUBLIC__/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="__PUBLIC__/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="__PUBLIC__/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="__PUBLIC__/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="__PUBLIC__/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="__PUBLIC__/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             					<tr>
-              					<td><img src="__PUBLIC__/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
@@ -281,25 +281,25 @@
               				<th style="width:80px;">大小</th>
             			</tr>
             			<tr>
-              				<td><img src="__PUBLIC__/front/img/pdf.png" style="width:20px;height:20px;" />&nbsp;二战学长的挥泪经验</td>
+              				<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/pdf.png" style="width:20px;height:20px;" />&nbsp;二战学长的挥泪经验</td>
               				<td>2017-05-24</td>
               				<td>Adobe Acrobat Document</td>
               				<td>655KB</td>
             			</tr>
             			<tr>
-             				<td><img src="__PUBLIC__/front/img/rar.png" style="width:20px;height:20px;" />&nbsp;常用英语8000词</td>
+             				<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/rar.png" style="width:20px;height:20px;" />&nbsp;常用英语8000词</td>
               				<td>2017-05-24</td>
               				<td>WinRAR ZIP压缩文件</td>
               				<td>6,143KB</td>
             			</tr>
             			<tr>
-              				<td><img src="__PUBLIC__/front/img/excel.png" style="width:20px;height:20px;" />&nbsp;我院2016届考研情况</td>
+              				<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/excel.png" style="width:20px;height:20px;" />&nbsp;我院2016届考研情况</td>
               				<td>2017-05-25</td>
               				<td>Microsoft Excel</td>
               				<td>465KB</td>
             			</tr>
             			<tr>
-              				<td><img src="__PUBLIC__/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              				<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
               				<td>2017-05-25</td>
               				<td>Microsoft Word</td>
               				<td>856KB</td>

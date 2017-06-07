@@ -25,7 +25,7 @@ class AdminController extends Controller {
          if($result>0){
             session("name",I("post.name"));
             //session存取值，手册
-            $this->success("登录成功！",U("user/user_list"));
+            $this->success("登录成功！",U("user/admin_list"));
            
          }
          else{

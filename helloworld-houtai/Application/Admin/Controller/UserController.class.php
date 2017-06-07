@@ -87,15 +87,14 @@ class UserController extends Controller {
 
     public function admin_edit($id){
         if(isset($_POST['submit'])){
+        	// var_dump($id);
             // $upload = new \Think\Upload();// 实例化上传类
             // $upload->maxSize  = 3145728 ;// 设置附件上传大小
             // $upload->exts     = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
             // $upload->rootPath = THINK_PATH; // 设置附件上传根目录
             // $upload->savePath = '../Public/uploads/'; // 设置附件上传（子）目录
             // $info = $upload->upload();
-            if(!$info) {
-                $this->error($upload->getError()); // 上传错误提示错误信息
-            }else{
+            {
                 $adminModel = D("admin"); //创建模型
                 $data = $adminModel->create(); //组织数据
                 if(!$data){
@@ -108,7 +107,7 @@ class UserController extends Controller {
                     $data['password'] = I('post.password');
                    
                     $data['email'] = I('post.email');
-                    //var_dump($data);exit;
+                    // var_dump($data);exit;
                     
                     if($adminModel->where("id='%d'",$id)->save($data)){
                         $this->success("编辑成功！",U("user/admin_list"));
@@ -121,7 +120,7 @@ class UserController extends Controller {
         else{
             $id = isset($_GET['id']) ? intval($_GET['id']) : ''; //获得修改用户的ID
             $adminModel = D("admin");
-            $news = $adminModel->where("id='%d'",$id)->find(); //从数据库找到需要修改的用户信息
+            $admin = $adminModel->where("id='%d'",$id)->find(); //从数据库找到需要修改的用户信息
             $this->assign("admin",$admin);
             $this->display();
         }

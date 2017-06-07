@@ -36,12 +36,19 @@
 	<div class="row">
     	<div class=" col-md-2 sidebar">
         <div id="accordion">
-          <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
+         <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>管理员管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_list.html">用户管理</a></li>
-               <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_add.html">添加管理员</a></li>
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_pass.html">修改个人密码</a></li>
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/user_edit.html">修改个人信息</a></li>
+            
+            <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html">添加管理员</a></li>
+            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html">管理员管理</a></li>
+            
+            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_edit.html">修改管理员信息</a></li>
+          </ul>
+          <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>用户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
+          <ul>
+            <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html">用户管理</a></li>
+            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/cust/user_pass.html">修改用户信息</a></li>
+           
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-file"></span>发帖管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
@@ -62,15 +69,15 @@
     	<div class="col-md-10 col-md-offset-2 ">
     	  <ol class="breadcrumb">
     	    <li><a href="#">首页</a></li>
-    	    <li><a href="#">新闻管理</a></li>
-    	    <li class="active">新闻管理</li>
+    	    <li><a href="#">帖子管理</a></li>
+    	    <li class="active">帖子管理</li>
   	    </ol>
     	  <div class="table-responsive ">
-    	    <h3>新闻管理列表 <small>News List</small></h3>
+    	    <h3>帖子管理列表 <small>post List</small></h3>
     	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
     	        <th width="5%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-    	        <th width="59%">新闻标题</th>
+    	        <th width="59%">帖子标题</th>
     	        <th width="7%">作者</th>
     	        <th width="10%">添加时间</th>
     	        <th width="7%">访问量</th>

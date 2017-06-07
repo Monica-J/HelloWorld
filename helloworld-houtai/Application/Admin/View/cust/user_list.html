@@ -67,112 +67,144 @@
     	<div class="col-md-10 col-md-offset-2 ">
     	  <ol class="breadcrumb">
     	    <li><a href="#">首页</a></li>
-    	    <li><a href="#">标签/关键字</a></li>
-    	    <li class="active">关键字管理</li>
+    	    <li><a href="#">用户管理</a></li>
+    	    <li class="active">系统用户管理</li>
   	    </ol>
-    	  <h3 class="down">关键字管理 <small>Keys Management</small></h3>
-    	 
-   	  <div class="list-group form">
-    	    
-        <div class="list-group-item">
-    	        <label for="inputEmail3" class="col-sm-2 control-label">请输入关键字</label>
-    	        <div class="col-sm-8">
-    	          <input type="input" class="form-control" id="inputEmail3" placeholder="">
-  	          </div>
-              <div class="col-sm-2">
-    	          <button type="submit" class="btn btn-primary">添加关键字</button>
-  	          </div>
-  	        </div>
-             <table width="90%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
+    	  <div class="table-responsive ">
+    	    <h3>系统管理列表 <small>User List</small></h3>
+    	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
-    	        <th width="6%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-    	        <th width="44%">关键字</th>
-    	        <th width="17%">使用次数</th>
-    	        <th width="15%">添加时间</th>
-    	        <th width="18%">操作</th>
+    	        <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
+    	        <th width="13%">用户名</th>
+    	        <th width="10%">真实姓名</th>
+    	        <th width="13%">手机号</th>
+    	        <th width="21%">邮箱</th>
+    	        <th width="11%">注册时间</th>
+    	        <th width="17%">操作</th>
   	        </tr>
     	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox"></label></td>
-    	        <td>C语言</td>
-    	        <td>86</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td><input type="checkbox" name="checkbox" id="checkbox">
+    	          <label for="checkbox"></label></td>
+    	        <td>owerh</td>
+    	        <td>张黎明</td>
+    	        <td>13625684568</td>
+    	        <td>zhangliming@197232832.qq</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
-    	        <td>c++</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox3" id="checkbox3"></td>
-    	        <td>html5</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox4" id="checkbox4"></td>
-    	        <td>安卓</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox5" id="checkbox5"></td>
-    	        <td>生物</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox6" id="checkbox6"></td>
-    	        <td>PHP</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox7" id="checkbox7"></td>
-    	        <td>测试</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox8" id="checkbox8"></td>
-    	        <td>吐槽</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox" id="checkbox15"></td>
-    	        <td>资料</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox" id="checkbox14"></td>
-    	        <td>技术</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
     	      <tr>
     	        <td><input type="checkbox" name="checkbox" id="checkbox13"></td>
-    	        <td>黑科技</td>
-    	        <td>100</td>
-    	        <td>2017-5-11</td>
-    	        <td><a href="#">修改</a><a href="#"></a> &nbsp; &nbsp;&nbsp;<a href="#">删除</a></td>
-   	           </tr>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
+    	      <tr>
+    	        <td><input type="checkbox" name="checkbox" id="checkbox12"></td>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
+    	      <tr>
+    	        <td><input type="checkbox" name="checkbox" id="checkbox11"></td>
+    	        <td>otewr2wer</td>
+    	        <td>宋晓云</td>
+    	        <td>13025486584</td>
+    	        <td>sxy@163.com</td>
+    	        <td>2014-05-22 </td>
+    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
+  	        </tr>
   	      </table>
-           <div class="input-group pull-left form">
+  	    </div>
+    	  <div class="input-group pull-left form">
     	    <button type="submit" class="btn btn-danger "> 删 除</button>
   	    </div>
-    	 
     	  <ul class="pagination pull-right" >
     	    <li class="disabled"><a href="#">&laquo;</a></li>
     	    <li class="active"><a href="#">1</a></li>
@@ -181,13 +213,6 @@
     	    <li><a href="#">4</a></li>
     	    <li><a href="#">&raquo;</a></li>
   	    </ul>
-  	  </div>
-	
-   	  </div>
-  
-  
-    </div>
-    
   	  </div>
 	</div>
         	
