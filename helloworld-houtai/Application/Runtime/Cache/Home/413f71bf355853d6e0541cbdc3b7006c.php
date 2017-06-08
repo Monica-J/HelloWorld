@@ -1,22 +1,22 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
 	<title>你的梦里有我吗</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
-	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/bootstrap.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/style.css">
-	<link rel="stylesheet" href="__PUBLIC__/front/css/myemojiPl.css"><!--表情-->
-	<script src="__PUBLIC__/front/js/jquery.js"></script>
-	<script src="__PUBLIC__/front/js/bootstrap.min.js"></script>
-	<script src="__PUBLIC__/front/js/myemojiPl.js"></script> 
-	<script src="__PUBLIC__/front/js/layer.js"></script>
+	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/style.css">
+	<link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/front/css/myemojiPl.css"><!--表情-->
+	<script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
+	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
+	<script src="/HelloWorld/helloworld-houtai/Public/front/js/myemojiPl.js"></script> 
+	<script src="/HelloWorld/helloworld-houtai/Public/front/js/layer.js"></script>
 </head>
 <body>
 	<div class="header">
 		
 		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="index.html"><img src="__PUBLIC__/front/img/logo.png"></a>
+			<a href="index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
@@ -59,18 +59,18 @@
 		</div>
 
 		<div class="touxiang" style="border:1px solid #dcdcdc;margin-top:20px;">
-			<p style="text-align:center;margin-top:30px;"><img src="__PUBLIC__/front/img/touxiang.png"></p>
+			<p style="text-align:center;margin-top:30px;"><img src="/HelloWorld/helloworld-houtai/Public/front/img/touxiang.png"></p>
 			<p class="name">你的梦里有我吗</p>
-			<p class="title"><img src="__PUBLIC__/front/img/title.png">工程师</p>
+			<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
 			<br/>
 		</div>
 
 		<nav class="navbar adnav" role="navigation" style="width:20%;margin:20px 0 0 0;border:1px solid #dcdcdc;">
 				<ul class="nav navbar-nav" style="margin-left:13px;">
 					<li><a href="guanzhu.html"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
-					<li><img src="__PUBLIC__/front/img/line.png"></li>
+					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 					<li><a href="fensi.html"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
-					<li><img src="__PUBLIC__/front/img/line.png"></li>
+					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 					<li><a href="admin.html"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子</p></a></li>				
 				</ul>
 		</nav>
@@ -79,7 +79,7 @@
 			
 			<div class="1fs">
 				<div class="fs">
-					<a href=""><img src="__PUBLIC__/front/img/user-lit.png"></a>
+					<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></a>
 					<img src="img/line.png">
 					<p class="f-name">软件学院学生会</p>
 					<button type="button" class="btn btn-sm fsgz" >
@@ -90,7 +90,7 @@
 				</div>
 
 				<div class="fs fs2">
-					<a href=""><img src="__PUBLIC__/front/img/user-lit.png"></a>
+					<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></a>
 					<img src="img/line.png">
 					<p class="f-name">软件学院学生会</p>
 					<button type="button" class="btn btn-sm fsgz" >
@@ -101,8 +101,8 @@
 				</div>
 
 				<div class="fs fs3">
-					<a href=""><img src="__PUBLIC__/front/img/user-lit.png"></a>
-					<img src="__PUBLIC__/front/img/line.png">
+					<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></a>
+					<img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png">
 					<p class="f-name">软件学院学生会</p>
 					<button type="button" class="btn btn-sm fsgz" >
 		    			<span class="glyphicon glyphicon-plus"> 关注</span>
@@ -115,8 +115,8 @@
 
 			<div class="2fs">
 				<div class="fs">
-					<a href=""><img src="__PUBLIC__/front/img/user-lit.png"></a>
-					<img src="__PUBLIC__/front/img/line.png">
+					<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></a>
+					<img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png">
 					<p class="f-name">软件学院学生会</p>
 					<button type="button" class="btn btn-sm fsgz" >
 		    			<span class="glyphicon glyphicon-plus "> 关注</span>
@@ -126,8 +126,8 @@
 				</div>
 
 				<div class="fs fs2">
-					<a href=""><img src="__PUBLIC__/front/img/user-lit.png"></a>
-					<img src="__PUBLIC__/front/img/line.png">
+					<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></a>
+					<img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png">
 					<p class="f-name">软件学院学生会</p>
 					<button type="button" class="btn btn-sm fsgz" >
 		    			<span class="glyphicon glyphicon-plus"> 关注</span>
@@ -137,8 +137,8 @@
 				</div>
 
 				<div class="fs fs3">
-					<a href=""><img src="__PUBLIC__/front/img/user-lit.png"></a>
-					<img src="__PUBLIC__/front/img/line.png">
+					<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></a>
+					<img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png">
 					<p class="f-name">软件学院学生会</p>
 					<button type="button" class="btn btn-sm fsgz" >
 		    			<span class="glyphicon glyphicon-plus"> 关注</span>

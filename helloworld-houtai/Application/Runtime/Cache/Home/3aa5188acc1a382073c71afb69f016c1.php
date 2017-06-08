@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="zh-cn">
 <head>
 	<title>院友录</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
-	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/bootstrap.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/style.css">
 	
-	<script src="__PUBLIC__/front/js/jquery.js"></script>
-	<script src="__PUBLIC__/front/js/bootstrap.min.js"></script>
-	<script src="__PUBLIC__/front/js/layer.js"></script>
+	<script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
+	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
+	<script src="/HelloWorld/helloworld-houtai/Public/front/js/layer.js"></script>
 <style>
 	th,td{
 		width:200px;
@@ -24,7 +24,7 @@
 	<div class="header">
 		
 		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="__MODULE__/Index/index.html"><img src="__PUBLIC__/front/img/logo.png"></a>
+			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
@@ -46,7 +46,7 @@
 			   	<button type="button" class="btn btn-lg" id="write">
 			   		<span class="glyphicon glyphicon-pencil"></span>
 			   	</button> -->
-			   	<a href="__MODULE__/Mine/admin.html"><button type="button" class="btn btn-lg">
+			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
 			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
 			  	</button></a>	  	
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
@@ -67,32 +67,32 @@
 		
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
-				<li><a href="__MODULE__/Index/index.html">首页</a></li>
-				<li><a href="__MODULE__/Fun/wdsc.html">我的收藏</a></li>
-				<li><img src="__PUBLIC__/front/img/line.png"></li>
-				<li><a href="__MODULE__/Fun/rmht.html">热门话题</a></li>
-				<li><a href="__MODULE__/Fun/ggtz.html">公告通知</a></li>
-				<li><a href="__MODULE__/Fun/xshd.html">学生活动</a></li>
-				<li><a href="__MODULE__/Fun/jsjl.html">技术交流</a></li>
-				<li><a href="__MODULE__/Fun/files_share.html">资料共享</a></li>
-				<li><a href="__MODULE__/Fun/sdtc.html">树洞吐槽</a></li>
-				<li class="active"><a href="__MODULE__/Fun/contacts.html">院友录</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html">首页</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/wdsc.html">我的收藏</a></li>
+				<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html">热门话题</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html">公告通知</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html">学生活动</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/jsjl.html">技术交流</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/files_share.html">资料共享</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/sdtc.html">树洞吐槽</a></li>
+				<li class="active"><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/contacts.html">院友录</a></li>
 			</ul>
 		</nav>
 
 		<div class="right">
 
 			<div class="admin">
-				<a href="admin.html"><img src="__PUBLIC__/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
+				<a href="admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
 				<p class="name">你的梦里有我吗</p>
-				<p class="title"><img src="__PUBLIC__/front/img/title.png">工程师</p>
+				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
 				
 				<nav class="navbar adnav" role="navigation">
 					<ul class="nav navbar-nav">
 						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
-						<li><img src="__PUBLIC__/front/img/line.png"></li>
+						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
-						<li><img src="__PUBLIC__/front/img/line.png"></li>
+						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
 					</ul>
 				</nav>
@@ -110,13 +110,13 @@
 					<!-- 轮播（Carousel）项目 -->
 					<div class="carousel-inner" style="border-top:1px solid #dcdcdc;">
 						<div class="item active">
-							<img src="__PUBLIC__/front/img/HTML5.jpg" alt="First slide">
+							<img src="/HelloWorld/helloworld-houtai/Public/front/img/HTML5.jpg" alt="First slide">
 						</div>
 						<div class="item">
-							<img src="__PUBLIC__/front/img/HTML5.jpg" alt="Second slide">
+							<img src="/HelloWorld/helloworld-houtai/Public/front/img/HTML5.jpg" alt="Second slide">
 						</div>
 						<div class="item">
-							<img src="__PUBLIC__/front/img/HTML5.jpg" alt="Third slide">
+							<img src="/HelloWorld/helloworld-houtai/Public/front/img/HTML5.jpg" alt="Third slide">
 						</div>
 						<br/>
 					</div>
@@ -134,7 +134,7 @@
 					        <textarea id="httext"></textarea>	     
 					        <div class="Input_Foot">
 						        <button type="button" class="btn btn-m" id="huati">
-									<img src="__PUBLIC__/front/img/huati.png">插入话题	
+									<img src="/HelloWorld/helloworld-houtai/Public/front/img/huati.png">插入话题	
 								</button>
 						        <input type="submit" class="submit" value="确认"> 
 						    </div>
@@ -153,42 +153,42 @@
 							<th>联系方式</th>
 						</tr>
 						<tr>
-							<td><img src="__PUBLIC__/front/img/user-lit.png"></td>
+							<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></td>
 							<td>李婧</td>
 							<td>2018届毕业生</td>
 							<td>xx公司产品经理</td>
 							<td>15632188568</td>
 						</tr>
 						<tr>
-							<td><img src="__PUBLIC__/front/img/user-lit.png"></td>
+							<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></td>
 							<td>李婧</td>
 							<td>2018届毕业生</td>
 							<td>xx公司产品经理</td>
 							<td>15632188568</td>
 						</tr>
 						<tr>
-							<td><img src="__PUBLIC__/front/img/user-lit.png"></td>
+							<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></td>
 							<td>李婧</td>
 							<td>2018届毕业生</td>
 							<td>xx公司产品经理</td>
 							<td>15632188568</td>
 						</tr>
 						<tr>
-							<td><img src="__PUBLIC__/front/img/user-lit.png"></td>
+							<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></td>
 							<td>李婧</td>
 							<td>2018届毕业生</td>
 							<td>xx公司产品经理</td>
 							<td>15632188568</td>
 						</tr>
 						<tr>
-							<td><img src="__PUBLIC__/front/img/user-lit.png"></td>
+							<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></td>
 							<td>李婧</td>
 							<td>2018届毕业生</td>
 							<td>xx公司产品经理</td>
 							<td>15632188568</td>
 						</tr>
 						<tr>
-							<td><img src="__PUBLIC__/front/img/user-lit.png"></td>
+							<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png"></td>
 							<td>李婧</td>
 							<td>2018届毕业生</td>
 							<td>xx公司产品经理</td>

@@ -16,7 +16,7 @@
 	<div class="header">
 		
 		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
+			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
@@ -32,7 +32,7 @@
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-envelope"></span>
 			   	</button></a>-->
-			   	<a href="shezhi.html"><button type="button" class="btn btn-lg">
+			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
 			   	<a href="#" id="write"><button type="button" class="btn btn-lg">
@@ -67,9 +67,9 @@
 
 		<nav class="navbar adnav" role="navigation" style="width:20%;margin:20px 0 0 0;border:1px solid #dcdcdc;">
 				<ul class="nav navbar-nav" style="margin-left:13px;">
-					<li><a href="guanzhu.html"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
+					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/guanzhu.html"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
 					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-					<li><a href="fensi.html"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
+					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/fensi.html"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
 					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 					<li><a href="admin.html"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子</p></a></li>				
 				</ul>
