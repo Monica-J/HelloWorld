@@ -16,75 +16,6 @@
   	<script src="js/bootstrap.min.js"></script>
   	<script src="js/layer.js"></script>
 
-    <style>
-    	#list { 
-            margin: 50px auto 0 auto; 
-            font-family: Arial, Helvetica; 
-            font-size: 16px; 
-            background-color: #eee;  
-        }
-        #tabs {
-            overflow: hidden;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        #tabs li {
-            float: left;
-            margin: 0 -15px 0 0;
-        }
-        #tabs a {
-            float: left;
-            position: relative;
-            padding: 0 40px;
-            height: 0;
-            line-height: 30px;
-            text-transform: uppercase;
-            text-decoration: none;
-            color: #fff;      
-            border-right: 30px solid transparent;
-            border-bottom: 30px solid #3D3D3D;
-            border-bottom-color: #777\9;
-            opacity: .3;
-            filter: alpha(opacity=30);      
-        }
-        #tabs a:hover,
-        #tabs a:focus {
-            border-bottom-color: #2ac7e1;
-            opacity: 1;
-            filter: alpha(opacity=100);
-        }
-        #tabs a:focus {
-            outline: 0;
-        }
-        #tabs #current {
-            z-index: 3;
-            border-bottom-color: #3d3d3d;
-            opacity: 1;
-            filter: alpha(opacity=100);      
-        }
-
-        #tabsContent {
-            background: #fff;
-            border-top: 2px solid #3d3d3d;
-            padding: 2em;
-            /*height: 220px;*/
-        }
-        #tabsContent h2,#tabsContent h3,#tabsContent p {
-            margin: 0 0 15px 0;
-        }  
-        /* Demo page only */
-        #about {
-            color: #999;
-            text-align: center;
-            font: 0.9em Arial, Helvetica;
-        }
-        #about a {
-            color: #777;
-        } 
-    </style>
-
 </head>
 <body>
 	<div class="header">
@@ -94,24 +25,22 @@
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
-			<input type="text" >
-			<button type="submit" class="btn btn-sm" style="margin-top:-2px;background:#fff;color:#ffA500;">搜 索</button>
-		</div>
+      <input type="text" style="width:300px;height:30px;border:none;">
+      <button type="submit" class="btn btn-sm">搜 索</button>
+    </div>
 
 		<div class="user" style="float:right; margin:-30px 30px 0 0;">
 			<div class="btn-group">
 			  	<a href="admin.html"><button type="button" class="btn btn-lg">
 			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
 			  	</button></a>	  	
-			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-envelope"></span>
-			   	</button></a>-->
+			   	
 			   	<a href="shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
-			   	<a href="#" id="write"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-pencil"></span>
-			   	</button></a>
+          <a href="login.html"><button type="button" class="btn btn-lg">
+            <span class="glyphicon glyphicon-log-in"></span>
+          </button></a>
 			</div>
 		</div>
 
@@ -180,19 +109,6 @@
 		</div>
 
 		<div class="left">
-            <div id="opwri" style="display:none;">     
-                <div class="Input_Box">     
-                    <form>
-                        <textarea id="httext"></textarea>      
-                        <div class="Input_Foot">
-                            <button type="button" class="btn btn-m" id="huati">
-                                <img src="img/huati.png">插入话题 
-                            </button>
-                        <input type="submit" class="submit" value="确认"> 
-                        </div>
-                    </form>
-                </div>   
-            </div>
             <div id="fileUploadContent" class="fileUploadContent"></div>
 	    
 	    	<div id="list">
@@ -205,10 +121,10 @@
       				<div id="tab1">
           				<table class="allfileList">
             				<tr>
-              					<th style="width:450px;">名称</th>
-              					<th style="width:80px;">上传时间</th>
-              					<th style="width:250px;">类型</th>
-              					<th style="width:80px;">大小</th>
+              					<th style="width:330px;">名称</th>
+              					<th style="width:130px;">上传时间</th>
+              					<th style="width:180px;">类型</th>
+              					<th style="width:50px;">大小</th>
             				</tr>
             				<tr>
               					<td><img src="img/pdf.png" style="width:20px;height:20px;" />&nbsp;二战学长的挥泪经验</td>
@@ -275,9 +191,9 @@
       			<div id="tab2">
           			<table class="myfileList">
             			<tr>
-              				<th style="width:450px;">名称</th>
-              				<th style="width:80px;">上传时间</th>
-              				<th style="width:250px;">类型</th>
+              				<th style="width:250px;">名称</th>
+              				<th style="width:120px;">上传时间</th>
+              				<th style="width:200px;">类型</th>
               				<th style="width:80px;">大小</th>
             			</tr>
             			<tr>
@@ -352,7 +268,6 @@
 </script>
 
 
-<script src="http://www.jq22.com/js/jq.js"></script>
 <script src="js/jquery-1.7.2.min.js"></script>
 <script>
     function resetTabs(){
@@ -390,75 +305,6 @@
         }
     })()
 </script>
-
-<script type="text/javascript">
-        jQuery('#write').on('click', function(){
-            layer.open({
-                type: 1,
-              area: ['800px', '360px'],
-              anim:1,
-              shadeClose: true, //点击遮罩关闭
-              content: jQuery('#opwri')
-            });
-        });
-
-        /*插入话题*/
-        var oButton = document.getElementById("huati"), oTextarea = document.getElementById("httext");
-        var TOPIC = "插入话题";
-        var funGetSelected = function(element) {
-            if (!window.getSelection) { 
-                //IE浏览器
-                return document.selection.createRange().text;
-            } 
-            else {
-                return element.value.substr(element.selectionStart, element.selectionEnd - element.selectionStart);
-            }
-        }, 
-        funInsertTopic = function(textObj) {
-            var topic = "#" + TOPIC + "#", value = textObj.value, index = value.indexOf(topic);
-            if (index === -1) {
-                //匹配
-                funTextAsTopic(textObj, topic);
-          } 
-            value = textObj.value;
-            index = value.indexOf(topic);
-            if (textObj.createTextRange) {
-                var range = textObj.createTextRange();
-                range.moveEnd("character", -1 * value.length)           
-                range.moveEnd("character", index + 5);
-                range.moveStart("character", index + 1);
-                range.select();    
-            } 
-            else {
-                textObj.setSelectionRange(index + 1, index + 5);
-                textObj.focus();
-            }
-        }, 
-        funTextAsTopic = function(textObj, textFeildValue) {
-            textObj.focus();
-            if (textObj.createTextRange) {
-                var caretPos = document.selection.createRange().duplicate();
-                document.selection.empty();
-                caretPos.text = textFeildValue;
-            } else if (textObj.setSelectionRange) {
-                var rangeStart = textObj.selectionStart;
-                var rangeEnd = textObj.selectionEnd;
-                var tempStr1 = textObj.value.substring(0, rangeStart);
-                var tempStr2 = textObj.value.substring(rangeEnd);
-                textObj.value = tempStr1 + textFeildValue + tempStr2;
-                textObj.blur();
-            }
-        };
-        oButton.onclick = function() {
-            var textSelection = funGetSelected(oTextarea);
-            if (!textSelection || textSelection === TOPIC) {
-                //没有文字选中，光标处插入
-                funInsertTopic(oTextarea);    
-            } else {
-                funTextAsTopic(oTextarea, "#" + textSelection + "#");
-            }
-        };
-    </script>
 
 </body>
 </html>
