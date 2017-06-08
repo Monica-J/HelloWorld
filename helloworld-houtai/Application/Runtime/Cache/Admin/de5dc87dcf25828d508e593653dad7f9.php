@@ -40,12 +40,12 @@
             <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html">添加管理员</a></li>
             <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html">管理员管理</a></li>
             
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_edit.html">修改管理员信息</a></li>
+           
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>用户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
             <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html">用户管理</a></li>
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/cust/user_pass.html">修改用户信息</a></li>
+           
            
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-file"></span>发帖管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
@@ -58,10 +58,7 @@
             <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_add.html">添加版块</a></li>
             <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_list.html">删除版块</a></li>
           </ul>
-          <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
-          <ul>
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/key/key_list.html">关键字管理</a></li>
-          </ul>
+         
         </div>
       </div>
     	<div class="col-md-10 col-md-offset-2 ">

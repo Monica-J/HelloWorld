@@ -58,10 +58,7 @@
             <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_add.html">添加版块</a></li>
             <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_list.html">删除版块</a></li>
           </ul>
-          <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>关键字<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
-          <ul>
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/key/key_list.html">关键字管理</a></li>
-          </ul>
+         
         </div>
       </div>
     	<div class="col-md-10 col-md-offset-2 ">
@@ -93,7 +90,7 @@
     	        <td><?php echo ($ad["email"]); ?></td>
     	        <td><?php echo ($ad["date"]); ?></td>
     	        <td>  
-                   <a class="link-del" href="/HelloWorld/helloworld-houtai/index.php/Admin/User/admindel/id/<?php echo ($ad["id"]); ?>">删除</a>
+                   <a class="link-del" href="/HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/<?php echo ($ad["id"]); ?>">删除</a>
               </td>
   	        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
   	      </table>

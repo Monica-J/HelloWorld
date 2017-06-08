@@ -9,7 +9,7 @@ class CustController extends Controller {
     public function user_list(){
 		        $userModel = M("user");
 		        $num = $userModel->count();
-		        $pagecount = 3; 
+		        $pagecount = 10; 
 		        $page = new \Think\Page($num , $pagecount);
 		        $page->parameter = $row; //此处的row是数组，为了传递查询条件
 		        $page->setConfig('first','首页');
@@ -28,4 +28,20 @@ class CustController extends Controller {
 
 		    
 		    }
+		        public function userdel(){
+        $id = $_GET['id'];
+        if(is_array($id)){
+            foreach($id as $value){
+                M("user")->delete($value);
+            }
+            $this->success("批量删除成功！",U("cust/user_list"));
+        }else{
+            if(M("user")->delete($id)){
+                $this->success("删除成功！",U("cust/user_list"));
+            }else{
+                $this->error("删除失败！");
+            }
+        }
+    }
+
 }
