@@ -40,12 +40,12 @@
             <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html">添加管理员</a></li>
             <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html">管理员管理</a></li>
             
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_edit.html">修改管理员信息</a></li>
+           
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>用户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
             <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html">用户管理</a></li>
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/cust/user_pass.html">修改用户信息</a></li>
+           
            
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-file"></span>发帖管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
@@ -74,145 +74,39 @@
     	    <h3>系统管理列表 <small>User List</small></h3>
     	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
-    	        <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-    	        <th width="13%">用户名</th>
+    	        <th width="2%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
+               <th width="5%">id</th>
+    	        <th width="10%">用户名</th>
     	        <th width="10%">真实姓名</th>
-    	        <th width="13%">手机号</th>
-    	        <th width="21%">邮箱</th>
-    	        <th width="11%">注册时间</th>
-    	        <th width="17%">操作</th>
+    	        <th width="20%">手机号</th>
+    	        <th width="25%">邮箱</th>
+    	        <th width="20%">注册时间</th>
+    	        <th width="10%">操作</th>
   	        </tr>
-    	      <tr>
+            <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ad): $mod = ($i % 2 );++$i;?><tr>
     	        <td><input type="checkbox" name="checkbox" id="checkbox">
     	          <label for="checkbox"></label></td>
-    	        <td>owerh</td>
-    	        <td>张黎明</td>
-    	        <td>13625684568</td>
-    	        <td>zhangliming@197232832.qq</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox3" id="checkbox3"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox4" id="checkbox4"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox5" id="checkbox5"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox6" id="checkbox6"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox7" id="checkbox7"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox8" id="checkbox8"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox15"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox14"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox13"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox12"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox11"></td>
-    	        <td>otewr2wer</td>
-    	        <td>宋晓云</td>
-    	        <td>13025486584</td>
-    	        <td>sxy@163.com</td>
-    	        <td>2014-05-22 </td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
+    	        <td><?php echo ($ad["id"]); ?></td>
+              <td><?php echo ($ad["user"]); ?></td>
+    	        <td><?php echo ($ad["name"]); ?></td>
+    	        <td><?php echo ($ad["tel"]); ?></td>
+    	        <td><?php echo ($ad["email"]); ?></td>
+    	        <td><?php echo ($ad["date"]); ?></td>
+    	        <td>  
+                   <a class="link-del" href="/HelloWorld/helloworld-houtai/index.php/Admin/User/admindel/id/<?php echo ($ad["id"]); ?>">删除</a>
+              </td>
+  	        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
   	      </table>
   	    </div>
-    	  <div class="input-group pull-left form">
-    	    <button type="submit" class="btn btn-danger "> 删 除</button>
-  	    </div>
-    	  <ul class="pagination pull-right" >
+    	 <div class="list-page"> <?php echo ($page); ?></div>
+    	<!--   <ul class="pagination pull-right" >
     	    <li class="disabled"><a href="#">&laquo;</a></li>
     	    <li class="active"><a href="#">1</a></li>
     	    <li><a href="#">2</a></li>
     	    <li><a href="#">3</a></li>
     	    <li><a href="#">4</a></li>
     	    <li><a href="#">&raquo;</a></li>
-  	    </ul>
+  	    </ul> -->
   	  </div>
 	</div>
         	

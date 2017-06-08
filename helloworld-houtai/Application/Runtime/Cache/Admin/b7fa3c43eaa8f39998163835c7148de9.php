@@ -40,7 +40,7 @@
             <li  ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html">添加管理员</a></li>
             <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html">管理员管理</a></li>
             
-            <li ><a href="/HelloWorld/helloworld-houtai/index.php/Admin/user/admin_edit.html">修改管理员信息</a></li>
+           
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>用户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
@@ -67,11 +67,11 @@
     	<div class="col-md-10 col-md-offset-2 ">
     	  <ol class="breadcrumb">
     	    <li><a href="#">首页</a></li>
-    	    <li><a href="#">帐户管理</a></li>
-    	    <li class="active">个人密码修改</li>
+    	    <li><a href="#">用户管理</a></li>
+    	    <li class="active">修改用户信息</li>
   	    </ol>
     	  <div class="table-responsive ">
-    	    <h3>个人密码修改 <small>Password Modify</small></h3>
+    	    <h3>修改用户信息 <small>Personal Modify</small></h3>
     	    <div class="list-group ">
     	      <div class="list-group-item">
     	        <form role="form" >

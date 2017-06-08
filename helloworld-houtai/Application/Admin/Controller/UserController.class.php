@@ -34,7 +34,7 @@ class UserController extends Controller {
 				);
 				$result=$adminaddModel->where($condition)->count();
 				if($result>0){
-				$this->success("新闻添加成功",U('user/admin_list'));
+				$this->success("管理员添加成功",U('user/admin_list'));
 				}
 				}
     
