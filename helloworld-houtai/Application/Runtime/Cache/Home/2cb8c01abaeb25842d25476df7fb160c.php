@@ -19,7 +19,7 @@
 	<div class="header" style="border-radius:0px;">
 		
 		<div class="logo">
-			<a href="index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png" style="margin:3px 0 0 30px;"></a>
+			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png" style="margin:3px 0 0 30px;"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
@@ -29,16 +29,16 @@
 
 		<div class="user" style="float:right; margin:-32px 30px 0 0;">
 			<div class="btn-group">
-			  	<a href="admin.html"><button type="button" class="btn btn-lg">
+			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
 			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
 			  	</button></a>	  	
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-envelope"></span>
 			   	</button></a>-->
-			   	<a href="shezhi.html"><button type="button" class="btn btn-lg">
+			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
-			   	<a href="login.html"><button type="button" class="btn btn-lg">
+			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Login/login.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
 			   
@@ -51,16 +51,16 @@
 		
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
-				<li><a href="index.html" class="ss">首页</a></li>
-				<li><a href="wdsc.html" class="ss">我的收藏</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html" class="ss">首页</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/wdsc.html" class="ss">我的收藏</a></li>
 				<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-				<li><a href="rmht.html">热门话题</a></li>
-				<li><a href="ggtz.html">公告通知</a></li>
-				<li><a href="xshd.html">学生活动</a></li>
-				<li class="active"><a href="jsjl.html">技术交流</a></li>
-				<li><a href="files_share.html">资料共享</a></li>
-				<li><a href="sdtc.html">树洞吐槽</a></li>
-				<li><a href="contacts.html">院友录</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html">热门话题</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html">公告通知</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html">学生活动</a></li>
+				<li class="active"><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/jsjl.html">技术交流</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/files_share.html">资料共享</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/sdtc.html">树洞吐槽</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/contacts.html">院友录</a></li>
 		</nav>
 
 		<div class="mian">

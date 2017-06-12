@@ -29,7 +29,7 @@
   	<div class="header" style="border-radius: 0px;">
 		
 		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
+			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
@@ -39,14 +39,14 @@
 
 		<div class="user" style="float:right; margin:-30px 30px 0 0;">
 			<div class="btn-group">
-			  	<a href="admin.html"><button type="button" class="btn btn-lg">
+			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
 			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
 			  	</button></a>	  	
 
-			   	<a href="shezhi.html"><button type="button" class="btn btn-lg">
+			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
-			   	<a href="login.html"><button type="button" class="btn btn-lg">
+			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Login/login.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
 
