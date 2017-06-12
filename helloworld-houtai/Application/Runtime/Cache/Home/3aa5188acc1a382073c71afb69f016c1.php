@@ -9,7 +9,6 @@
 	
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
-	<script src="/HelloWorld/helloworld-houtai/Public/front/js/layer.js"></script>
 <style>
 	th,td{
 		width:200px;
@@ -21,32 +20,20 @@
 		
 </head>
 <body>
-	<div class="header">
+	<div class="header" style="border-radius:0px;">
 		
-		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
+		<div class="logo">
+			<a href="index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png" style="margin:3px 0 0 30px;"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
-			<input type="text" >
-			<button type="submit" class="btn btn-sm" style="margin-top:-2px;background:#fff;color:#ffA500;">搜 索</button>
+			<input type="text" style="width:300px;height:30px;border:none;">
+			<button type="submit" class="btn btn-sm">搜 索</button>
 		</div>
 
-		<div class="user" style="float:right; margin:-30px 30px 0 0;">
+		<div class="user" style="float:right; margin:-32px 30px 0 0;">
 			<div class="btn-group">
-			  	<!-- <button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
-			  	</button>			  	
-			   	<button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-envelope"></span>
-			   	</button>
-			   	<button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-cog"></span>
-			   	</button>
-			   	<button type="button" class="btn btn-lg" id="write">
-			   		<span class="glyphicon glyphicon-pencil"></span>
-			   	</button> -->
-			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
+			  	<a href="admin.html"><button type="button" class="btn btn-lg">
 			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
 			  	</button></a>	  	
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
@@ -55,35 +42,35 @@
 			   	<a href="shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
-			   <a href="#"><button type="button" class="btn btn-lg" id="write">
-			   		<span class="glyphicon glyphicon-pencil"></span>
+			   	<a href="login.html"><button type="button" class="btn btn-lg">
+			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
 			</div>
 		</div>
 
 	</div>
 
-	<div class="content">
+	<div class="content" style="background-color:#fff;">
 		
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html">首页</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/wdsc.html">我的收藏</a></li>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="wdsc.html">我的收藏</a></li>
 				<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html">热门话题</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html">公告通知</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html">学生活动</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/jsjl.html">技术交流</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/files_share.html">资料共享</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/sdtc.html">树洞吐槽</a></li>
-				<li class="active"><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/contacts.html">院友录</a></li>
+				<li><a href="rmht.html">热门话题</a></li>
+				<li><a href="ggtz.html">公告通知</a></li>
+				<li><a href="xshd.html">学生活动</a></li>
+				<li><a href="jsjl.html">技术交流</a></li>
+				<li><a href="files_share.html">资料共享</a></li>
+				<li><a href="sdtc.html">树洞吐槽</a></li>
+				<li class="active"><a href="contacts.html">院友录</a></li>
 			</ul>
 		</nav>
 
 		<div class="right">
 
 			<div class="admin">
-				<a href="admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
+				<a href="admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 46px;width:90;height:87;"></a>
 				<p class="name">你的梦里有我吗</p>
 				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
 				
@@ -126,21 +113,6 @@
 		</div>
 
 		<div class="left">			
-				
-			<div class="Main">
-				<div id="opwri" style="display:none;">     
-				    <div class="Input_Box">     
-				        <form>
-					        <textarea id="httext"></textarea>	     
-					        <div class="Input_Foot">
-						        <button type="button" class="btn btn-m" id="huati">
-									<img src="/HelloWorld/helloworld-houtai/Public/front/img/huati.png">插入话题	
-								</button>
-						        <input type="submit" class="submit" value="确认"> 
-						    </div>
-					    </form>
-				    </div>   
-			    </div>
 
 				<div class="contact-chart" >
 					
@@ -213,16 +185,6 @@
 	</footer>
 
 	<script>
-
-	jQuery('#write').on('click', function(){
-		layer.open({
-		    type: 1,
-		 	area: ['800px', '360px'],
-		 	anim:1,
-		 	shadeClose: true, //点击遮罩关闭
-		 	content: jQuery('#opwri')
-		});
-	});
 
 	/*插入话题*/
 	var oButton = document.getElementById("huati"), oTextarea = document.getElementById("httext");

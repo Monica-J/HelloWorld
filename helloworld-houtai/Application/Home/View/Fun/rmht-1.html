@@ -6,28 +6,26 @@
 	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/bootstrap.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/style.css">
-	<link rel="stylesheet" href="__PUBLIC__/front/css/myemojiPl.css"><!--表情-->
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/share.css">
 	<script src="__PUBLIC__/front/js/jquery.js"></script>
 	<script src="__PUBLIC__/front/js/bootstrap.min.js"></script>
-	<script src="__PUBLIC__/front/js/myemojiPl.js"></script> 
-	<script src="__PUBLIC__/front/js/layer.js"></script>
 		
 </head>
 <body>
-	<div class="header">
+	<div class="header" style="border-radius:0px;">
 		
-		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="__MODULE__/Index/index.html"><img src="__PUBLIC__/front/img/logo.png"></a>
+		<div class="logo">
+			<a href="index.html"><img src="__PUBLIC__/front/img/logo.png" style="margin:3px 0 0 30px;"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
-			<input type="text" >
-			<button type="submit" class="btn btn-sm" style="margin-top:-2px;background:#fff;color:#ffA500;">搜 索</button>
+			<input type="text" style="width:300px;height:30px;border:none;">
+			<button type="submit" class="btn btn-sm">搜 索</button>
 		</div>
 
-		<div class="user" style="float:right; margin:-30px 30px 0 0;">
+		<div class="user" style="float:right; margin:-32px 30px 0 0;">
 			<div class="btn-group">
-			  	<a href="__MODULE__/Mine/admin.html"><button type="button" class="btn btn-lg">
+			  	<a href="admin.html"><button type="button" class="btn btn-lg">
 			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
 			  	</button></a>	  	
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
@@ -36,8 +34,8 @@
 			   	<a href="shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
-			   <a href="#"><button type="button" class="btn btn-lg" id="write">
-			   		<span class="glyphicon glyphicon-pencil"></span>
+			   	<a href="login.html"><button type="button" class="btn btn-lg">
+			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
 			</div>
 		</div>
@@ -48,16 +46,16 @@
 		
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
-				<li><a href="__MODULE__/Index/index.html">首页</a></li>
-				<li><a href="__MODULE__/Fun/wdsc.html">我的收藏</a></li>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="wdsc.html">我的收藏</a></li>
 				<li><img src="__PUBLIC__/front/img/line.png"></li>
-				<li class="active"><a href="__MODULE__/Fun/rmht.html">热门话题</a></li>
-				<li><a href="__MODULE__/Fun/ggtz.html">公告通知</a></li>
-				<li><a href="__MODULE__/Fun/xshd.html">学生活动</a></li>
-				<li><a href="__MODULE__/Fun/jsjl.html">技术交流</a></li>
-				<li><a href="__MODULE__/Fun/files_share.html">资料共享</a></li>
-				<li><a href="__MODULE__/Fun/sdtc.html">树洞吐槽</a></li>
-				<li><a href="__MODULE__/Fun/contacts.html">院友录</a></li>
+				<li class="active"><a href="rmht.html">热门话题</a></li>
+				<li><a href="ggtz.html">公告通知</a></li>
+				<li><a href="xshd.html">学生活动</a></li>
+				<li><a href="jsjl.html">技术交流</a></li>
+				<li><a href="files_share.html">资料共享</a></li>
+				<li><a href="sdtc.html">树洞吐槽</a></li>
+				<li><a href="contacts.html">院友录</a></li>
 			</ul>
 		</nav>
 
@@ -130,25 +128,30 @@
 		    		<div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="__PUBLIC__/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">路人丁</p>
 		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm" style="float:right; margin:-45px 10px 0 0;">
+		    				<button type="button" class="btn btn-sm" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
 		    					<span class="glyphicon glyphicon-plus"> 关注</span>
 		    				</button>
-		    				<p style="margin:10px 10px 0 50px; font-size:15px;">[#软件男篮荣获冠军] 如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
+		    				<div class="co">
+			    				<p>[#软件男篮荣获冠军]近日，全校男篮总冠军争夺赛在体育学院篮球馆举行，我院男篮技压群雄，战胜对手，获得全校男篮总冠军。</p>
+								<p>本次争夺赛共有四个队伍参加，分别是前不久刚刚结束的篮球联赛甲组冠、亚军和乙组冠、亚军。其中甲组冠军对阵乙组冠军，争夺总冠军；甲组亚军对阵乙组亚军，争夺季军；我院男篮以甲组冠军身份进军总决赛，对阵乙组冠军法政与公共管理学院男篮，最终，我院男篮以24:19战胜法政与公共管理学院男篮获得全校总冠军。</p>
+								<p>据悉，我校每年举行男子篮球甲、乙组分组比赛，本次总冠军争夺赛系近年来首次。我院男篮健儿在甲组比赛中表现突出，以全胜的战绩获得甲组冠军。在本次全校总冠军争夺赛中，软件男篮更是努力拼搏、勇于超越，不但以精湛的球技和默契的协作赢得总冠军，更赢得了对手的尊重及观众的阵阵呼声，极大的激发了软件学院学生们的运动热情。</p>
+							</div>
+		    				
 		    			</div>
 		    			<img src="__PUBLIC__/front/img/longline.png" style="margin-left:6px;">
 		    			<div class="bt">
 		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
 						   		<span class="glyphicon glyphicon-heart">收藏</span>
 						   	</button>
-						   	<button type="button" class="btn btn-m" style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-share">转发</span>
-						   	</button>
+						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
+						   		<span class="glyphicon glyphicon-share">分享</span>
+						   	</button></a>
 						   	<button type="button" class="btn btn-md" style="margin-left:140px;">
 						   		<span class="glyphicon glyphicon-pencil">评论</span>
 						   	</button>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;">
+						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
 						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
 						   	</button>
 		    			</div>
@@ -158,25 +161,29 @@
 		    		<div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="__PUBLIC__/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">路人甲</p>
 		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm" style="float:right; margin:-45px 10px 0 0;">
+		    				<button type="button" class="btn btn-sm" onclick="myFunction()" style="float:right; margin:-45px 10px 0 0;">
 		    					<span class="glyphicon glyphicon-plus"> 关注</span>
 		    				</button>
-		    				<p style="margin:10px 10px 0 50px; font-size:15px;">[#软件男篮荣获冠军] 如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
+		    				<div class="co">
+			    				<p>[#软件男篮荣获冠军]近日，全校男篮总冠军争夺赛在体育学院篮球馆举行，我院男篮技压群雄，战胜对手，获得全校男篮总冠军。</p>
+								<p>本次争夺赛共有四个队伍参加，分别是前不久刚刚结束的篮球联赛甲组冠、亚军和乙组冠、亚军。其中甲组冠军对阵乙组冠军，争夺总冠军；甲组亚军对阵乙组亚军，争夺季军；我院男篮以甲组冠军身份进军总决赛，对阵乙组冠军法政与公共管理学院男篮，最终，我院男篮以24:19战胜法政与公共管理学院男篮获得全校总冠军。</p>
+								<p>据悉，我校每年举行男子篮球甲、乙组分组比赛，本次总冠军争夺赛系近年来首次。我院男篮健儿在甲组比赛中表现突出，以全胜的战绩获得甲组冠军。在本次全校总冠军争夺赛中，软件男篮更是努力拼搏、勇于超越，不但以精湛的球技和默契的协作赢得总冠军，更赢得了对手的尊重及观众的阵阵呼声，极大的激发了软件学院学生们的运动热情。</p>
+							</div>
 		    			</div>
 		    			<img src="__PUBLIC__/front/img/longline.png" style="margin-left:6px;">
 		    			<div class="bt">
 		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
 						   		<span class="glyphicon glyphicon-heart">收藏</span>
 						   	</button>
-						   	<button type="button" class="btn btn-m" style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-share">转发</span>
-						   	</button>
+						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
+						   		<span class="glyphicon glyphicon-share">分享</span>
+						   	</button></a>
 						   	<button type="button" class="btn btn-md" style="margin-left:140px;">
 						   		<span class="glyphicon glyphicon-pencil">评论</span>
 						   	</button>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;">
+						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
 						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
 						   	</button>
 		    			</div>
@@ -186,25 +193,29 @@
 		    		<div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="__PUBLIC__/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">路人乙</p>
 		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm" style="float:right; margin:-45px 10px 0 0;">
+		    				<button type="button" class="btn btn-sm" onclick="myFunction()" style="float:right; margin:-45px 10px 0 0;">
 		    					<span class="glyphicon glyphicon-plus"> 关注</span>
 		    				</button>
-		    				<p style="margin:10px 10px 0 50px; font-size:15px;">[#软件男篮荣获冠军] 如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
+		    				<div class="co">
+			    				<p>[#软件男篮荣获冠军]近日，全校男篮总冠军争夺赛在体育学院篮球馆举行，我院男篮技压群雄，战胜对手，获得全校男篮总冠军。</p>
+								<p>本次争夺赛共有四个队伍参加，分别是前不久刚刚结束的篮球联赛甲组冠、亚军和乙组冠、亚军。其中甲组冠军对阵乙组冠军，争夺总冠军；甲组亚军对阵乙组亚军，争夺季军；我院男篮以甲组冠军身份进军总决赛，对阵乙组冠军法政与公共管理学院男篮，最终，我院男篮以24:19战胜法政与公共管理学院男篮获得全校总冠军。</p>
+								<p>据悉，我校每年举行男子篮球甲、乙组分组比赛，本次总冠军争夺赛系近年来首次。我院男篮健儿在甲组比赛中表现突出，以全胜的战绩获得甲组冠军。在本次全校总冠军争夺赛中，软件男篮更是努力拼搏、勇于超越，不但以精湛的球技和默契的协作赢得总冠军，更赢得了对手的尊重及观众的阵阵呼声，极大的激发了软件学院学生们的运动热情。</p>
+							</div>
 		    			</div>
 		    			<img src="__PUBLIC__/front/img/longline.png" style="margin-left:6px;">
 		    			<div class="bt">
 		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
 						   		<span class="glyphicon glyphicon-heart">收藏</span>
 						   	</button>
-						   	<button type="button" class="btn btn-m" style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-share">转发</span>
-						   	</button>
+						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
+						   		<span class="glyphicon glyphicon-share">分享</span>
+						   	</button></a>
 						   	<button type="button" class="btn btn-md" style="margin-left:140px;">
 						   		<span class="glyphicon glyphicon-pencil">评论</span>
 						   	</button>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;">
+						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
 						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
 						   	</button>
 		    			</div>
@@ -214,25 +225,29 @@
 		    		<div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="__PUBLIC__/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">路人丙</p>
 		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm" style="float:right; margin:-45px 10px 0 0;">
+		    				<button type="button" class="btn btn-sm" onclick="myFunction()" style="float:right; margin:-45px 10px 0 0;">
 		    					<span class="glyphicon glyphicon-plus"> 关注</span>
 		    				</button>
-		    				<p style="margin:10px 10px 0 50px; font-size:15px;">[#软件男篮荣获冠军] 如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
+		    				<div class="co">
+			    				<p>[#软件男篮荣获冠军]近日，全校男篮总冠军争夺赛在体育学院篮球馆举行，我院男篮技压群雄，战胜对手，获得全校男篮总冠军。</p>
+								<p>本次争夺赛共有四个队伍参加，分别是前不久刚刚结束的篮球联赛甲组冠、亚军和乙组冠、亚军。其中甲组冠军对阵乙组冠军，争夺总冠军；甲组亚军对阵乙组亚军，争夺季军；我院男篮以甲组冠军身份进军总决赛，对阵乙组冠军法政与公共管理学院男篮，最终，我院男篮以24:19战胜法政与公共管理学院男篮获得全校总冠军。</p>
+								<p>据悉，我校每年举行男子篮球甲、乙组分组比赛，本次总冠军争夺赛系近年来首次。我院男篮健儿在甲组比赛中表现突出，以全胜的战绩获得甲组冠军。在本次全校总冠军争夺赛中，软件男篮更是努力拼搏、勇于超越，不但以精湛的球技和默契的协作赢得总冠军，更赢得了对手的尊重及观众的阵阵呼声，极大的激发了软件学院学生们的运动热情。</p>
+							</div>
 		    			</div>
 		    			<img src="__PUBLIC__/front/img/longline.png" style="margin-left:6px;">
 		    			<div class="bt">
 		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
 						   		<span class="glyphicon glyphicon-heart">收藏</span>
 						   	</button>
-						   	<button type="button" class="btn btn-m" style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-share">转发</span>
-						   	</button>
+						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
+						   		<span class="glyphicon glyphicon-share">分享</span>
+						   	</button></a>
 						   	<button type="button" class="btn btn-md" style="margin-left:140px;">
 						   		<span class="glyphicon glyphicon-pencil">评论</span>
 						   	</button>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;">
+						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
 						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
 						   	</button>
 		    			</div>
@@ -251,16 +266,32 @@
 		<p>地址：石家庄市裕华区南二环东路20号</p>
 	</div>
 
-	<script>
-	jQuery('#write').on('click', function(){
-		layer.open({
-		    type: 1,
-		 	area: ['800px', '360px'],
-		 	anim:1,
-		 	shadeClose: true, //点击遮罩关闭
-		 	content: jQuery('#opwri')
+	<script type="text/javascript">
+		/*关注按钮*/
+		function myFunction(){
+			var x;
+			var r=confirm("已关注！");
+			if (r==true){
+				//添加到后台
+			}
+		}
+
+		function myZan(){
+			var y;
+			var s=confirm("已赞！");
+			if (s==true){
+				//添加到后台
+			}
+		}
+	</script>
+	<script type="text/javascript" src="__PUBLIC__/front/js/share.js"></script>
+	<script  type="text/javascript">
+		jQuery('.share').shareConfig({
+			Shade : true, //是否显示遮罩层
+			Event:'click', //触发事件
+			Content : 'Share', //内容DIV ID
+			Title : '我爱分享' //显示标题
 		});
-	});
 	</script>
 	
 </body>

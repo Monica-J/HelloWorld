@@ -156,7 +156,7 @@
 
 	</div>
 	<br/>	
-	<div class="footer" style="margin-top:62px;">
+	  <div class="footer" style="margin-top:62px;">
 		<br/>
 		<br/>
 		<p>地址：石家庄市裕华区南二环东路20号</p>
