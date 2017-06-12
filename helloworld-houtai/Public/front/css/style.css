@@ -10,6 +10,7 @@ button{
 }
 body{
 	background-image: url(../img/bg.png);
+	background-repeat: repeat-y;
 }
 ul li{
 	list-style: none;
@@ -23,12 +24,19 @@ textarea{
 	margin: 20px 0 0 35px;
 	border: 1px solid #dcdcdc;
 }
+div{
+	border-radius: 5px;
+}
+
 .btn-group-lg>.btn, .btn-lg{
 	padding: 5px 10px;
 }
 .header{
-	height: 65px;
+	height: 70px;
 	background-color: #ffA500; 
+}
+.search button{
+	margin:-3px 0 0 -54px;background:#fff;color:#ffA500;border-color:#ffa500;height:32px;
 }
 .content{
 	width: 70%;
@@ -50,11 +58,6 @@ textarea{
 	background-color: #ffA500;
 	color: #fff;
 }
-.page{
-	width: 78%;
-	height: 220px;
-	margin-top: -20px;
-}
 .left{
 	width: 78%;
 }
@@ -75,7 +78,7 @@ textarea{
     border-radius: 0 0 5px 5px;
     position: relative;
     bottom: 0;
-    margin-top: 16px;
+    margin-top: 180px;
 }
 #huati{
 	margin-left: 10px;
@@ -86,12 +89,12 @@ textarea{
 }
 .submit{
 	background-color: #ffA500;
-	border-radius: 5px;
+	border-radius: 4px;
 	color: #fff;
 	width: 50px;
 	height: 30px;
 	border: none;
-	margin: 3px 0 0 560px;
+	margin: 3px 0 0 556.7px;
 }
 .wri{
 	border-top: 1px solid #dcdcdc;
@@ -100,19 +103,16 @@ textarea{
 	margin-left: 18px;
 }
 
-
-.admin{
-	background-color: #fff;
-	height: 220px;
-	float: right;
-	margin-top: 0px;
-}
-
 .page{
 	border: 1px solid #dcdcdc;
 	margin-top: 20px;
 	width: 738px;
+	min-height: 220px;
 	background-color: #fff;
+}
+.co p{
+	margin: 10px 10px 0 50px;
+    font-size: 15px;
 }
 .bt button{
 	background-color: #fff;
@@ -129,9 +129,11 @@ textarea{
 }
 .admin{	
 	height: 220px;
+	width: 187px;
 	float: right;
-	margin-top: 20px;
+	margin-top: 25px;
 	border: 1px solid #dcdcdc;
+	background-color: #fff;
 }
 
 .name{
@@ -147,8 +149,9 @@ textarea{
 .adnav{
 	font-size: 14px;
 	height: 30px;
-	margin-left: 12px;
+	margin-left: 18px;
 	margin-top: -5px;
+	background-color: #fff;
 }
 .adnav li a{
 	padding: 1px 10px;
@@ -159,13 +162,14 @@ textarea{
 	height: 18px;
 }
 .adnav li img{
-	height: 35px;
+	height: 40px;
 }
 .book{
 	width: 187px;
-	margin-top: 260px;
+	margin-top: 265px;
 	border: 1px solid #dcdcdc;
 	height: 260px;
+	background-color: #fff;
 }
 .bktitle{
 	color: #ffA500;
@@ -228,23 +232,31 @@ textarea{
 	border: 1px solid #dcdcdc;
 	width: 210px;
 	margin: 23px 0 0 10px;
+	height: 100px;
 }
 .fs img{
 	margin: 23px 0 0 5px;
 }
 .f-name{
 	float: right;
-	margin: -60px 10px 0 0;
+	margin: 20px 10px 0 0;
 }
 .fsgz{
-	margin-top: 50px;
+	margin-top: -40px;
+    margin-left: 90px;
 }
 .fs2{
-	margin: -104px 0 0 267px;
+	margin: -100px 0 0 267px;
+}
+.fs2 img{
+	margin: -20px 0 0 5px;
+}
+.fs2>.f-name{
+	margin: -20px 10px 0 0;
 }
 .fs3{
 	float: right;
-	margin: -104px 10px 0 0px;
+	margin: -100px 10px 0 0px;
 }	
 
 /*xiaoxi页面*/
@@ -257,6 +269,7 @@ textarea{
 	height: 310px;
 	border: 1px solid #dcdcdc;
 	margin-top: 260px;
+	background-color: #fff;
 }
 .rmht p{
 	color: #ffA500;
@@ -272,8 +285,77 @@ textarea{
 	color: black;
 	font-size: 15px;
 }
-
-/*shezhi*/
+/*jsjl*/
+.ss{
+	background-color: #fff;
+}
+/*files*/
+#list { 
+    margin: 50px auto 0 auto; 
+    font-family: Arial, Helvetica; 
+    font-size: 16px; 
+    background-color: #eee;  
+}
+#tabs {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#tabs li {
+    float: left;
+    margin: 0 -15px 0 0;
+}
+#tabs a {
+    float: left;
+    position: relative;
+    padding: 0 40px;
+    height: 0;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;      
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #3D3D3D;
+    border-bottom-color: #777\9;
+    opacity: .3;
+    filter: alpha(opacity=30);      
+}
+#tabs a:hover,
+#tabs a:focus {
+    border-bottom-color: #5D478B;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+#tabs a:focus {
+    outline: 0;
+}
+#tabs #current {
+    z-index: 3;
+    border-bottom-color: #ffa500;
+    opacity: 1;
+    filter: alpha(opacity=100);      
+}
+#tabsContent {
+    background: #fff;
+    border-top: 2px solid #3d3d3d;
+    padding: 2em;
+    /*height: 220px;*/
+}
+#tabsContent h2,#tabsContent h3,#tabsContent p {
+    margin: 0 0 15px 0;
+}  
+/* Demo page only */
+#about {
+    color: #999;
+    text-align: center;
+    font: 0.9em Arial, Helvetica;
+}
+#about a {
+    color: #777;
+}
+/*shezhi-xinxi*/
 .shezhi_box{
 	width: 200px;
 	height: 180px;
@@ -283,10 +365,46 @@ textarea{
 	border: 1px solid #dcdcdc;
 }
 .shezhi_box p{
-	font-size: 18px;
-	font-family: "微软雅黑";
-	margin: 8px auto 8px 8px;
+	
+	margin: 10px auto 10px 10px;
 }
 .shezhi_box hr{
 	margin-top: 3px;
+	margin-bottom: 10px;
+}
+.shezhi_box .shezhi_con_1,
+.shezhi_box .shezhi_con_2{
+	color: #ffa500;
+	margin-left: 10px;
+}
+.shezhi_page{
+	width:738px;
+	height: 400px;
+	color:#000000;
+	font-size:18px;
+	border-radius: 5px;
+	background-color: #fff;
+	margin-top: -30px;
+	border: 1px solid #dcdcdc;
+}
+.shezhi_page table{
+	margin-left: 30px;
+}
+.shezhi_page table td{
+	height:60px;
+	width: 280px;
+}
+.up-img-cover{
+	margin-top:10px;
+}
+ 
+/*shezhi-touxiang*/
+.up-img-cover{
+	width: 100px;
+	height: 100px;
+}
+.up-img-cover img{
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 320px;
 }
