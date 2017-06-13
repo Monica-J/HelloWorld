@@ -63,7 +63,7 @@
 
 		<div class="mian">
 			<div class="adframe">
-				<a href="jsjl/android.html"><div class="adleft">
+				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Jsjl/android.html"><div class="adleft">
 					<div class="ico">
 						<i class="fa fa-android"></i>
 					</div>
@@ -79,7 +79,7 @@
 						</div>
 					</div>
 				</div></a>
-				<a href="jsjl/data.html"><div class="adleft">
+				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Jsjl/data.html"><div class="adleft">
 					<div class="ico">
 						<i class="fa fa-database"></i>
 					</div>
@@ -97,7 +97,7 @@
 						</div>
 					</div>
 				</div></a>
-				<a href="jsjl/html5.html"><div class="adleft">
+				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Jsjl/html5.html"><div class="adleft">
 					<div class="ico">
 						<i class="fa fa-edge"></i>
 					</div>
@@ -113,7 +113,7 @@
 						</div>
 					</div>
 				</div></a>
-				<a href="jsjl/php.html"><div class="adleft">
+				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Jsjl/php.html"><div class="adleft">
 					<div class="ico">
 						<i class="fa fa-weixin"></i>
 					</div>
@@ -131,7 +131,7 @@
 						</div>
 					</div>
 				</div></a>
-				<a href="jsjl/test.html"><div class="adleft" style="border-right:1px solid #dcdcdc;">
+<!-- 				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Jsjl/test.html"><div class="adleft" style="border-right:1px solid #dcdcdc;">
 					<div class="ico">
 						<i class="fa fa-code"></i>
 					</div>
@@ -147,7 +147,25 @@
 						<div class="rbt">
 							<span>软件测试</span>
 						</div>
-					</div></a>
+					</div></a> -->
+					<a href="/HelloWorld/helloworld-houtai/index.php/Home/Jsjl/test.html"><div class="adleft">
+					<div class="ico">
+						<i class="fa fa-code"></i>
+					</div>
+					<span class="title">
+						软件测试<br/>
+						&nbsp;&nbsp;&nbsp;
+					</span>
+					<span class="depict">
+						软件测试
+						<br/>&nbsp;&nbsp;
+					</span>
+					<div class="rig" id="r">
+						<div class="rbt">
+							<span>软件测试</span>
+						</div>
+					</div>
+				</div></a>
 				</div>
 			</div>
 		</div>
