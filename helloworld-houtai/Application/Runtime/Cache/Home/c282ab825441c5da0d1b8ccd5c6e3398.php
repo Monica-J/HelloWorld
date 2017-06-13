@@ -79,7 +79,7 @@
 		    	<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
 		    	<div class="bt">
 		    		<button type="button" class="btn btn-md" style="margin-left:10px;">
-						<span>阅读 80</span>
+						<span>已收藏</span>
 					</button>
 					<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
 						   		<span class="glyphicon glyphicon-share">分享</span>
@@ -140,7 +140,7 @@
 		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
 		    			<div class="bt">
 		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
-						   		<span>阅读 80</span>
+						   		<span>已收藏</span>
 						   	</button>
 						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
 						   		<span class="glyphicon glyphicon-share">分享</span>

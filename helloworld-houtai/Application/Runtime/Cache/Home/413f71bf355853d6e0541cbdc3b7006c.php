@@ -57,7 +57,7 @@
 					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子</p></a></li>
 					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/wdsc.html"><p>&nbsp;28</p><p style="margin-top:-8px;">收藏</p></a></li>				
+					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shoucang.html"><p>&nbsp;28</p><p style="margin-top:-8px;">收藏</p></a></li>				
 				</ul>
 		</nav>
 
