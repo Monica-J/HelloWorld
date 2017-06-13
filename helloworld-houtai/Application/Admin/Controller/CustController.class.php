@@ -7,7 +7,7 @@ class CustController extends Controller {
 
     }
     public function user_list(){
-		        $userModel = M("user");
+		        $userModel = M("login");
 		        $num = $userModel->count();
 		        $pagecount = 10; 
 		        $page = new \Think\Page($num , $pagecount);
@@ -32,11 +32,11 @@ class CustController extends Controller {
         $id = $_GET['id'];
         if(is_array($id)){
             foreach($id as $value){
-                M("user")->delete($value);
+                M("login")->delete($value);
             }
             $this->success("批量删除成功！",U("cust/user_list"));
         }else{
-            if(M("user")->delete($id)){
+            if(M("login")->delete($id)){
                 $this->success("删除成功！",U("cust/user_list"));
             }else{
                 $this->error("删除失败！");

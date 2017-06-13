@@ -26,7 +26,7 @@
     
     <ul class="nav navbar-nav navbar-right mr">
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
+      <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/Admin/login.html" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav> 
@@ -56,7 +56,7 @@
           <h3><a href="#"><span class="glyphicon glyphicon-book"></span>版块管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
             <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_add.html">添加版块</a></li>
-            <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_list.html">删除版块</a></li>
+            <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_list.html">版块列表</a></li>
           </ul>
          
         </div>

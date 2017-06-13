@@ -834,3 +834,747 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
 ERR: 无法加载控制器:Admin
 
+[ 2017-06-13T16:50:01+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/post/post_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2017-06-13T16:50:02+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-06-13T16:50:35+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0183s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `name` = '于世泽' AND `password` = '123456' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-06-13T16:50:36+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-13T16:50:39+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/section/section_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2017-06-13T16:50:41+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-06-13T16:50:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0161s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `name` = '于世泽' AND `password` = '123456' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-13T16:50:50+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-06-13T16:53:57+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0279s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-06-13T16:54:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-06-13T16:54:03+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0606s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-06-13T16:55:20+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-06-13T16:55:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-06-13T16:55:46+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-06-13T16:56:48+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-06-13T16:57:23+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-06-13T16:58:32+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-06-13T16:58:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0163s ]
+SQL: DELETE FROM `user` WHERE `id` = 7 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-06-13T16:59:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.1709s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-06-13T16:59:03+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0169s ]
+SQL: DELETE FROM `user` WHERE `id` = 6 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-06-13T16:59:10+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0167s ]
+SQL: DELETE FROM `user` WHERE `id` = 7 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+
+[ 2017-06-13T16:59:37+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0979s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2017-06-13T16:59:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0178s ]
+SQL: DELETE FROM `login` WHERE `id` = 7 [ RunTime:0.1630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-06-13T16:59:42+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
