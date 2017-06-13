@@ -51,7 +51,7 @@ class LoginController extends Controller {
                 
                 );
                 $data['addtime'] = date("Y-m-d H:i:s"); //添加注册时间
-
+                   
                 $adminaddModel->add($data);
                 $condition=array(
                 'title'=>I('post.title'),

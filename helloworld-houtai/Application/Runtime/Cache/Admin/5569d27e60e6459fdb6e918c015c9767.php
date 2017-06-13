@@ -69,26 +69,25 @@
   	    </ol>
     	  <div class="table-responsive ">
     	    <h3>系统管理列表 <small>User List</small></h3>
-    	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
+    	    <table width="80%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
-    	        <th width="2%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
+    	       <!--  <th width="2%"><input type="checkbox" name="checkbox10" id="checkbox10"></th> -->
                <th width="5%">id</th>
-    	        <th width="10%">用户名</th>
-    	        <th width="10%">真实姓名</th>
-    	        <th width="20%">手机号</th>
-    	        <th width="25%">邮箱</th>
-    	        <th width="20%">注册时间</th>
-    	        <th width="10%">操作</th>
+    	        
+    	        <th width="28%">用户名</th>
+    	        
+    	       
+    	        <th width="30%">注册时间</th>
+    	        <th width="15%">操作</th>
   	        </tr>
             <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ad): $mod = ($i % 2 );++$i;?><tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox">
-    	          <label for="checkbox"></label></td>
+    	        <!-- <td><input type="checkbox" name="checkbox" id="checkbox">
+    	          <label for="checkbox"></label></td> -->
     	        <td><?php echo ($ad["id"]); ?></td>
-              <td><?php echo ($ad["user"]); ?></td>
+              
     	        <td><?php echo ($ad["name"]); ?></td>
-    	        <td><?php echo ($ad["tel"]); ?></td>
-    	        <td><?php echo ($ad["email"]); ?></td>
-    	        <td><?php echo ($ad["date"]); ?></td>
+    	       
+    	        <td><?php echo ($ad["addtime"]); ?></td>
     	        <td>  
                    <a class="link-del" href="/HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/<?php echo ($ad["id"]); ?>">删除</a>
               </td>

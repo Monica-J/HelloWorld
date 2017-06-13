@@ -37,7 +37,8 @@ class CustController extends Controller {
             $this->success("批量删除成功！",U("cust/user_list"));
         }else{
             if(M("login")->delete($id)){
-                $this->success("删除成功！",U("cust/user_list"));
+                // $this->success("删除成功！",U("cust/user_list"));
+                 $this->redirect("Admin/cust/user_list");
             }else{
                 $this->error("删除失败！");
             }

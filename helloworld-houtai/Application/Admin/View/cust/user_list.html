@@ -69,27 +69,26 @@
   	    </ol>
     	  <div class="table-responsive ">
     	    <h3>系统管理列表 <small>User List</small></h3>
-    	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
+    	    <table width="80%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
-    	        <th width="2%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
+    	       <!--  <th width="2%"><input type="checkbox" name="checkbox10" id="checkbox10"></th> -->
                <th width="5%">id</th>
-    	        <th width="10%">用户名</th>
-    	        <th width="10%">真实姓名</th>
-    	        <th width="20%">手机号</th>
-    	        <th width="25%">邮箱</th>
-    	        <th width="20%">注册时间</th>
-    	        <th width="10%">操作</th>
+    	        
+    	        <th width="28%">用户名</th>
+    	        
+    	       
+    	        <th width="30%">注册时间</th>
+    	        <th width="15%">操作</th>
   	        </tr>
             <volist name="user" id="ad">
     	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox">
-    	          <label for="checkbox"></label></td>
+    	        <!-- <td><input type="checkbox" name="checkbox" id="checkbox">
+    	          <label for="checkbox"></label></td> -->
     	        <td>{$ad.id}</td>
-              <td>{$ad.user}</td>
+              
     	        <td>{$ad.name}</td>
-    	        <td>{$ad.tel}</td>
-    	        <td>{$ad.email}</td>
-    	        <td>{$ad.date}</td>
+    	       
+    	        <td>{$ad.addtime}</td>
     	        <td>  
                    <a class="link-del" href="__MODULE__/Cust/userdel/id/{$ad.id}">删除</a>
               </td>

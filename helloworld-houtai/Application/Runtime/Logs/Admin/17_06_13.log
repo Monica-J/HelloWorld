@@ -1578,3 +1578,1444 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
 
+[ 2017-06-13T17:11:11+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-06-13T17:11:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-06-13T17:12:26+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: user D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 87 行.
+NOTIC: [8] Undefined index: tel D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 89 行.
+NOTIC: [8] Undefined index: email D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-06-13T17:12:52+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-06-13T17:13:03+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0182s ]
+SQL: DELETE FROM `login` WHERE `id` = 6 [ RunTime:0.1722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-06-13T17:13:05+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0227s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-06-13T17:13:59+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-06-13T17:14:02+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.1453s ]
+SQL: DELETE FROM `login` WHERE `id` = 5 [ RunTime:0.0822s ]
+
+[ 2017-06-13T17:14:03+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-06-13T17:14:06+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0168s ]
+SQL: DELETE FROM `login` WHERE `id` = 4 [ RunTime:0.0906s ]
+
+[ 2017-06-13T17:14:07+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-06-13T17:14:10+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0168s ]
+SQL: DELETE FROM `login` WHERE `id` = 3 [ RunTime:0.1654s ]
+
+[ 2017-06-13T17:14:11+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-06-13T17:14:13+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0161s ]
+SQL: DELETE FROM `login` WHERE `id` = 2 [ RunTime:0.0685s ]
+
+[ 2017-06-13T17:14:14+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-06-13T17:14:54+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2017-06-13T17:15:45+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-06-13T17:15:45+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/images/em.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2017-06-13T17:16:01+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/adminadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0166s ]
+NOTIC: [8] Undefined index: validate D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`name`,`password`,`email`,`addtime`) VALUES ('拉克丝','123456','123@163.com','2017-06-13 17:16:00') [ RunTime:0.1653s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `name` = '拉克丝' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-06-13T17:16:03+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-06-13T17:17:26+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-06-13T17:17:26+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/images/em.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-06-13T17:17:26+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/images/em.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-06-13T17:19:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0169s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-06-13T17:20:32+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-06-13T17:20:32+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/images/em.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2017-06-13T17:20:35+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-06-13T17:21:32+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-06-13T17:22:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-06-13T17:23:04+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-06-13T17:23:38+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+NOTIC: [8] Undefined index: date D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Runtime\Cache\Admin\5569d27e60e6459fdb6e918c015c9767.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-06-13T17:24:08+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-06-13T17:24:14+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-06-13T17:24:14+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/images/em.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-06-13T17:24:14+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/images/em.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-06-13T17:24:17+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-06-13T17:24:20+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-06-13T17:24:37+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-06-13T17:24:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0165s ]
+SQL: DELETE FROM `login` WHERE `id` = 8 [ RunTime:0.1930s ]
+
+[ 2017-06-13T17:24:44+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-06-13T17:24:47+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0167s ]
+SQL: DELETE FROM `login` WHERE `id` = 9 [ RunTime:0.1847s ]
+
+[ 2017-06-13T17:24:48+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-06-13T17:24:50+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0179s ]
+SQL: DELETE FROM `login` WHERE `id` = 10 [ RunTime:0.0711s ]
+
+[ 2017-06-13T17:24:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-06-13T17:26:02+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-06-13T17:26:10+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-06-13T17:27:56+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-06-13T17:28:03+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0163s ]
+SQL: DELETE FROM `login` WHERE `id` = 12 [ RunTime:0.6190s ]
+
+[ 2017-06-13T17:28:04+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-06-13T17:28:06+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/Cust/userdel/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0169s ]
+SQL: DELETE FROM `login` WHERE `id` = 11 [ RunTime:0.1961s ]
+
+[ 2017-06-13T17:28:07+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0172s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-06-13T17:29:09+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0155s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-06-13T17:29:16+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0244s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-06-13T17:29:23+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/User/admindel/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0165s ]
+SQL: DELETE FROM `admin` WHERE `id` = 11 [ RunTime:0.1942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2017-06-13T17:29:25+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-06-13T17:29:32+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-06-13T17:29:55+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-06-13T17:29:57+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0401s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-06-13T17:30:22+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-06-13T17:30:30+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0176s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-06-13T17:30:33+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-06-13T17:30:53+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0162s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-06-13T17:31:26+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-06-13T17:31:37+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.0167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-06-13T17:32:08+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/cust/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `login` [ RunTime:0.1298s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `login` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\CustController.class.php 第 14 行.
+SQL: SELECT * FROM `login` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-06-13T17:32:17+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-06-13T17:32:41+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-06-13T17:32:44+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/index.php/Admin/user/admin_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: row D:\WebServer\wwwroot\HelloWorld\helloworld-houtai\Application\Admin\Controller\UserController.class.php 第 53 行.
+SQL: SELECT * FROM `admin` ORDER BY id desc LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+

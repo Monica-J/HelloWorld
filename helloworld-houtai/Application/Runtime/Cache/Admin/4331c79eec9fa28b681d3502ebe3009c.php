@@ -71,7 +71,7 @@
     	    <h3>系统管理列表 <small>Administrator List</small></h3>
     	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
-    	        <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
+    	       <!--  <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th> -->
     	        <th width="10%">id</th>
     	        <th width="10%">姓名</th>
     	        <th width="10%">密码</th>
@@ -80,9 +80,9 @@
     	        <th width="17%">操作</th>
   	        </tr>
              <?php if(is_array($admin)): $i = 0; $__LIST__ = $admin;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ad): $mod = ($i % 2 );++$i;?><tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox">
+    	       <!--  <td><input type="checkbox" name="checkbox" id="checkbox">
     	          <label for="checkbox"></label></td>
-
+ -->
 
     	        <td><?php echo ($ad["id"]); ?></td>
     	        <td><?php echo ($ad["name"]); ?></td>
