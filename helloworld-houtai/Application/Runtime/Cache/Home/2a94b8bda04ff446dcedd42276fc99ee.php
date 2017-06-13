@@ -10,8 +10,8 @@
 	<link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/front/css/comment-style.css">
     <link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/front/css/comment.css">
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
-	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>                      
-		
+	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/HelloWorld/helloworld-houtai/Public/front/js/jqPaginator.js"></script>                      
 </head>
 <body>
 	<div class="header" style="border-radius:0px;">
@@ -22,7 +22,7 @@
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
 			<input type="text" style="width:300px;height:30px;border:none;">
-			<button type="submit" class="btn btn-sm">搜 索</button>
+			<button type="submit" class="btn btn-sm ss">搜 索</button>
 		</div>
 
 		<div class="user" style="float:right; margin:-32px 30px 0 0;">
@@ -49,8 +49,6 @@
 		<nav class="navbar navbar-default" role="navigation" style="margin-top:-49px;">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html">首页</a></li>
-				<li style="background-color:#fff"><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/wdsc.html">我的收藏</a></li>
-				<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html">热门话题</a></li>
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html">公告通知</a></li>
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html">学生活动</a></li>
@@ -207,13 +205,47 @@
 						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
 						   		<span class="glyphicon glyphicon-share">分享</span>
 						   	</button></a>
-						   	<button type="button" class="btn btn-md" style="margin-left:140px;">
+						   	<button type="button" class="btn btn-md btn-pl" style="margin-left:140px;">
 						   		<span class="glyphicon glyphicon-pencil">评论</span>
 						   	</button>
 						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
 						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
 						   	</button>
 		    			</div>
+
+		    			<div class="hh" style="display:none;">     
+							<div class="commentAll" style="margin-left:23px;">
+		    					<!--评论区域 begin-->
+							    <div class="reviewArea clearfix">
+							        <textarea class="content comment-input" placeholder="请写下你的评论;" onkeyup="keyUP(this)"></textarea>
+							        <a href="javascript:;" class="plBtn">评论</a>
+							    </div>
+							    <!--评论区域 end-->
+							    <!--回复区域 begin-->
+							    <div class="comment-show">
+							        <div class="comment-show-con clearfix">
+							            <div class="comment-show-con-img pull-left"><img src="/HelloWorld/helloworld-houtai/Public/front/img/header-img-comment_03.png" alt=""></div>
+							            <div class="comment-show-con-list pull-left clearfix">
+							                <div class="pl-text clearfix">
+							                    <a href="#" class="comment-size-name">张三 : </a>
+							                    <span class="my-pl-con">&nbsp;来啊 造作啊!</span>
+							                </div>
+							                <div class="date-dz">
+							                    <span class="date-dz-left pull-left comment-time">2017-6-2 11:11:39</span>
+							                    <div class="date-dz-right pull-right comment-pl-block">
+							                        <a href="javascript:;" class="removeBlock">删除</a>
+							                        <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a>
+							                        <span class="pull-left date-dz-line">|</span>
+							                        <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a>
+							                    </div>
+							                </div>
+							                <div class="hf-list-con"></div>
+							            </div>
+							        </div>
+		    					</div>
+		    					<!--回复区域 end-->
+							</div>
+						</div>
 		    			
 		    		</div>
 
@@ -229,7 +261,7 @@
 		    					<p>如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
 		    				</div>
 		    			</div>
-		    			<img src="img/longline.png" style="margin-left:6px;">
+		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
 		    			<div class="bt">
 		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
 						   		<span class="glyphicon glyphicon-heart">收藏</span>
@@ -277,6 +309,11 @@
 		    			
 		    		</div>
 		    </div>
+
+		    <div style="margin-left:52px;">
+		    	<!--<p id="p1"></p>--><!--返回的页码值-->
+			    <ul class="pagination pagination1"></ul>
+		    </div>
 		    	
 		</div>
 
@@ -299,6 +336,7 @@
 				//添加到后台
 			}
 		}
+		
 
 		function myZan(){
 			var y;
@@ -308,6 +346,15 @@
 			}
 		}
 
+		/*分页*/
+	    jQuery.jqPaginator('.pagination1', {
+	        totalPages: 100,
+	        visiblePages: 10,
+	        currentPage: 3,
+	        onPageChange: function (num, type) {
+	            jQuery('#p1').text(type + '：' + num);
+	        }
+	    });
 		/*插入话题*/
 				var oButton = document.getElementById("huati"), oTextarea = document.getElementById("httext");
 				var TOPIC = "插入话题";
@@ -366,9 +413,21 @@
 				};
 
 		/*显示评论（如何只显示当前div的评论）*/
+		var btnpl = document.getElementsByClassName('btn-pl');
+		for(var i=0;i<btnpl.length;i++){
+			
+				btnpl[i].onclick = function(){
+					
+						jQuery(".hh").toggle();
+					
+				
+			}
+		}
+		/*
 		jQuery(".btn-pl").click(function(){
 			jQuery(".hh").toggle(); 
 		});
+		*/
 	</script>
 	<script type="text/javascript" src="/HelloWorld/helloworld-houtai/Public/front/js/share.js"></script>
 	<script  type="text/javascript">

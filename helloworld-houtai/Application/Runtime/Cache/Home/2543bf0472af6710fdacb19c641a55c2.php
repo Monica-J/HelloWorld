@@ -9,7 +9,7 @@
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>                      
 	
-	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/front/css/amazeui.min.css">
   	<link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/front/css/amazeui.cropper.css">
   	<link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/front/css/custom_up_img.css">
@@ -24,7 +24,7 @@
 	</style>	
 	
 </head>
-<body style="background-image: url(img/bg.png);background-repeat: repeat-y;font-family:'微软雅黑';font-size:16px;">
+<body style="background-image: url(/HelloWorld/helloworld-houtai/Public/front/img/bg.png);background-repeat: repeat-y;font-family:'微软雅黑';font-size:16px;">
   	<!--顶部-->	
   	<div class="header" style="border-radius: 0px;">
 		
@@ -33,8 +33,8 @@
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
-			<input type="text" >
-			<button type="submit" class="btn btn-sm" style="margin-top:-2px;background:#fff;color:#ffA500;">搜 索</button>
+			<input type="text" style="width:300px;height:30px;border:none;">
+			<button type="submit" class="btn btn-sm">搜 索</button>
 		</div>
 
 		<div class="user" style="float:right; margin:-30px 30px 0 0;">

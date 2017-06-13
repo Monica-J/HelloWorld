@@ -32,7 +32,7 @@
 			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
-			   	<a href="login.html"><button type="button" class="btn btn-lg">
+			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Login/login.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
 			</div>
@@ -50,12 +50,14 @@
 		</div>
 
 		<nav class="navbar adnav" role="navigation" style="width:20%;margin:20px 0 0 0;border:1px solid #dcdcdc;">
-				<ul class="nav navbar-nav" style="margin:3px 0 0 20px;">
+				<ul class="nav navbar-nav" style="margin:3px 0 0 -1px;font-size:13px;">
 					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/guanzhu.html"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
 					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/fensi.html"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
 					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子</p></a></li>				
+					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子</p></a></li>
+					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
+					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/wdsc.html"><p>&nbsp;28</p><p style="margin-top:-8px;">收藏</p></a></li>				
 				</ul>
 		</nav>
 

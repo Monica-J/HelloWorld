@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/share.css">
 	<script src="__PUBLIC__/front/js/jquery.js"></script>
 	<script src="__PUBLIC__/front/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/front/js/jqPaginator.js"></script>
 		
 </head>
 <body>
@@ -47,8 +48,6 @@
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
 				<li><a href="__MODULE__/Index/index.html">首页</a></li>
-				<li><a href="__MODULE__/Fun/wdsc.html">我的收藏</a></li>
-				<li><img src="__PUBLIC__/front/img/line.png"></li>
 				<li><a href="__MODULE__/Fun/rmht.html">热门话题</a></li>
 				<li class="active"><a href="__MODULE__/Fun/ggtz.html">公告通知</a></li>
 				<li><a href="__MODULE__/Fun/xshd.html">学生活动</a></li>
@@ -223,6 +222,11 @@
 		    			
 		    		</div>
 		    </div>
+
+		    <div style="margin-left:52px;">
+		    	<!--<p id="p1"></p>--><!--返回的页码值-->
+			    <ul class="pagination pagination1"></ul>
+		    </div>
 		    	
 		</div>
 
@@ -253,6 +257,16 @@
 				//添加到后台
 			}
 		}
+
+		/*分页*/
+	    jQuery.jqPaginator('.pagination1', {
+	        totalPages: 100,
+	        visiblePages: 10,
+	        currentPage: 3,
+	        onPageChange: function (num, type) {
+	            jQuery('#p1').text(type + '：' + num);
+	        }
+	    });
 
 	</script>
 	<script type="text/javascript" src="__PUBLIC__/front/js/share.js"></script>

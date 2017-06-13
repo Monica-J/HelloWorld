@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/front/css/comment.css">
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/HelloWorld/helloworld-houtai/Public/front/js/jqPaginator.js"></script>
 		
 </head>
 <body>
@@ -50,8 +51,6 @@
 		<nav class="navbar navbar-default" role="navigation" style="margin-top:-49px;">
 			<ul class="nav navbar-nav">
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html">首页</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/wdsc.html">我的收藏</a></li>
-				<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html">热门话题</a></li>
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html">公告通知</a></li>
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html">学生活动</a></li>
@@ -264,6 +263,11 @@
 		    			
 		    		</div>
 		    </div>
+
+		    <div style="margin-left:52px;">
+		    	<!--<p id="p1"></p>--><!--返回的页码值-->
+			    <ul class="pagination pagination1"></ul>
+		    </div>
 		    	
 		</div>
 
@@ -293,6 +297,16 @@
 				//添加到后台
 			}
 		}
+
+		/*分页*/
+	    jQuery.jqPaginator('.pagination1', {
+	        totalPages: 100,
+	        visiblePages: 10,
+	        currentPage: 3,
+	        onPageChange: function (num, type) {
+	            jQuery('#p1').text(type + '：' + num);
+	        }
+	    });
 
 		/*显示评论（如何只显示当前div的评论）*/
 		jQuery(".btn-pl").click(function(){
