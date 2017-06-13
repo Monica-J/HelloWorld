@@ -19,37 +19,52 @@
 			<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">注册</label>
 			<div class="login-form">
 				<div class="sign-in-htm">
+				<form class="login-form"role="form" method="post"action="">
 					<div class="group">
 						<label for="user" class="label">用户名</label>
-						<input id="user" type="text" class="input">
+						<input id="user" type="text" class="input" name="name">
 					</div>
 					<div class="group">
 						<label for="pass" class="label">密码</label>
-						<input id="pass" type="password" class="input" data-type="password">
+						<input id="pass" type="password" class="input" name="password" data-type="password">
 					</div>
 					<div class="group">
 						<input id="check" type="checkbox" class="check" checked>
 						<label for="check"><span class="icon"></span> 记住密码</label>
 					</div>
 					<div class="group">
-						<input type="submit" class="button" value="登录" style="color:#FFF;">
-					</div>					
-					<div class="foot-lnk">
-						<a href="#forgot">忘记密码?</a>
-					</div>
+						<input type="submit" class="button" id="login" value="登录" style="color:#FFF;">
+					</div>		
+					</form>
+					<!--  <div class="group">
+         
+
+            <input id="check" type="checkbox" class="check" checked>
+            <label for="check"><span class="icon"></span> 记住密码</label>        
+          </div>
+          <div class="group">
+            <input  type="submit" class="button" id="login" value="登录" style="color:#FFF;">
+
+          </div>            
+          <div class="foot-lnk">
+            <a href="#forgot">忘记密码?</a>
+          </div>
+          </form>
+        				</div> -->
 				</div>
 				<div class="sign-up-htm">
+				 <form role="form" action="/HelloWorld/helloworld-houtai/index.php/Home/Login/signup" method="post" enctype="multipart/form-data">
 					<div class="group">
 						<label for="user" class="label">用户名</label>
-						<input id="user" type="text" class="input">
+						<input id="user" type="text" name="name" class="input">
 					</div>
 					<div class="group">
 						<label for="pass" class="label">密码</label>
-						<input id="pass" type="password" class="input" data-type="password">
+						<input id="pass" type="password" name="password" class="input" data-type="password">
 					</div>
 					<div class="group">
 						<label for="pass" class="label">重复密码</label>
-						<input id="pass" type="password" class="input" data-type="password">
+						<input id="pass" type="password" name="password1"  class="input" data-type="password">
 					</div>
 					<!--
 					<div class="group">
@@ -63,6 +78,7 @@
 					<div class="foot-lnk">
 						<label for="tab-1" style="color:#FF7110;">已有账号?</a>
 					</div>
+					</form>
 				</div>
 			</div>
 		</div>
