@@ -10,7 +10,8 @@
 	<link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/front/css/comment-style.css">
     <link rel="stylesheet" href="/HelloWorld/helloworld-houtai/Public/front/css/comment.css">
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
-	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>	
+	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/HelloWorld/helloworld-houtai/Public/front/js/jqPaginator.js"></script>	
 </head>
 <body>
 	<div class="header" style="border-radius:0px;">
@@ -276,6 +277,11 @@
 		    			
 		    		</div>
 		    </div>
+
+		    <div style="margin-left:52px;">
+		    	<!--<p id="p1"></p>--><!--返回的页码值-->
+			    <ul class="pagination pagination1"></ul>
+		    </div>
 		    	
 		</div>
 
@@ -315,6 +321,16 @@
 				//添加到后台
 			}
 		}
+
+		/*分页*/
+	    jQuery.jqPaginator('.pagination1', {
+	        totalPages: 100,
+	        visiblePages: 10,
+	        currentPage: 3,
+	        onPageChange: function (num, type) {
+	            jQuery('#p1').text(type + '：' + num);
+	        }
+	    });
 
 	</script>
 	<script type="text/javascript" src="/HelloWorld/helloworld-houtai/Public/front/js/share.js"></script>

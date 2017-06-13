@@ -52,8 +52,6 @@
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html" class="ss">首页</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/wdsc.html" class="ss">我的收藏</a></li>
-				<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html">热门话题</a></li>
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html">公告通知</a></li>
 				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html">学生活动</a></li>
