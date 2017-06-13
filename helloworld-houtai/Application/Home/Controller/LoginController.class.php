@@ -14,23 +14,31 @@ class LoginController extends Controller {
                 "name" => I("post.name"),
                 "password" => I("post.password")
           ); 
-         // var_dump($condition);exit;
          $result =$adminUsersModel->where($condition)->count();
+                  // var_dump($condition);exit;
          //查询find.select.count方法
          if($result>0){
             session("name",I("post.name"));
+
+            $username=session('name');
+            // var_dump($username);exit;
+            
+            // $Userresult=$adminUsersModel->where("name=".session("name"))->select();
+            // $this->assign("user",$Userresult);
+            //  var_dump($Userresult); exit;
+            // var_dump($name);exit;
             //session存取值，手册
             // $this->success("登录成功！",U("Index/index"));
             $this->redirect("Home/Index/index");
               // $this->redirect("Admin/News/allCompanynews");
-
-           
+            // var_dump($condition);exit;
          }
          else{
             $this->error("用户名或密码不正确");
          }
     }
          else{
+            // var_dump($condition);exit;
          $this->display();
          }
      }
