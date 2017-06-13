@@ -70,11 +70,11 @@
 				
 				<nav class="navbar adnav" role="navigation">
 					<ul class="nav navbar-nav">
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
+						<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/guanzhu.html"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
 						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
+						<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/fensi.html"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
 						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
+						<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
 					</ul>
 				</nav>
 			</div>
@@ -229,7 +229,7 @@
 		    					<p>如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
 		    				</div>
 		    			</div>
-		    			<img src="img/longline.png" style="margin-left:6px;">
+		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
 		    			<div class="bt">
 		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
 						   		<span class="glyphicon glyphicon-heart">收藏</span>
