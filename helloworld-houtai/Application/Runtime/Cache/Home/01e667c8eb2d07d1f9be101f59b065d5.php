@@ -83,7 +83,7 @@
 				<p>热门话题</p>
 				<div class="ht">
 					<ul>
-						<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/rmht-1.html"><li>1.  软件男篮荣获冠军</li></a>
+						<a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht-1.html"><li>1.  软件男篮荣获冠军</li></a>
 						<a href=""><li>2.  软件男篮</li></a>
 						<a href=""><li>3.  留学生项目</li></a>
 						<a href=""><li>4.  期末考试</li></a>

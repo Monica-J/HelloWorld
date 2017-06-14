@@ -26,7 +26,7 @@
     
     <ul class="nav navbar-nav navbar-right mr">
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
+      <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/Admin/login.html" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav> 
@@ -71,18 +71,19 @@
     	    <!-- <h3>新进图书 <small>Books List</small></h3> -->
     	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
-    	        <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-    	        <th width="20%">版块名称</th>
-    	        <th width="8%">版主</th>
+    	       <!--  <th width="4%"><input type="checkbox" name="checkbox10" id="checkbox10"></th> -->
+             <th width="8%">id</th>
+    	        <th width="25%">版块名称</th>
+    	        <th width="12%">版主</th>
     	        <!-- <th width="27%">出版社</th> -->
-    	        <th width="10%">创建日期</th>
-    	        <!-- <th width="10%">ISBN</th>
-    	        <th width="10%">ISSN</th>
-    	        <th width="11%">操作</th> -->
+    	        <th width="15%">创建日期</th>
+    	       
+    	        <th width="20%">操作</th>
   	        </tr>
     	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox">
-    	          </td>
+    	       <!--  <td><input type="checkbox" name="checkbox" id="checkbox">
+    	          </td> -->
+              <td>id</td>
     	        <td>我的收藏</td>
     	        <td>李婧</td>
     	        <!-- <td>Vestibulum id ligula porta felis euismod</td> -->
@@ -91,126 +92,7 @@
     	        <td>1234567890</td> -->
     	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
   	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
-    	        <td>热门话题</td>
-    	        <td>李婧</td>
-    	        <!-- <td>Vestibulum id ligula porta felis euismod</td> -->
-    	        <td>2014-05-22 </td>
-    	        <!-- <td>1234567890</td>
-    	        <td>1234567890</td> -->
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox3" id="checkbox3"></td>
-    	        <td>公告通知</td>
-    	        <td>李婧</td>
-    	        <!-- <td>Vestibulum id ligula porta felis euismod</td> -->
-    	        <td>2014-05-22 </td>
-    	        <!-- <td>1234567890</td>
-    	        <td>1234567890</td> -->
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox4" id="checkbox4"></td>
-    	        <td>学生活动</td>
-    	        <td>李婧</td>
-    	        <!-- <td>Vestibulum id ligula porta felis euismod</td> -->
-    	        <td>2014-05-22 </td>
-    	        <!-- <td>1234567890</td>
-    	        <td>1234567890</td> -->
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox5" id="checkbox5"></td>
-    	        <td>技术交流</td>
-    	        <td>李婧</td>
-    	        <!-- <td>Vestibulum id ligula porta felis euismod</td> -->
-    	        <td>2014-05-22 </td>
-    	        <!-- <td>1234567890</td>
-    	        <td>1234567890</td> -->
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox6" id="checkbox6"></td>
-    	        <td>资料共享</td>
-    	        <td>李婧</td>
-    	        <!-- <td>Vestibulum id ligula porta felis euismod</td> -->
-    	        <td>2014-05-22 </td>
-    	        <!-- <td>1234567890</td>
-    	        <td>1234567890</td> -->
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox7" id="checkbox7"></td>
-    	        <td>树洞吐槽</td>
-    	        <td>李婧</td>
-    	        <!-- <td>Vestibulum id ligula porta felis euismod</td> -->
-    	        <td>2014-05-22 </td>
-    	        <!-- <td>1234567890</td>
-    	        <td>1234567890</td> -->
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox8" id="checkbox8"></td>
-    	        <td>院友录</td>
-    	        <td>李婧</td>
-    	        <!-- <td>Vestibulum id ligula porta felis euismod</td> -->
-    	        <td>2014-05-22 </td>
-    	        <!-- <td>1234567890</td>
-    	        <td>1234567890</td> -->
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <!-- <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox15"></td>
-    	        <td>China: a history</td>
-    	        <td>宋晓云</td>
-    	        <td>Vestibulum id ligula porta felis euismod</td>
-    	        <td>2014-05-22 </td>
-    	        <td>1234567890</td>
-    	        <td>1234567890</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox14"></td>
-    	        <td>China: a history</td>
-    	        <td>宋晓云</td>
-    	        <td>Vestibulum id ligula porta felis euismod</td>
-    	        <td>2014-05-22 </td>
-    	        <td>1234567890</td>
-    	        <td>1234567890</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox13"></td>
-    	        <td>China: a history</td>
-    	        <td>宋晓云</td>
-    	        <td>Vestibulum id ligula porta felis euismod</td>
-    	        <td>2014-05-22 </td>
-    	        <td>1234567890</td>
-    	        <td>1234567890</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox12"></td>
-    	        <td>China: a history</td>
-    	        <td>宋晓云</td>
-    	        <td>Vestibulum id ligula porta felis euismod</td>
-    	        <td>2014-05-22 </td>
-    	        <td>1234567890</td>
-    	        <td>1234567890</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox11"></td>
-    	        <td>China: a history</td>
-    	        <td>宋晓云</td>
-    	        <td>Vestibulum id ligula porta felis euismod</td>
-    	        <td>2014-05-22 </td>
-    	        <td>1234567890</td>
-    	        <td>1234567890</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr> -->
+    	     
   	      </table>
   	    </div>
     	  <div class="input-group pull-left form">

@@ -28,7 +28,7 @@
     
     <ul class="nav navbar-nav navbar-right mr">
       <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-star"></span>欢迎：Administrator</a></li>
-      <li><a href="#" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
+      <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/Admin/login.html" class="navbar-brand"><span class="glyphicon glyphicon-log-out"></span>退出系统</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav> 
@@ -55,11 +55,11 @@
             <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/post/post_add.html">置顶帖子</a></li>
             <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/post/post_list.html">管理帖子</a></li>
           </ul>
-          <h3><a href="#"><span class="glyphicon glyphicon-book"></span>版块管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
+         <!--  <h3><a href="#"><span class="glyphicon glyphicon-book"></span>版块管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
             <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_add.html">添加版块</a></li>
             <li><a href="/HelloWorld/helloworld-houtai/index.php/Admin/section/section_list.html">版块列表</a></li>
-          </ul>
+          </ul> -->
          
         </div>
       </div>
@@ -73,131 +73,38 @@
     	    <h3>帖子管理列表 <small>post List</small></h3>
     	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
-    	        <th width="5%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-    	        <th width="59%">帖子标题</th>
-    	        <th width="7%">作者</th>
+    	       <!--  <th width="5%"><input type="checkbox" name="checkbox10" id="checkbox10"></th> -->
+             <th width="5%">id</th>
+    	        <th width="45%">帖子标题</th>
+              <th width="15%">版块</th>
+    	        <th width="10%">作者</th>
     	        <th width="10%">添加时间</th>
-    	        <th width="7%">访问量</th>
-    	        <th width="12%">操作</th>
+    	     
+    	        <th width="15%">操作</th>
   	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox"></label></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>张黎明</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox2" id="checkbox2"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox3" id="checkbox3"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox4" id="checkbox4"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox5" id="checkbox5"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox6" id="checkbox6"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox7" id="checkbox7"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox8" id="checkbox8"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox15"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox14"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox13"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox12"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
-    	      <tr>
-    	        <td><input type="checkbox" name="checkbox" id="checkbox11"></td>
-    	        <td>&ldquo;深化改革共发展、文理学科齐芬芳&rdquo;——北京国际数学研究中心与国家发展研究院联合开展</td>
-    	        <td>宋晓云</td>
-    	        <td>2014-05-22 </td>
-    	        <td>5412</td>
-    	        <td><a href="#">修改</a><a href="#"></a> <a href="#">删除</a></td>
-  	        </tr>
+             <?php if(is_array($dynamic)): $i = 0; $__LIST__ = $dynamic;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ad): $mod = ($i % 2 );++$i;?><tr>
+  <!--   	        <td><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox"></label></td> -->
+              <td><?php echo ($ad["id"]); ?></td>
+    	        <td><?php echo ($ad["name"]); ?></td>
+              <td><?php echo ($ad["section"]); ?></td>
+    	        <td><?php echo ($ad["writer"]); ?></td>
+    	        <td><?php echo ($ad["addtime"]); ?></td>
+    	      
+    	        <td> <a class="link-del" href="/HelloWorld/helloworld-houtai/index.php/Admin/Post/postdel/id/<?php echo ($ad["id"]); ?>">删除</a></td>
+  	        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
   	      </table>
   	    </div>
-    	  <div class="input-group pull-left form">
-    	    <button type="submit" class="btn btn-danger "> 删 除</button>
-  	    </div>
+    	
     	 
-    	  <ul class="pagination pull-right" >
+    	 <!--  <ul class="pagination pull-center" style="text-align:center">
     	    <li class="disabled"><a href="#">&laquo;</a></li>
     	    <li class="active"><a href="#">1</a></li>
     	    <li><a href="#">2</a></li>
     	    <li><a href="#">3</a></li>
     	    <li><a href="#">4</a></li>
     	    <li><a href="#">&raquo;</a></li>
-  	    </ul>
+  	    </ul> -->
+         <div class="list-page" style="text-align:center"> <?php echo ($page); ?></div>
   	  </div>
 	</div>
         	

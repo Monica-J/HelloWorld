@@ -9,13 +9,14 @@
 	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/share.css">
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
 	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/HelloWorld/helloworld-houtai/Public/front/js/jqPaginator.js"></script>
 		
 </head>
 <body>
 	<div class="header" style="border-radius:0px;">
 		
 		<div class="logo">
-			<a href="index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png" style="margin:3px 0 0 30px;"></a>
+			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png" style="margin:3px 0 0 30px;"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
@@ -25,16 +26,16 @@
 
 		<div class="user" style="float:right; margin:-32px 30px 0 0;">
 			<div class="btn-group">
-			  	<a href="admin.html"><button type="button" class="btn btn-lg">
+			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
 			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
 			  	</button></a>	  	
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-envelope"></span>
 			   	</button></a>-->
-			   	<a href="shezhi.html"><button type="button" class="btn btn-lg">
+			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
-			   	<a href="login.html"><button type="button" class="btn btn-lg">
+			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Login/login.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
 			</div>
@@ -46,23 +47,21 @@
 		
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
-				<li><a href="index.html">首页</a></li>
-				<li><a href="wdsc.html">我的收藏</a></li>
-				<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-				<li class="active"><a href="rmht.html">热门话题</a></li>
-				<li><a href="ggtz.html">公告通知</a></li>
-				<li><a href="xshd.html">学生活动</a></li>
-				<li><a href="jsjl.html">技术交流</a></li>
-				<li><a href="files_share.html">资料共享</a></li>
-				<li><a href="sdtc.html">树洞吐槽</a></li>
-				<li><a href="contacts.html">院友录</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html">首页</a></li>
+				<li class="active"><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html">热门话题</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html">公告通知</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html">学生活动</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/jsjl.html">技术交流</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/files_share.html">资料共享</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/sdtc.html">树洞吐槽</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/contacts.html">院友录</a></li>
 			</ul>
 		</nav>
 
 		<div class="right">
 
 			<div class="admin">
-				<a href="admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
+				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
 				<p class="name">你的梦里有我吗</p>
 				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
 				
@@ -254,6 +253,11 @@
 		    			
 		    		</div>
 		    </div>
+
+		    <div style="margin-left:52px;">
+		    	<!--<p id="p1"></p>--><!--返回的页码值-->
+			    <ul class="pagination pagination1"></ul>
+		    </div>
 		    	
 		</div>
 
@@ -283,6 +287,16 @@
 				//添加到后台
 			}
 		}
+
+		/*分页*/
+	    jQuery.jqPaginator('.pagination1', {
+	        totalPages: 100,
+	        visiblePages: 10,
+	        currentPage: 3,
+	        onPageChange: function (num, type) {
+	            jQuery('#p1').text(type + '：' + num);
+	        }
+	    });
 	</script>
 	<script type="text/javascript" src="/HelloWorld/helloworld-houtai/Public/front/js/share.js"></script>
 	<script  type="text/javascript">
