@@ -24,24 +24,24 @@
 			<input type="text" style="width:300px;height:30px;border:none;">
 			<button type="submit" class="btn btn-sm ss">搜 索</button>
 		</div>
-          <volist name="user" id="u">
-		<div class="user" style="float:right; margin:-32px 30px 0 0;">
-			<div class="btn-group">
-			  	<a href="__MODULE__/Mine/admin.html"><button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> {$u.name}
-			  	</button></a>	  	
-			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-envelope"></span>
-			   	</button></a>-->
-			   	<a href="__MODULE__/Mine/shezhi.html"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-cog"></span>
-			   	</button></a>
-			   	<a href="__MODULE__/Login/login.html"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-log-in"></span>
-			   	</button></a>
+        <volist name="user" id="u">
+			<div class="user" style="float:right; margin:-32px 30px 0 0;">
+				<div class="btn-group">
+				  	<a href="__MODULE__/Mine/admin.html"><button type="button" class="btn btn-lg">
+				  		<span class="glyphicon glyphicon-user"></span> {$u.name}
+				  	</button></a>	  	
+				   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
+				   		<span class="glyphicon glyphicon-envelope"></span>
+				   	</button></a>-->
+				   	<a href="__MODULE__/Mine/shezhi.html"><button type="button" class="btn btn-lg">
+				   		<span class="glyphicon glyphicon-cog"></span>
+				   	</button></a>
+				   	<a href="__MODULE__/Login/login.html"><button type="button" class="btn btn-lg">
+				   		<span class="glyphicon glyphicon-log-in"></span>
+				   	</button></a>
+				</div>
 			</div>
-		</div>
-          </volist>
+        </volist>
 	</div>
 
 	<div class="content">
@@ -109,12 +109,19 @@
 		<div class="left">		
 				
 			<div class="Main" id="opwri">     
+<<<<<<< HEAD
 			    <div class="Input_Box">     
 			        <form method="post" action="__MODULE__/Index/adddongtai" enctype="multipart/form-data">
 				        <textarea id="httext" name="content" style="width: 767px;height: 135px;margin: 96px 0 0 230px;"></textarea>	     
+=======
+			   <div class="Input_Box">     
+			        <form method="post" action="__MODULE__/Index/adddongtai" enctype="multipart/form-data">
+				        <textarea id="httext" name="content" style="width: 687px;height: 135px;margin: 96px 0 0 230px;"></textarea>	     
+>>>>>>> 5512c63151af05ff29297b8cba150f395b674ad6
 				        <div class="Input_Foot">
 				        
 					        <button type="button" class="btn btn-m" id="huati">
+<<<<<<< HEAD
 								<img src="__PUBLIC__/front/img/huati.png"><small>插入话题</small>	
 							</button>
 					        <input type="submit" class="submit" value="确认"> 
@@ -155,6 +162,12 @@
 								<img src="img/huati.png">插入话题	
 							<tton>
 					        <input type="submit" class="submit" value="确认"> 
+=======
+								<img src="__PUBLIC__/front/img/huati.png"><small name="section">插入话题</small>	
+							</button>
+					        <input type="submit" class="submit" value="确认">
+
+>>>>>>> 5512c63151af05ff29297b8cba150f395b674ad6
 					        <div class="options" style="margin:-28px 0 0 120px;">
 						        <input list="browsers" placeholder="选择你要发表到..." style="width:150px;"> 
 								<datalist id="browsers">
@@ -164,11 +177,19 @@
 								  	<option value="技术交流">
 								  	<option value="树洞吐槽">
 								</datalist>
+<<<<<<< HEAD
 							</div>
 					    </div>
 				    </form>
 			    </div> -->
 
+=======
+							</div> 
+					    </div>
+				    </form>
+			    </div>
+			    
+>>>>>>> 5512c63151af05ff29297b8cba150f395b674ad6
 		    </div>
 
 		    <div class="tiezi">
@@ -176,7 +197,11 @@
 		    		<div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="__PUBLIC__/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
+<<<<<<< HEAD
 		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">{$d.writer}</p>
+=======
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">{$d.name}</p>
+>>>>>>> 5512c63151af05ff29297b8cba150f395b674ad6
 		    				<p class="time" style="margin:5px 0 0 80px;font-size:14px;color:#fff;;background:#ffa500; width:65px;border-radius: 5px;">&nbsp;{$d.section}&nbsp;</p>
 		    				<p class="time" style="margin:-20px 0 0 150px; font-size:14px;">{$d.addtime}</p>
 
