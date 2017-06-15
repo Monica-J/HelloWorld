@@ -131,7 +131,8 @@
 		    			<div class="cont">
 		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
 		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">代码使我快乐</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
+		    				<p class="time" style="margin:5px 0 0 80px;font-size:14px;color:#fff;;background:#ffa500; width:65px;border-radius: 5px;">&nbsp;热门话题&nbsp;</p>
+		    				<p class="time" style="margin:-20px 0 0 150px; font-size:14px;">8:00</p>
 		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
 		    					<span class="glyphicon glyphicon-plus"> 关注</span>
 		    				</button>

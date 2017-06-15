@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>
 <html lang="zh-cn">
 <head>
   	<title>资料共享</title>
@@ -7,64 +7,67 @@
   	<meta name="viewport" content='width=device-width,initial-scale=1'><!--视口-->
   	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/bootstrap.min.css" media="screen">
   	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/style.css">
-  	
-  	<link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/iconfont.css">
-    <link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/fileUpload.css">
-
       
-    <script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery.js"></script>
-  	<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
-  	<script src="/HelloWorld/helloworld-houtai/Public/front/js/layer.js"></script>
+    <!--文件上传-->    
+    <link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer.css">
+    <link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer-dragdropbox-theme.css">
+    <link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/upload/tomorrow.css">
+    <link rel="stylesheet" type="text/css" href="/HelloWorld/helloworld-houtai/Public/front/css/upload/custom.css">
+
+   
+    
+
+    
 
 </head>
 <body>
 	<div class="header">
 		
 		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
+			<a href="index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
 		</div>
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
-      <input type="text" style="width:300px;height:30px;border:none;">
-      <button type="submit" class="btn btn-sm">搜 索</button>
-    </div>
+            <input type="text" style="width:300px;height:30px;border:none;">
+            <button type="submit" class="btn btn-sm">搜 索</button>   
+        </div>
 
 		<div class="user" style="float:right; margin:-30px 30px 0 0;">
 			<div class="btn-group">
-			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
+			  	<a href="admin.html"><button type="button" class="btn btn-lg">
 			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
 			  	</button></a>	  	
 			   	
-			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shezhi.html"><button type="button" class="btn btn-lg">
+			   	<a href="shezhi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-cog"></span>
 			   	</button></a>
-          <a href="/HelloWorld/helloworld-houtai/index.php/Home/Login/login.html"><button type="button" class="btn btn-lg">
+          <a href="login.html"><button type="button" class="btn btn-lg">
             <span class="glyphicon glyphicon-log-in"></span>
           </button></a>
 			</div>
 		</div>
-
+    
 	</div>
 
 	<div class="content">
 
 		<nav class="navbar navbar-default" role="navigation">
 			<ul class="nav navbar-nav">
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html">首页</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html">热门话题</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html">公告通知</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html">学生活动</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/jsjl.html">技术交流</a></li>
-				<li class="active"><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/files_share.html">资料共享</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/sdtc.html">树洞吐槽</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/contacts.html">院友录</a></li>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="rmht.html">热门话题</a></li>
+				<li><a href="ggtz.html">公告通知</a></li>
+				<li><a href="xshd.html">学生活动</a></li>
+				<li><a href="jsjl.html">技术交流</a></li>
+				<li class="active"><a href="files_share.html">资料共享</a></li>
+				<li><a href="sdtc.html">树洞吐槽</a></li>
+				<li><a href="contacts.html">院友录</a></li>
 			</ul>
 		</nav>
 
 		<div class="right">
 
 			<div class="admin">
-				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
+				<a href="admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
 				<p class="name">你的梦里有我吗</p>
 				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
 				
@@ -107,7 +110,20 @@
 		</div>
 
 		<div class="left">
-            <div id="fileUploadContent" class="fileUploadContent"></div>
+        <div class="Input_box">
+            <section id="section4" class="section-white" style="margin: -90px 0 0 -200px;">
+                
+                <div class="container">
+                <br><br>
+                    <form action="" method="post" enctype="multipart/form-data" class="text-center">
+                        <input type="file" name="files[]" id="demo-fileInput-4" multiple>
+                        <input type="submit" class="btn-custom green" value="提交">
+                    </form>
+                </div>            
+                    <br><hr><br>
+                               
+                </section>
+            </div>
 	    
 	    	<div id="list">
 	    		<ul id="tabs">
@@ -125,61 +141,101 @@
               					<th style="width:50px;">大小</th>
             				</tr>
             				<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/pdf.png" style="width:20px;height:20px;" />&nbsp;二战学长的挥泪经验</td>
+              					<td>
+              						<a href="files/考研流程.pdf">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/pdf.png" style="width:20px;height:20px;" />&nbsp;考研流程
+              						</a>
+              					</td>
               					<td>2017-05-24</td>
               					<td>Adobe Acrobat Document</td>
               					<td>655KB</td>
             				</tr>
             				<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/rar.png" style="width:20px;height:20px;" />&nbsp;常用英语8000词</td>
+              					<td>
+              						<a href="files/常用英语8000词.zip">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/rar.png" style="width:20px;height:20px;" />&nbsp;常用英语8000词
+              						</a>
+              					</td>
               					<td>2017-05-24</td>
               					<td>WinRAR ZIP压缩文件</td>
               					<td>6,143KB</td>
             				</tr>
             				<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/excel.png" style="width:20px;height:20px;" />&nbsp;我院2016届考研情况</td>
+              					<td>
+              						<a href="files/2018考研英语基础阶段学习计划.xlsx">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/excel.png" style="width:20px;height:20px;" />&nbsp;2018考研英语基础阶段学习计划
+              						</a>
+              					</td>
               					<td>2017-05-25</td>
              					<td>Microsoft Excel</td>
-              					<td>465KB</td>
+              					<td>15KB</td>
             				</tr>
             				<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td>
+              						<a href="files/电子科技大学硕士考试大纲.doc">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲
+              						</a>
+              					</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td>
+              						<a href="files/电子科技大学硕士考试大纲.doc">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲
+              						</a>
+              					</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td>
+              						<a href="files/电子科技大学硕士考试大纲.doc">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲
+              						</a>
+              					</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td>
+              						<a href="files/电子科技大学硕士考试大纲.doc">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲
+              						</a>
+              					</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td>
+              						<a href="files/电子科技大学硕士考试大纲.doc">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲
+              						</a>
+              					</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             				<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td>
+              						<a href="files/电子科技大学硕士考试大纲.doc">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲
+              						</a>
+              					</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
             				</tr>
             					<tr>
-              					<td><img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲</td>
+              					<td>
+              						<a href="files/电子科技大学硕士考试大纲.doc">
+              							<img src="/HelloWorld/helloworld-houtai/Public/front/img/word.png" style="width:20px;height:20px;" />&nbsp;电子科技大学硕士考试大纲
+              						</a>
+              					</td>
               					<td>2017-05-25</td>
               					<td>Microsoft Word</td>
               					<td>856KB</td>
@@ -230,43 +286,30 @@
 
 	<br/>
 	<br/>
-	<br/>		
-	<div class="footer">
+	<br/>
+    </div>		
+	<div class="footer" style="margin-top:400px;">
 		<br/>
 		<br/>
 		<p>地址：石家庄市裕华区南二环东路20号</p>
 	</div>
 		
 		
-	
-<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
-<script type="text/javascript" src="/HelloWorld/helloworld-houtai/Public/front/js/fileUpload.js"></script>
 <script type="text/javascript">
-    $("#fileUploadContent").initUpload({
-        "uploadUrl":"#",//上传文件信息地址
-        "progressUrl":"#",//获取进度信息地址，可选，注意需要返回的data格式如下（{bytesRead: 102516060, contentLength: 102516060, items: 1, percent: 100, startTime: 1489223136317, useTime: 2767}）
-        "showSummerProgress":false,//总进度条，默认限制
-        //"size":350,//文件大小限制，单位kb,默认不限制
-        //"maxFileNumber":1,//文件个数限制，为整数
-        //"filelSavePath":"",//文件上传地址，后台设置的根目录
-        //"beforeUpload":beforeUploadFun,//在上传前执行的函数
-        //"onUpload":onUploadFun，//在上传后执行的函数
-        autoCommit:false,//文件是否自动上传
-        //"fileType":['png','jpg','docx','doc']，//文件类型限制，默认不限制，注意写的是文件后缀
-    })
-    function beforeUploadFun(opt){
-        opt.otherData =[{"name":"你要上传的参数","value":"你要上传的值"}];
-    }
-    function onUploadFun(opt,data){
-        alert(data);
-        uploadTools.uploadError(opt);//显示上传错误
-    }
-
-
+	
+	
 </script>
 
 
+
+<!--文件tabs-->
 <script src="/HelloWorld/helloworld-houtai/Public/front/js/jquery-1.7.2.min.js"></script>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="/HelloWorld/helloworld-houtai/Public/front/js/bootstrap.min.js"></script>
+<script src="/HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js" type="text/javascript"></script>
+<script src="/HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js" type="text/javascript"></script>
+<script src="/HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js" type="text/javascript"></script>
+<script src="/HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js" type="text/javascript"></script>
 <script>
     function resetTabs(){
         $("#tabsContent > div").hide(); //Hide all tabsContent
@@ -304,5 +347,18 @@
     })()
 </script>
 
+
+<!--文件下载-->
+<script type="text/javascript">
+function downloadFile(fileName, content){
+    var aLink = document.createElement('a');
+    var blob = new Blob([content]);
+    var evt = document.createEvent("HTMLEvents");
+    evt.initEvent("click", false, false);//initEvent 不加后两个参数在FF下会报错
+    aLink.download = fileName;
+    aLink.href = URL.createObjectURL(blob);
+    aLink.dispatchEvent(evt);
+}
+</script>
 </body>
 </html>

@@ -24,24 +24,24 @@
 			<input type="text" style="width:300px;height:30px;border:none;">
 			<button type="submit" class="btn btn-sm ss">搜 索</button>
 		</div>
-          <volist name="user" id="u">
-		<div class="user" style="float:right; margin:-32px 30px 0 0;">
-			<div class="btn-group">
-			  	<a href="__MODULE__/Mine/admin.html"><button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> {$u.name}
-			  	</button></a>	  	
-			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-envelope"></span>
-			   	</button></a>-->
-			   	<a href="__MODULE__/Mine/shezhi.html"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-cog"></span>
-			   	</button></a>
-			   	<a href="__MODULE__/Login/login.html"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-log-in"></span>
-			   	</button></a>
+        <volist name="user" id="u">
+			<div class="user" style="float:right; margin:-32px 30px 0 0;">
+				<div class="btn-group">
+				  	<a href="__MODULE__/Mine/admin.html"><button type="button" class="btn btn-lg">
+				  		<span class="glyphicon glyphicon-user"></span> {$u.name}
+				  	</button></a>	  	
+				   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
+				   		<span class="glyphicon glyphicon-envelope"></span>
+				   	</button></a>-->
+				   	<a href="__MODULE__/Mine/shezhi.html"><button type="button" class="btn btn-lg">
+				   		<span class="glyphicon glyphicon-cog"></span>
+				   	</button></a>
+				   	<a href="__MODULE__/Login/login.html"><button type="button" class="btn btn-lg">
+				   		<span class="glyphicon glyphicon-log-in"></span>
+				   	</button></a>
+				</div>
 			</div>
-		</div>
-          </volist>
+        </volist>
 	</div>
 
 	<div class="content">
@@ -49,13 +49,13 @@
 		<nav class="navbar navbar-default" role="navigation" style="margin-top:-49px;">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="__MODULE__/Index/index.html">首页</a></li>
-				<li><a href="__MODULE__/Fun/rmht.html">热门话题</a></li>
-				<li><a href="__MODULE__/Fun/ggtz.html">公告通知</a></li>
-				<li><a href="__MODULE__/Fun/xshd.html">学生活动</a></li>
-				<li><a href="__MODULE__/Fun/jsjl.html">技术交流</a></li>
-				<li><a href="__MODULE__/Fun/files_share.html">资料共享</a></li>
-				<li><a href="__MODULE__/Fun/sdtc.html">树洞吐槽</a></li>
-				<li><a href="__MODULE__/Fun/contacts.html">院友录</a></li>
+				<li><a href="__MODULE__/Fun/rmht.html" onclick="location.href='__MODULE__/Fun/rmht'">热门话题</a></li>
+				<li><a href="__MODULE__/Fun/ggtz.html" onclick="location.href='__MODULE__/Fun/ggtz'">公告通知</a></li>
+				<li><a href="__MODULE__/Fun/xshd.html" onclick="location.href='__MODULE__/Fun/xshd'">学生活动</a></li>
+				<li><a href="__MODULE__/Fun/jsjl.html" onclick="location.href='__MODULE__/Fun/jsjl'">技术交流</a></li>
+				<li><a href="__MODULE__/Fun/files_share.html" onclick="location.href='__MODULE__/Fun/files_share'">资料共享</a></li>
+				<li><a href="__MODULE__/Fun/sdtc.html" onclick="location.href='__MODULE__/Fun/sdtc'">树洞吐槽</a></li>
+				<li><a href="__MODULE__/Fun/contacts.html" onclick="location.href='__MODULE__/Fun/contacts'">院友录</a></li>
 			</ul>
 		</nav>
 
@@ -109,17 +109,29 @@
 		<div class="left">		
 				
 			<div class="Main" id="opwri">     
-			    <div class="Input_Box">     
-			        <form>
+			   <div class="Input_Box">     
+			        <form method="post" action="__MODULE__/Index/adddongtai" enctype="multipart/form-data">
 				        <textarea id="httext" name="content" style="width: 687px;height: 135px;margin: 96px 0 0 230px;"></textarea>	     
 				        <div class="Input_Foot">
 					        <button type="button" class="btn btn-m" id="huati">
-								<img src="__PUBLIC__/front/img/huati.png">插入话题	
+								<img src="__PUBLIC__/front/img/huati.png"><small name="section">插入话题</small>	
 							</button>
-					        <input type="submit" class="submit" value="确认"> 
+					        <input type="submit" class="submit" value="确认">
+
+					        <div class="options" style="margin:-28px 0 0 120px;">
+						        <input list="browsers" placeholder="选择你要发表到..." style="width:150px;"> 
+								<datalist id="browsers">
+								  	<option value="热门话题">
+								  	<option value="公告通知">
+								  	<option value="学生活动">
+								  	<option value="技术交流">
+								  	<option value="树洞吐槽">
+								</datalist>
+							</div> 
 					    </div>
 				    </form>
-			    </div>   
+			    </div>
+			    
 		    </div>
 
 		    <div class="tiezi">
@@ -128,10 +140,18 @@
 		    			<div class="cont">
 		    				<a href=""><img src="__PUBLIC__/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
 		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">{$d.name}</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">{$d.addtime}</p>
-		    				<button type="button" class="btn btn-sm " style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
+		    				<p class="time" style="margin:5px 0 0 80px;font-size:14px;color:#fff;;background:#ffa500; width:65px;border-radius: 5px;">&nbsp;{$d.section}&nbsp;</p>
+		    				<p class="time" style="margin:-20px 0 0 150px; font-size:14px;">{$d.addtime}</p>
+
+		    				<!-- <p class="username" style="margin:-50px 0 0 80px; font-size:15px;">{$d.name}</p> -->
+		    			<!-- 	<p class="time" style="margin:-20px 0 0 180px;font-size:14px;color:#fff;;background:#ffa500; width:65px;border-radius: 5px;">&nbsp;{$d.section}&nbsp;</p>
+ -->
+		    				<!-- <p class="time" style="margin:5px 0 0 80px; font-size:14px;">{$d.addtime}</p> -->
+		    					<button type="button" class="btn btn-sm " style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
+		    					
 		    					<span class="glyphicon glyphicon-plus"> 关注</span>
 		    				</button>
+		    				
 		    				<div class="co">
 		    					<p>{$d.content}</p>
 		    				</div>
@@ -191,10 +211,10 @@
 		    		
 		    </div>
 
-		    <div style="margin-left:52px;">
+		   <!--  <div style="margin-left:52px;"> -->
 		    	<!--<p id="p1"></p>--><!--返回的页码值-->
-			    <ul class="pagination pagination1"></ul>
-		    </div>
+			  <!--   <ul class="pagination pagination1"></ul>
+		    </div> -->
 		    	
 		</div>
 
@@ -231,7 +251,7 @@
 	    jQuery.jqPaginator('.pagination1', {
 	        totalPages: 100,
 	        visiblePages: 10,
-	        currentPage: 3,
+	        currentPage: 1,
 	        onPageChange: function (num, type) {
 	            jQuery('#p1').text(type + '：' + num);
 	        }
