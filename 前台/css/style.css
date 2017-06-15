@@ -52,7 +52,7 @@ div{
 	color: #ffA500;
 }
 .nav>li>a{
-	padding: 15px 22px;
+	padding: 15px 29px;
 }		
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: #ffA500;
