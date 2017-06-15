@@ -26,7 +26,7 @@
 </head>
 <body style="background-image: url(/HelloWorld/helloworld-houtai/Public/front/img/bg.png);background-repeat: repeat-y;font-family:'微软雅黑';font-size:16px;">
   	<!--顶部-->	
-  	<div class="header" style="border-radius: 0px;">
+  	<?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="header" style="border-radius: 0px;">
 		
 		<div class="logo" style="margin:0 0 0 30px;">
 			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
@@ -40,7 +40,7 @@
 		<div class="user" style="float:right; margin:-30px 30px 0 0;">
 			<div class="btn-group">
 			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
+			  		<span class="glyphicon glyphicon-user"></span> <?php echo ($u["name"]); ?>
 			  	</button></a>	  	
 
 			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shezhi.html"><button type="button" class="btn btn-lg">
@@ -55,7 +55,7 @@
 		</div>
 
 	</div>
-  	
+  	</div>
   	<!--内容-->
   	<div class="content" style="margin:50px 0 0 310px;">
   		<div class="shezhi_page">
@@ -123,13 +123,14 @@
 		  						</div>
 				</div>
 			</div>
-			
+			<volist name="user" id="u">
 			<div class="infor" style="margin: 10px 0 0 55px;">
-	            <form method="post" action="" class="role">
+	            <form method="post" action="/HelloWorld/helloworld-houtai/index.php/Home/mine/xiugai" class="role">
 						<div class="form-group">
     						<img src="/HelloWorld/helloworld-houtai/Public/front/img/name.png" style="float:left; margin:14px 0 0 0;">
-    						<label for="name" style="margin: 15px 0 0 25px;">昵称</label>
-    						<input type="text" class="form-control" id="name" placeholder="请输入名字" style="    width: 500px;margin: -30px 0 0 120px;">
+    						<label for="name" style="margin: 15px 0 0 25px;">密码</label>
+    						<!-- <input type="text" name="username" id="username" value="<?php echo ($u["username"]); ?>"> -->
+    						<input type="text" class="form-control" name="password" id="password" placeholder="请输入密码" value="<?php echo ($u["password"]); ?>" style="    width: 500px;margin: -30px 0 0 120px;">
   						</div>
   						<!--
   						<div class="form-group">
@@ -149,13 +150,13 @@
   						-->
   						<div class="form-group">
   							<img src="/HelloWorld/helloworld-houtai/Public/front/img/bir.png" style="float:left; margin:14px 0 0 0;">
-					    	<label for="name" style="margin:15px 0 0 25px;">生日</label>
-					    	<input type="date" class="form-control" style="margin: -30px 0 0 120px;width: 500px;"></textarea>
+					    	<label for="name"  style="margin:15px 0 0 25px;">生日</label>
+					    	<input type="date" name="birthday" id="birthday" value="<?php echo ($u["birthday"]); ?>" class="form-control" style="margin: -30px 0 0 120px;width: 500px;"></textarea>
 					  	</div>
   						<div class="form-group">
   							<img src="/HelloWorld/helloworld-houtai/Public/front/img/text.png" style="float:left; margin:14px 0 0 0;">
 					    	<label for="name" style="margin:13px 0 0 9px;">个性签名</label>
-					    	<textarea class="form-control" rows="3"  placeholder="介绍你自己吧" style="margin: -30px 0 0 120px;width: 500px;"></textarea>
+					    	<input type="textarea" class="form-control" name="gxqm" id="gxqm" value="<?php echo ($u["gxqm"]); ?>" rows="3"  placeholder="介绍你自己吧" style="margin: -30px 0 0 120px;width: 500px;"></input>
 					  	</div>
   						
 						
@@ -165,8 +166,7 @@
 
 					</div>
 				</form>
-	        </div>							
-  							
+	        </div><?php endforeach; endif; else: echo "" ;endif; ?>					
   		</div>  			
   	</div>
 

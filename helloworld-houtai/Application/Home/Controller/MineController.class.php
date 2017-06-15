@@ -72,6 +72,45 @@ class MineController extends Controller {
     		// var_dump($Dynamicresult);exit;
     	}    	   	
     	$this->display();
-    }           
+    }
+
+        public function shezhi(){
+        $adminUsersModel=M('login');
+        $dynamicModel=M("dynamic");
+        $username=session('name'); 
+        // var_dump($username);exit;
+        if($username!=""){
+            $Userresult=$adminUsersModel->where("name='$username'")->select();
+            $this->assign('user',$Userresult);
+            // var_dump($Userresult);exit;
+            // var_dump($Dynamicresult);exit;
+        }           
+        $this->display();
+    }    
+
+    public function xiugai(){
+        if(IS_POST){
+        $adminUsersModel=M('login');
+        $dynamicModel=M("dynamic");
+        $username=session('name'); 
+        // var_dump($username);exit;
+        $password=I("post.password");
+        $birthday=I("post.birthday"); 
+        $gxqm=I("post.gxqm");  
+        // var_dump($birthday);exit;  
+        $data = array('password'=>$password,'birthday'=>$birthday,
+         'gxqm'=>$gxqm);
+        $result=$adminUsersModel->where("name='$username'")->setField($data);  
+        // var_dump($result);exit; 
+        if($result==1) {
+            $this->redirect("index/index");            
+        }else{
+            dump("error");
+        }         
+        }
+        $this->display();
+    }
+
+           
 }
 

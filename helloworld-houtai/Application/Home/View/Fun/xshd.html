@@ -110,18 +110,26 @@
 		<div class="left">
 
 		   <div class="tiezi">
-		   <volist name="dynamic" id="d">
+		   		    <volist name="dynamic" id="d">
 		    		<div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="__PUBLIC__/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">{$d.name}</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">{$d.addtime}</p>
-		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">{$d.writer}</p>
+		    				<p class="time" style="margin:5px 0 0 80px;font-size:14px;color:#fff;;background:#ffa500; width:65px;border-radius: 5px;">&nbsp;{$d.section}&nbsp;</p>
+		    				<p class="time" style="margin:-20px 0 0 150px; font-size:14px;">{$d.addtime}</p>
+
+		    				<!-- <p class="username" style="margin:-50px 0 0 80px; font-size:15px;">{$d.name}</p> -->
+		    			<!-- 	<p class="time" style="margin:-20px 0 0 180px;font-size:14px;color:#fff;;background:#ffa500; width:65px;border-radius: 5px;">&nbsp;{$d.section}&nbsp;</p>
+ -->
+		    				<!-- <p class="time" style="margin:5px 0 0 80px; font-size:14px;">{$d.addtime}</p> -->
+		    					<button type="button" class="btn btn-sm " style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
+		    					
 		    					<span class="glyphicon glyphicon-plus"> 关注</span>
 		    				</button>
+		    				
 		    				<div class="co">
-                               <p>{$d.content}</p>
-							</div>
+		    					<p>{$d.content}</p>
+		    				</div>
 		    			</div>
 		    			<img src="__PUBLIC__/front/img/longline.png" style="margin-left:6px;">
 		    			<div class="bt">

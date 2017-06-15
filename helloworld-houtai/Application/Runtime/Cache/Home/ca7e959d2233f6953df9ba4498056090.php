@@ -66,13 +66,24 @@
 		<div class="zhuye">
 			<?php if(is_array($dynamic)): $i = 0; $__LIST__ = $dynamic;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><div class="page" style="float:right;margin-top:-50px;">
 		    	<div class="cont">
-		    		<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/ltouxiang.png" style="margin:10px 0 0 10px;"></a>
-		    		<p class="username" style="margin:-50px 0 0 80px; font-size:15px;"><?php echo ($d["name"]); ?></p>
-		    		<p class="time" style="margin:5px 0 0 80px; font-size:14px;"><?php echo ($d["addtime"]); ?></p>
-		    		<div class="co">
-		    			<p><?php echo ($d["content"]); ?></p>
-		    		</div>
-		    	</div>
+		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;"><?php echo ($d["writer"]); ?></p>
+		    				<p class="time" style="margin:5px 0 0 80px;font-size:14px;color:#fff;;background:#ffa500; width:65px;border-radius: 5px;">&nbsp;<?php echo ($d["section"]); ?>&nbsp;</p>
+		    				<p class="time" style="margin:-20px 0 0 150px; font-size:14px;"><?php echo ($d["addtime"]); ?></p>
+
+		    				<!-- <p class="username" style="margin:-50px 0 0 80px; font-size:15px;"><?php echo ($d["name"]); ?></p> -->
+		    			<!-- 	<p class="time" style="margin:-20px 0 0 180px;font-size:14px;color:#fff;;background:#ffa500; width:65px;border-radius: 5px;">&nbsp;<?php echo ($d["section"]); ?>&nbsp;</p>
+ -->
+		    				<!-- <p class="time" style="margin:5px 0 0 80px; font-size:14px;"><?php echo ($d["addtime"]); ?></p> -->
+		    					<button type="button" class="btn btn-sm " style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
+		    					
+		    					<span class="glyphicon glyphicon-plus"> 关注</span>
+		    				</button>
+		    				
+		    				<div class="co">
+		    					<p><?php echo ($d["content"]); ?></p>
+		    				</div>
+		    			</div>
 		    	<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
 		    	<div class="bt">
 		    		<button type="button" class="btn btn-md" style="margin-left:10px;">

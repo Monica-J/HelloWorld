@@ -190,3 +190,525 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
 ERR: 无法加载模块:Public
 
+[ 2017-06-15T12:08:21+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:21+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer-dragdropbox-theme.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:21+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:21+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/tomorrow.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:21+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:21+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:21+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:21+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:22+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:22+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:22+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:08:22+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer-dragdropbox-theme.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/tomorrow.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:09:00+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:10:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/images/icon-all_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer-dragdropbox-theme.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/tomorrow.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:40+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer-dragdropbox-theme.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/tomorrow.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:26:49+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:28:34+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff2?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:28:34+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T12:28:35+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.ttf?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:04:20+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff2?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:04:20+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:04:20+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.ttf?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:17:09+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff2?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:17:09+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:17:09+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.ttf?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:23:29+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff2?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002291s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:23:29+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:23:29+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.ttf?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:37:37+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/images/icon-all_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer-dragdropbox-theme.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/tomorrow.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:45:43+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/jquery.filer-dragdropbox-theme.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/tomorrow.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/upload/custom.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/jquery.filer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/prettify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/scripts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:51:51+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/js/upload/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-15T13:52:10+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/images/icon-all_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Public
+
