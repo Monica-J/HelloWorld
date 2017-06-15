@@ -18,31 +18,34 @@
 
 </head>
 <body>
-	<div class="header">
-		
-		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="__MODULE__/Index/index.html"><img src="__PUBLIC__/front/img/logo.png"></a>
-		</div>
-		
-		<div class="search" style="margin:-40px 0 0 370px;">
-      <input type="text" style="width:300px;height:30px;border:none;">
-      <button type="submit" class="btn btn-sm">搜 索</button>
+	<div class="header" style="border-radius:0px;">
+    
+    <div class="logo">
+      <a href="__MODULE__/Index/index.html"><img src="__PUBLIC__/front/img/logo.png" style="margin:3px 0 0 30px;"></a>
     </div>
-
-		<div class="user" style="float:right; margin:-30px 30px 0 0;">
-			<div class="btn-group">
-			  	<a href="__MODULE__/Mine/admin.html"><button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
-			  	</button></a>	  	
-			   	
-			   	<a href="__MODULE__/Mine/shezhi.html"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-cog"></span>
-			   	</button></a>
+    
+    <div class="search" style="margin:-40px 0 0 370px;">
+      <input type="text" style="width:300px;height:30px;border:none;">
+      <button type="submit" class="btn btn-sm ss">搜 索</button>
+    </div>
+          <volist name="user" id="u">
+    <div class="user" style="float:right; margin:-32px 30px 0 0;">
+      <div class="btn-group">
+          <a href="__MODULE__/Mine/admin.html"><button type="button" class="btn btn-lg">
+            <span class="glyphicon glyphicon-user"></span> {$u.name}
+          </button></a>     
+          <!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
+            <span class="glyphicon glyphicon-envelope"></span>
+          </button></a>-->
+          <a href="__MODULE__/Mine/shezhi.html"><button type="button" class="btn btn-lg">
+            <span class="glyphicon glyphicon-cog"></span>
+          </button></a>
           <a href="__MODULE__/Login/login.html"><button type="button" class="btn btn-lg">
             <span class="glyphicon glyphicon-log-in"></span>
           </button></a>
-			</div>
-		</div>
+      </div>
+    </div>
+          </volist>
 
 	</div>
 
@@ -61,23 +64,24 @@
 			</ul>
 		</nav>
 
-		<div class="right">
-
-			<div class="admin">
-				<a href="__MODULE__/Mine/admin.html"><img src="__PUBLIC__/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
-				<p class="name">你的梦里有我吗</p>
-				<p class="title"><img src="__PUBLIC__/front/img/title.png">工程师</p>
-				
-				<nav class="navbar adnav" role="navigation">
-					<ul class="nav navbar-nav">
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
-						<li><img src="__PUBLIC__/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
-						<li><img src="__PUBLIC__/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
-					</ul>
-				</nav>
-			</div>
+    <div class="right">
+           <volist name="user" id="u">
+      <div class="admin" style="margin-top:-46px;">
+        <a href="__MODULE__/Mine/admin.html"><img src="__PUBLIC__/front/img/index-user.png" style="margin:15px 0 0 46px;width:90;height:87;"></a>
+        <p class="name">{$u.name}</p>
+        <p class="title"><img src="__PUBLIC__/front/img/title.png">{$u.introduce}</p>
+        
+        <nav class="navbar adnav" role="navigation">
+          <ul class="nav navbar-nav">
+            <li><a href="#"><p>&nbsp;{$u.guanzhu}</p><p style="margin-top:-8px;">关注</p></a></li>
+            <li><img src="__PUBLIC__/front/img/line.png"></li>
+            <li><a href="#"><p>&nbsp;{$u.fans}</p><p style="margin-top:-8px;">粉丝</p></a></li>
+            <li><img src="__PUBLIC__/front/img/line.png"></li>
+            <li><a href="#"><p>&nbsp;{$u.tiezi}</p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>        
+          </ul>
+        </nav>
+        </volist>
+      </div>
 
 			<div class="book bor">
 				<p class="bktitle">推荐书单</p>

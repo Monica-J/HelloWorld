@@ -13,7 +13,7 @@
 		
 </head>
 <body>
-	<div class="header" style="border-radius:0px;">
+		<div class="header" style="border-radius:0px;">
 		
 		<div class="logo">
 			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png" style="margin:3px 0 0 30px;"></a>
@@ -21,13 +21,12 @@
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
 			<input type="text" style="width:300px;height:30px;border:none;">
-			<button type="submit" class="btn btn-sm">搜 索</button>
+			<button type="submit" class="btn btn-sm ss">搜 索</button>
 		</div>
-
-		<div class="user" style="float:right; margin:-32px 30px 0 0;">
+          <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="user" style="float:right; margin:-32px 30px 0 0;">
 			<div class="btn-group">
 			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
+			  		<span class="glyphicon glyphicon-user"></span> <?php echo ($u["name"]); ?>
 			  	</button></a>	  	
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-envelope"></span>
@@ -39,7 +38,7 @@
 			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
 			</div>
-		</div>
+		</div><?php endforeach; endif; else: echo "" ;endif; ?>
 
 	</div>
 
@@ -59,23 +58,21 @@
 		</nav>
 
 		<div class="right">
-
-			<div class="admin">
+            <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="admin">
 				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 46px;width:90;height:87;"></a>
-				<p class="name">你的梦里有我吗</p>
-				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
+				<p class="name"><?php echo ($u["name"]); ?></p>
+				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png"><?php echo ($u["introduce"]); ?></p>
 				
 				<nav class="navbar adnav" role="navigation">
 					<ul class="nav navbar-nav">
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
+						<li><a href="#"><p>&nbsp;<?php echo ($u["guanzhu"]); ?></p><p style="margin-top:-8px;">关注</p></a></li>
 						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
+						<li><a href="#"><p>&nbsp;<?php echo ($u["fans"]); ?></p><p style="margin-top:-8px;">粉丝</p></a></li>
 						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
+						<li><a href="#"><p>&nbsp;<?php echo ($u["tiezi"]); ?></p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
 					</ul>
 				</nav>
-			</div>
-
+			</div><?php endforeach; endif; else: echo "" ;endif; ?>
 			<div class="book">
 				<p class="bktitle">推荐书单</p>
 				<div id="myCarousel" class="carousel slide">
@@ -106,18 +103,16 @@
 		<div class="left">			
 
 		   <div class="tiezi">
-		    		<div class="page">
+		   <?php if(is_array($dynamic)): $i = 0; $__LIST__ = $dynamic;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;"><?php echo ($d["name"]); ?></p>
+		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;"><?php echo ($d["addtime"]); ?></p>
 		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
 		    					<span class="glyphicon glyphicon-plus"> 关注</span>
 		    				</button>
 		    				<div class="co">
-			    				<p>近日，全校男篮总冠军争夺赛在体育学院篮球馆举行，我院男篮技压群雄，战胜对手，获得全校男篮总冠军。</p>
-								<p>本次争夺赛共有四个队伍参加，分别是前不久刚刚结束的篮球联赛甲组冠、亚军和乙组冠、亚军。其中甲组冠军对阵乙组冠军，争夺总冠军；甲组亚军对阵乙组亚军，争夺季军；我院男篮以甲组冠军身份进军总决赛，对阵乙组冠军法政与公共管理学院男篮，最终，我院男篮以24:19战胜法政与公共管理学院男篮获得全校总冠军。</p>
-								<p>据悉，我校每年举行男子篮球甲、乙组分组比赛，本次总冠军争夺赛系近年来首次。我院男篮健儿在甲组比赛中表现突出，以全胜的战绩获得甲组冠军。在本次全校总冠军争夺赛中，软件男篮更是努力拼搏、勇于超越，不但以精湛的球技和默契的协作赢得总冠军，更赢得了对手的尊重及观众的阵阵呼声，极大的激发了软件学院学生们的运动热情。</p>
+                               <p><?php echo ($d["content"]); ?></p>
 							</div>
 		    			</div>
 		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
@@ -133,101 +128,13 @@
 						   	</button>
 		    			</div>
 		    			
-		    		</div>
-
-		    		<div class="page">
-		    			<div class="cont">
-		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
-		    					<span class="glyphicon glyphicon-plus"> 关注</span>
-		    				</button>
-		    				<div class="co">
-			    				<p>近日，全校男篮总冠军争夺赛在体育学院篮球馆举行，我院男篮技压群雄，战胜对手，获得全校男篮总冠军。</p>
-								<p>本次争夺赛共有四个队伍参加，分别是前不久刚刚结束的篮球联赛甲组冠、亚军和乙组冠、亚军。其中甲组冠军对阵乙组冠军，争夺总冠军；甲组亚军对阵乙组亚军，争夺季军；我院男篮以甲组冠军身份进军总决赛，对阵乙组冠军法政与公共管理学院男篮，最终，我院男篮以24:19战胜法政与公共管理学院男篮获得全校总冠军。</p>
-								<p>据悉，我校每年举行男子篮球甲、乙组分组比赛，本次总冠军争夺赛系近年来首次。我院男篮健儿在甲组比赛中表现突出，以全胜的战绩获得甲组冠军。在本次全校总冠军争夺赛中，软件男篮更是努力拼搏、勇于超越，不但以精湛的球技和默契的协作赢得总冠军，更赢得了对手的尊重及观众的阵阵呼声，极大的激发了软件学院学生们的运动热情。</p>
-							</div>
-		    			</div>
-		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
-		    			<div class="bt">
-		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
-						   		<span class="glyphicon glyphicon-heart">收藏</span>
-						   	</button>
-						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:240px;">
-						   		<span class="glyphicon glyphicon-share">分享</span>
-						   	</button></a>
-
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
-						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
-						   	</button>
-		    			</div>
-		    			
-		    		</div>
-
-		    		<div class="page">
-		    			<div class="cont">
-		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
-		    					<span class="glyphicon glyphicon-plus"> 关注</span>
-		    				</button>
-		    				<div class="co">
-			    				<p>近日，全校男篮总冠军争夺赛在体育学院篮球馆举行，我院男篮技压群雄，战胜对手，获得全校男篮总冠军。</p>
-								<p>本次争夺赛共有四个队伍参加，分别是前不久刚刚结束的篮球联赛甲组冠、亚军和乙组冠、亚军。其中甲组冠军对阵乙组冠军，争夺总冠军；甲组亚军对阵乙组亚军，争夺季军；我院男篮以甲组冠军身份进军总决赛，对阵乙组冠军法政与公共管理学院男篮，最终，我院男篮以24:19战胜法政与公共管理学院男篮获得全校总冠军。</p>
-								<p>据悉，我校每年举行男子篮球甲、乙组分组比赛，本次总冠军争夺赛系近年来首次。我院男篮健儿在甲组比赛中表现突出，以全胜的战绩获得甲组冠军。在本次全校总冠军争夺赛中，软件男篮更是努力拼搏、勇于超越，不但以精湛的球技和默契的协作赢得总冠军，更赢得了对手的尊重及观众的阵阵呼声，极大的激发了软件学院学生们的运动热情。</p>
-							</div>
-		    			</div>
-		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
-		    			<div class="bt">
-		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
-						   		<span class="glyphicon glyphicon-heart">收藏</span>
-						   	</button>
-						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:240px;">
-						   		<span class="glyphicon glyphicon-share">分享</span>
-						   	</button></a>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
-						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
-						   	</button>
-		    			</div>
-		    			
-		    		</div>
-
-		    		<div class="page">
-		    			<div class="cont">
-		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
-		    					<span class="glyphicon glyphicon-plus"> 关注</span>
-		    				</button>
-		    				<div class="co">
-			    				<p>近日，全校男篮总冠军争夺赛在体育学院篮球馆举行，我院男篮技压群雄，战胜对手，获得全校男篮总冠军。</p>
-								<p>本次争夺赛共有四个队伍参加，分别是前不久刚刚结束的篮球联赛甲组冠、亚军和乙组冠、亚军。其中甲组冠军对阵乙组冠军，争夺总冠军；甲组亚军对阵乙组亚军，争夺季军；我院男篮以甲组冠军身份进军总决赛，对阵乙组冠军法政与公共管理学院男篮，最终，我院男篮以24:19战胜法政与公共管理学院男篮获得全校总冠军。</p>
-								<p>据悉，我校每年举行男子篮球甲、乙组分组比赛，本次总冠军争夺赛系近年来首次。我院男篮健儿在甲组比赛中表现突出，以全胜的战绩获得甲组冠军。在本次全校总冠军争夺赛中，软件男篮更是努力拼搏、勇于超越，不但以精湛的球技和默契的协作赢得总冠军，更赢得了对手的尊重及观众的阵阵呼声，极大的激发了软件学院学生们的运动热情。</p>
-							</div>
-		    			</div>
-		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
-		    			<div class="bt">
-		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
-						   		<span class="glyphicon glyphicon-heart">收藏</span>
-						   	</button>
-						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:240px;">
-						   		<span class="glyphicon glyphicon-share">分享</span>
-						   	</button></a>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
-						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
-						   	</button>
-		    			</div>
-		    			
-		    		</div>
+		    		</div><?php endforeach; endif; else: echo "" ;endif; ?>
 		    </div>
 
-		    <div style="margin-left:52px;">
+		  <!--   <div style="margin-left:52px;"> -->
 		    	<!--<p id="p1"></p>--><!--返回的页码值-->
-			    <ul class="pagination pagination1"></ul>
-		    </div>
+			   <!--  <ul class="pagination pagination1"></ul>
+		    </div> -->
 		    	
 		</div>
 

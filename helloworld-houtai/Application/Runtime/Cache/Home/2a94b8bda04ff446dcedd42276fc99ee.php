@@ -47,13 +47,13 @@
 		<nav class="navbar navbar-default" role="navigation" style="margin-top:-49px;">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html">首页</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html">热门话题</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html">公告通知</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html">学生活动</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/jsjl.html">技术交流</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/files_share.html">资料共享</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/sdtc.html">树洞吐槽</a></li>
-				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/contacts.html">院友录</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht.html" onclick="location.href='/HelloWorld/helloworld-houtai/index.php/Home/Fun/rmht'">热门话题</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz.html" onclick="location.href='/HelloWorld/helloworld-houtai/index.php/Home/Fun/ggtz'">公告通知</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd.html" onclick="location.href='/HelloWorld/helloworld-houtai/index.php/Home/Fun/xshd'">学生活动</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/jsjl.html" onclick="location.href='/HelloWorld/helloworld-houtai/index.php/Home/Fun/jsjl'">技术交流</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/files_share.html" onclick="location.href='/HelloWorld/helloworld-houtai/index.php/Home/Fun/files_share'">资料共享</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/sdtc.html" onclick="location.href='/HelloWorld/helloworld-houtai/index.php/Home/Fun/sdtc'">树洞吐槽</a></li>
+				<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Fun/contacts.html" onclick="location.href='/HelloWorld/helloworld-houtai/index.php/Home/Fun/contacts'">院友录</a></li>
 			</ul>
 		</nav>
 
@@ -106,23 +106,70 @@
 				
 			<div class="Main" id="opwri">     
 			    <div class="Input_Box">     
-			        <form>
-				        <textarea id="httext" name="content" style="width: 687px;height: 135px;margin: 96px 0 0 230px;"></textarea>	     
+			        <form method="post" action="/HelloWorld/helloworld-houtai/index.php/Home/Index/adddongtai" enctype="multipart/form-data">
+				        <textarea id="httext" name="content" style="width: 767px;height: 135px;margin: 96px 0 0 230px;"></textarea>	     
 				        <div class="Input_Foot">
+				        
 					        <button type="button" class="btn btn-m" id="huati">
-								<img src="/HelloWorld/helloworld-houtai/Public/front/img/huati.png">插入话题	
+								<img src="/HelloWorld/helloworld-houtai/Public/front/img/huati.png"><small>插入话题</small>	
 							</button>
 					        <input type="submit" class="submit" value="确认"> 
+					        <div class="options" style="margin:-28px 0 0 120px;">
+
+						        <input list="browsers" name="section" placeholder="选择你要发表到..." style="width:150px;"> 
+								<datalist id="browsers">
+								  	<option value="热门话题">
+								  	<option value="公告通知">
+								  	<option value="学生活动">
+								  	<option value="技术交流">
+								  	<option value="树洞吐槽">
+								</datalist>
+							</div>
+						       <!--  <div class="options" name="section" style="margin:-27px 0 0 120px;">
+						        <select> -->
+						        	<!-- <?php if(is_array($cate)): $i = 0; $__LIST__ = $cate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option label="<?php echo ($vo["section"]); ?>"><?php echo ($vo["section"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?> -->
+									<!-- <option value="热门话题">热门话题</option>
+									<option value="公告通知">公告通知</option>
+									<option value="学生活动">学生活动</option>
+									<option value="技术交流">技术交流</option>
+									<option value="树洞吐槽">树洞吐槽</option> -->
+								<!-- </select>
+							</div> -->
+
+						</div>
+					</form>		
+				</div>
+				    
+		</div>   
+			   <!--  <div class="Input_Box">     
+			        <form>
+				        <textarea id="httext" style="width: 687px;height: 135px;margin: 96px 0 0 230px;"></textarea>	     
+				        <div class="Input_Foot">
+					        <button type="button" class="btn btn-m" id="huati">
+								<img src="img/huati.png">插入话题	
+							<tton>
+					        <input type="submit" class="submit" value="确认"> 
+					        <div class="options" style="margin:-28px 0 0 120px;">
+						        <input list="browsers" placeholder="选择你要发表到..." style="width:150px;"> 
+								<datalist id="browsers">
+								  	<option value="热门话题">
+								  	<option value="公告通知">
+								  	<option value="学生活动">
+								  	<option value="技术交流">
+								  	<option value="树洞吐槽">
+								</datalist>
+							</div>
 					    </div>
 				    </form>
-			    </div>   
+			    </div> -->
+
 		    </div>
 
 		    <div class="tiezi">
 		    <?php if(is_array($dynamic)): $i = 0; $__LIST__ = $dynamic;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;"><?php echo ($d["name"]); ?></p>
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;"><?php echo ($d["writer"]); ?></p>
 		    				<p class="time" style="margin:5px 0 0 80px;font-size:14px;color:#fff;;background:#ffa500; width:65px;border-radius: 5px;">&nbsp;<?php echo ($d["section"]); ?>&nbsp;</p>
 		    				<p class="time" style="margin:-20px 0 0 150px; font-size:14px;"><?php echo ($d["addtime"]); ?></p>
 
@@ -193,10 +240,10 @@
 		    		
 		    </div>
 
-		    <div style="margin-left:52px;">
+		   <!--  <div style="margin-left:52px;"> -->
 		    	<!--<p id="p1"></p>--><!--返回的页码值-->
-			    <ul class="pagination pagination1"></ul>
-		    </div>
+			  <!--   <ul class="pagination pagination1"></ul>
+		    </div> -->
 		    	
 		</div>
 
@@ -233,7 +280,7 @@
 	    jQuery.jqPaginator('.pagination1', {
 	        totalPages: 100,
 	        visiblePages: 10,
-	        currentPage: 3,
+	        currentPage: 1,
 	        onPageChange: function (num, type) {
 	            jQuery('#p1').text(type + '：' + num);
 	        }

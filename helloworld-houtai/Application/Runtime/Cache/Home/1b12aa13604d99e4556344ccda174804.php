@@ -254,7 +254,7 @@
 		    		</div>
 		    </div>
 
-		    <div style="margin-left:52px;">
+		  <!--   <div style="margin-left:52px;"> -->
 		    	<!--<p id="p1"></p>--><!--返回的页码值-->
 			    <ul class="pagination pagination1"></ul>
 		    </div>

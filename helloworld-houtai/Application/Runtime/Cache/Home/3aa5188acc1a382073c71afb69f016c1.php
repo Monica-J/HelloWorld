@@ -28,13 +28,12 @@
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
 			<input type="text" style="width:300px;height:30px;border:none;">
-			<button type="submit" class="btn btn-sm">搜 索</button>
+			<button type="submit" class="btn btn-sm ss">搜 索</button>
 		</div>
-
-		<div class="user" style="float:right; margin:-32px 30px 0 0;">
+          <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="user" style="float:right; margin:-32px 30px 0 0;">
 			<div class="btn-group">
 			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
+			  		<span class="glyphicon glyphicon-user"></span> <?php echo ($u["name"]); ?>
 			  	</button></a>	  	
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-envelope"></span>
@@ -46,7 +45,7 @@
 			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
 			</div>
-		</div>
+		</div><?php endforeach; endif; else: echo "" ;endif; ?>
 
 	</div>
 

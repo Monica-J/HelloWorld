@@ -23,13 +23,12 @@
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
 			<input type="text" style="width:300px;height:30px;border:none;">
-			<button type="submit" class="btn btn-sm">搜 索</button>
+			<button type="submit" class="btn btn-sm ss">搜 索</button>
 		</div>
-
-		<div class="user" style="float:right; margin:-32px 30px 0 0;">
+          <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="user" style="float:right; margin:-32px 30px 0 0;">
 			<div class="btn-group">
 			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
+			  		<span class="glyphicon glyphicon-user"></span> <?php echo ($u["name"]); ?>
 			  	</button></a>	  	
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-envelope"></span>
@@ -40,9 +39,8 @@
 			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Login/login.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
-			 
 			</div>
-		</div>
+		</div><?php endforeach; endif; else: echo "" ;endif; ?>
 
 	</div>
 
@@ -62,21 +60,20 @@
 		</nav>
 
 		<div class="right">
-
-			<div class="admin" style="margin-top:-46px;">
+           <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="admin" style="margin-top:-46px;">
 				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 46px;width:90;height:87;"></a>
-				<p class="name">你的梦里有我吗</p>
-				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
+				<p class="name"><?php echo ($u["name"]); ?></p>
+				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png"><?php echo ($u["introduce"]); ?></p>
 				
 				<nav class="navbar adnav" role="navigation">
 					<ul class="nav navbar-nav">
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
+						<li><a href="#"><p>&nbsp;<?php echo ($u["guanzhu"]); ?></p><p style="margin-top:-8px;">关注</p></a></li>
 						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
+						<li><a href="#"><p>&nbsp;<?php echo ($u["fans"]); ?></p><p style="margin-top:-8px;">粉丝</p></a></li>
 						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
+						<li><a href="#"><p>&nbsp;<?php echo ($u["tiezi"]); ?></p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
 					</ul>
-				</nav>
+				</nav><?php endforeach; endif; else: echo "" ;endif; ?>
 			</div>
 
 			<div class="book" style="margin-top:195px;">
@@ -104,170 +101,44 @@
 				</div>  
 			</div>
 			
-		</div>
+		</div>		
 
-		<div class="left">			
+		<div class="left">
 
-		    <div class="tiezi">
-		    		<div class="page">
+		   <div class="tiezi">
+		   <?php if(is_array($dynamic)): $i = 0; $__LIST__ = $dynamic;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><div class="page">
 		    			<div class="cont">
 		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
+		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;"><?php echo ($d["name"]); ?></p>
+		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;"><?php echo ($d["addtime"]); ?></p>
 		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
 		    					<span class="glyphicon glyphicon-plus"> 关注</span>
 		    				</button>
 		    				<div class="co">
-		    					<p>学生会拟举办知识竞赛，主题和形式未定，希望有好的想法的同学积极在下方评论，我们将会从评论中选出最好的想法并奖励此同学软件学院定制版U盘。学生会拟举办知识竞赛，主题和形式未定，希望有好的想法的同学积极在下方评论，我们将会从评论中选出最好的想法并奖励此同学软件学院定制版U盘。学生会拟举办知识竞赛，主题和形式未定，希望有好的想法的同学积极在下方评论，我们将会从评论中选出最好的想法并奖励此同学软件学院定制版U盘。（重要的事情说三遍）</p>
-		    				</div>
-		    			</div>
-		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
-		    			<div class="bt">
-		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
-						   		<span class="glyphicon glyphicon-heart">收藏</span>
-						   	</button>
-						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-share">分享</span>
-						   	</button></a>
-						   	<button type="button" class="btn btn-md btn-pl" style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-pencil">评论</span>
-						   	</button>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
-						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
-						   	</button>
-		    			</div>
-
-		    			<div class="hh" style="display:none;">     
-							<div class="commentAll" style="margin-left:23px;">
-		    					<!--评论区域 begin-->
-							    <div class="reviewArea clearfix">
-							        <textarea class="content comment-input" placeholder="请写下你的评论;" onkeyup="keyUP(this)"></textarea>
-							        <a href="javascript:;" class="plBtn">评论</a>
-							    </div>
-							    <!--评论区域 end-->
-							    <!--回复区域 begin-->
-							    <div class="comment-show">
-							        <div class="comment-show-con clearfix">
-							            <div class="comment-show-con-img pull-left"><img src="/HelloWorld/helloworld-houtai/Public/front/img/header-img-comment_03.png" alt=""></div>
-							            <div class="comment-show-con-list pull-left clearfix">
-							                <div class="pl-text clearfix">
-							                    <a href="#" class="comment-size-name">张三 : </a>
-							                    <span class="my-pl-con">&nbsp;来啊 造作啊!</span>
-							                </div>
-							                <div class="date-dz">
-							                    <span class="date-dz-left pull-left comment-time">2017-6-2 11:11:39</span>
-							                    <div class="date-dz-right pull-right comment-pl-block">
-							                        <a href="javascript:;" class="removeBlock">删除</a>
-							                        <a href="javascript:;" class="date-dz-pl pl-hf hf-con-block pull-left">回复</a>
-							                        <span class="pull-left date-dz-line">|</span>
-							                        <a href="javascript:;" class="date-dz-z pull-left"><i class="date-dz-z-click-red"></i>赞 (<i class="z-num">666</i>)</a>
-							                    </div>
-							                </div>
-							                <div class="hf-list-con"></div>
-							            </div>
-							        </div>
-		    					</div>
-		    					<!--回复区域 end-->
+                               <p><?php echo ($d["content"]); ?></p>
 							</div>
-						</div>
-		    			
-		    		</div>
-
-		    		<div class="page">
-		    			<div class="cont">
-		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
-		    					<span class="glyphicon glyphicon-plus"> 关注</span>
-		    				</button>
-		    				<div class="co">
-		    					<p>如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
-		    				</div>
 		    			</div>
 		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
 		    			<div class="bt">
 		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
 						   		<span class="glyphicon glyphicon-heart">收藏</span>
 						   	</button>
-						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
+						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:240px;">
 						   		<span class="glyphicon glyphicon-share">分享</span>
 						   	</button></a>
-						   	<button type="button" class="btn btn-md" style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-pencil">评论</span>
-						   	</button>
 						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
 						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
 						   	</button>
 		    			</div>
 		    			
-		    		</div>
-
-		    		<div class="page">
-		    			<div class="cont">
-		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
-		    					<span class="glyphicon glyphicon-plus"> 关注</span>
-		    				</button>
-		    				<div class="co">
-		    					<p>如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
-		    				</div>
-		    			</div>
-		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
-		    			<div class="bt">
-		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
-						   		<span class="glyphicon glyphicon-heart">收藏</span>
-						   	</button>
-						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-share">分享</span>
-						   	</button></a>
-						   	<button type="button" class="btn btn-md" style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-pencil">评论</span>
-						   	</button>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
-						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
-						   	</button>
-		    			</div>
-		    			
-		    		</div>
-
-		    		<div class="page">
-		    			<div class="cont">
-		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/user-lit.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">软件学院学生会</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<button type="button" class="btn btn-sm gz" style="float:right; margin:-45px 10px 0 0;" onclick="myFunction()">
-		    					<span class="glyphicon glyphicon-plus"> 关注</span>
-		    				</button>
-		    				<div class="co">
-		    					<p>如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
-		    				</div>
-		    			</div>
-		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
-		    			<div class="bt">
-		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
-						   		<span class="glyphicon glyphicon-heart">收藏</span>
-						   	</button>
-						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-share">分享</span>
-						   	</button></a>
-						   	<button type="button" class="btn btn-md" style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-pencil">评论</span>
-						   	</button>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
-						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
-						   	</button>
-		    			</div>
-		    			
-		    		</div>
+		    		</div><?php endforeach; endif; else: echo "" ;endif; ?>
 		    </div>
 
-		    <div style="margin-left:52px;">
+
+		  <!--   <div style="margin-left:52px;"> -->
 		    	<!--<p id="p1"></p>--><!--返回的页码值-->
-			    <ul class="pagination pagination1"></ul>
-		    </div>
+				   <!--  <ul class="pagination pagination1"></ul>
+			    </div> -->
 		    	
 		</div>
 

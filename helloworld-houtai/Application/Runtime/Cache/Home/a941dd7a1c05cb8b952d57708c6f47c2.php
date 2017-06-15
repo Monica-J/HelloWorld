@@ -18,31 +18,32 @@
 
 </head>
 <body>
-	<div class="header">
-		
-		<div class="logo" style="margin:0 0 0 30px;">
-			<a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png"></a>
-		</div>
-		
-		<div class="search" style="margin:-40px 0 0 370px;">
-      <input type="text" style="width:300px;height:30px;border:none;">
-      <button type="submit" class="btn btn-sm">搜 索</button>
+	<div class="header" style="border-radius:0px;">
+    
+    <div class="logo">
+      <a href="/HelloWorld/helloworld-houtai/index.php/Home/Index/index.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/logo.png" style="margin:3px 0 0 30px;"></a>
     </div>
-
-		<div class="user" style="float:right; margin:-30px 30px 0 0;">
-			<div class="btn-group">
-			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
-			  	</button></a>	  	
-			   	
-			   	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shezhi.html"><button type="button" class="btn btn-lg">
-			   		<span class="glyphicon glyphicon-cog"></span>
-			   	</button></a>
+    
+    <div class="search" style="margin:-40px 0 0 370px;">
+      <input type="text" style="width:300px;height:30px;border:none;">
+      <button type="submit" class="btn btn-sm ss">搜 索</button>
+    </div>
+          <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="user" style="float:right; margin:-32px 30px 0 0;">
+      <div class="btn-group">
+          <a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
+            <span class="glyphicon glyphicon-user"></span> <?php echo ($u["name"]); ?>
+          </button></a>     
+          <!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
+            <span class="glyphicon glyphicon-envelope"></span>
+          </button></a>-->
+          <a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shezhi.html"><button type="button" class="btn btn-lg">
+            <span class="glyphicon glyphicon-cog"></span>
+          </button></a>
           <a href="/HelloWorld/helloworld-houtai/index.php/Home/Login/login.html"><button type="button" class="btn btn-lg">
             <span class="glyphicon glyphicon-log-in"></span>
           </button></a>
-			</div>
-		</div>
+      </div>
+    </div><?php endforeach; endif; else: echo "" ;endif; ?>
 
 	</div>
 
@@ -61,23 +62,22 @@
 			</ul>
 		</nav>
 
-		<div class="right">
-
-			<div class="admin">
-				<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 42px;width:90;height:87;"></a>
-				<p class="name">你的梦里有我吗</p>
-				<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
-				
-				<nav class="navbar adnav" role="navigation">
-					<ul class="nav navbar-nav">
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
-						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
-						<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-						<li><a href="#"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>				
-					</ul>
-				</nav>
-			</div>
+    <div class="right">
+           <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="admin" style="margin-top:-46px;">
+        <a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><img src="/HelloWorld/helloworld-houtai/Public/front/img/index-user.png" style="margin:15px 0 0 46px;width:90;height:87;"></a>
+        <p class="name"><?php echo ($u["name"]); ?></p>
+        <p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png"><?php echo ($u["introduce"]); ?></p>
+        
+        <nav class="navbar adnav" role="navigation">
+          <ul class="nav navbar-nav">
+            <li><a href="#"><p>&nbsp;<?php echo ($u["guanzhu"]); ?></p><p style="margin-top:-8px;">关注</p></a></li>
+            <li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
+            <li><a href="#"><p>&nbsp;<?php echo ($u["fans"]); ?></p><p style="margin-top:-8px;">粉丝</p></a></li>
+            <li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
+            <li><a href="#"><p>&nbsp;<?php echo ($u["tiezi"]); ?></p><p style="margin-top:-8px;">帖子&nbsp;&nbsp;</p></a></li>        
+          </ul>
+        </nav><?php endforeach; endif; else: echo "" ;endif; ?>
+      </div>
 
 			<div class="book bor">
 				<p class="bktitle">推荐书单</p>

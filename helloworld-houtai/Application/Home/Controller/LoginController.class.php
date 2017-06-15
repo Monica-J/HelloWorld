@@ -55,21 +55,36 @@ class LoginController extends Controller {
                 $data=array(
                 'name'=>I('post.name'),
                 'password'=>I('post.password'),
+                'guanzhu'=>0,
+                'fans'=>0,
+                'tiezi'=>0
                
                 
                 );
+                $password=I('post.password');
+                $repassword=I('post.repassword');
+                // var_dump($data);exit;
                 $data['addtime'] = date("Y-m-d H:i:s"); //添加注册时间
                    
-                $adminaddModel->add($data);
+                
                 $condition=array(
                 'title'=>I('post.title'),
                 'name'=>I('post.name'),  
                 'grade'=>I('post.grade')
                 );
-                $result=$adminaddModel->where($condition)->count();
-                if($result>0){
+
+               // var_dump($password==$repassword);exit;
+                    if($password==$repassword){
+                        $adminaddModel->add($data);
+                        $result=$adminaddModel->where($condition)->count(); 
                 $this->success("用户添加成功",U('Login/login'));
-                }
+                                           
+            }else{
+                 $this->error("注册失败");
+                 $this->redirect("Login/login");
+            }
+            
+                
                 }
     
 }

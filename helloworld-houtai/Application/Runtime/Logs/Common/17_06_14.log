@@ -52,3 +52,63 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
 ERR: 无法加载模块:Public
 
+[ 2017-06-14T13:53:36+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/css/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-14T15:38:09+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/images/icon-all_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-14T15:38:45+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/images/icon-all_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-14T17:22:55+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/images/icon-all_01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-14T23:02:19+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff2?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-14T23:02:19+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-14T23:02:19+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.ttf?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-14T23:02:36+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff2?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-14T23:02:36+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.woff?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Public
+
+[ 2017-06-14T23:02:36+08:00 ] 127.0.0.1 /HelloWorld/helloworld-houtai/Public/front/fonts/fontawesome-webfont.ttf?v=4.6.3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+ERR: 无法加载模块:Public
+

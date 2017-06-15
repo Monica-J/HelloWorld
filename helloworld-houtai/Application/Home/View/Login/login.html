@@ -64,7 +64,7 @@
 					</div>
 					<div class="group">
 						<label for="pass" class="label">重复密码</label>
-						<input id="pass" type="password" name="password1"  class="input" data-type="password">
+						<input id="pass" type="password" name="repassword"  class="input" data-type="password">
 					</div>
 					<!--
 					<div class="group">

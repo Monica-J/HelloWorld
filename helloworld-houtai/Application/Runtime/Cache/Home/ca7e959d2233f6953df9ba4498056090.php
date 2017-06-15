@@ -22,13 +22,12 @@
 		
 		<div class="search" style="margin:-40px 0 0 370px;">
 			<input type="text" style="width:300px;height:30px;border:none;">
-			<button type="submit" class="btn btn-sm">搜 索</button>
+			<button type="submit" class="btn btn-sm ss">搜 索</button>
 		</div>
-
-		<div class="user" style="float:right; margin:-32px 30px 0 0;">
+          <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="user" style="float:right; margin:-32px 30px 0 0;">
 			<div class="btn-group">
 			  	<a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><button type="button" class="btn btn-lg">
-			  		<span class="glyphicon glyphicon-user"></span> 你的梦里有我吗
+			  		<span class="glyphicon glyphicon-user"></span> <?php echo ($u["name"]); ?>
 			  	</button></a>	  	
 			   	<!--<a href="xiaoxi.html"><button type="button" class="btn btn-lg">
 			   		<span class="glyphicon glyphicon-envelope"></span>
@@ -40,40 +39,38 @@
 			   		<span class="glyphicon glyphicon-log-in"></span>
 			   	</button></a>
 			</div>
-		</div>
+		</div><?php endforeach; endif; else: echo "" ;endif; ?>
 
 	</div>
 
 	<div class="content" style="margin-top:-49px;">
-		
-		<div class="touxiang" style="border:1px solid #dcdcdc;margin-top:20px;">
+		<?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><div class="touxiang" style="border:1px solid #dcdcdc;margin-top:20px;">
 			<p style="text-align:center;margin-top:30px;"><img src="/HelloWorld/helloworld-houtai/Public/front/img/touxiang.png"></p>
-			<p class="name">你的梦里有我吗</p>
-			<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png">工程师</p>
+			<p class="name"><?php echo ($u["name"]); ?></p>
+			<p class="title"><img src="/HelloWorld/helloworld-houtai/Public/front/img/title.png"><?php echo ($u["introduce"]); ?></p>
 			<br/>
 		</div>
 
 		<nav class="navbar adnav" role="navigation" style="width:20%;margin:20px 0 0 0;border:1px solid #dcdcdc;">
 				<ul class="nav navbar-nav" style="margin:3px 0 0 -1px;font-size:13px;">
-					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/guanzhu.html"><p>&nbsp;28</p><p style="margin-top:-8px;">关注</p></a></li>
+					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/guanzhu.html"><p>&nbsp;<?php echo ($u["guanzhu"]); ?></p><p style="margin-top:-8px;">关注</p></a></li>
 					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/fensi.html"><p>&nbsp;28</p><p style="margin-top:-8px;">粉丝</p></a></li>
+					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/fensi.html"><p>&nbsp;<?php echo ($u["fans"]); ?></p><p style="margin-top:-8px;">粉丝</p></a></li>
 					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><p>&nbsp;28</p><p style="margin-top:-8px;">帖子</p></a></li>
+					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/admin.html"><p>&nbsp;<?php echo ($u["tiezi"]); ?></p><p style="margin-top:-8px;">帖子</p></a></li>
 					<li><img src="/HelloWorld/helloworld-houtai/Public/front/img/line.png"></li>
-					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shoucang.html"><p>&nbsp;28</p><p style="margin-top:-8px;">收藏</p></a></li>				
+					<li><a href="/HelloWorld/helloworld-houtai/index.php/Home/Mine/shoucang.html"><p>&nbsp;<?php echo ($u["shoucang"]); ?></p><p style="margin-top:-8px;">收藏</p></a></li>				
 				</ul>
-		</nav>
+		</nav><?php endforeach; endif; else: echo "" ;endif; ?>
 
 		<div class="zhuye">
-			
-			<div class="page" style="float:right;margin-top:-50px;">
+			<?php if(is_array($dynamic)): $i = 0; $__LIST__ = $dynamic;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><div class="page" style="float:right;margin-top:-50px;">
 		    	<div class="cont">
 		    		<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/ltouxiang.png" style="margin:10px 0 0 10px;"></a>
-		    		<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">你的梦里有我吗</p>
-		    		<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
+		    		<p class="username" style="margin:-50px 0 0 80px; font-size:15px;"><?php echo ($d["name"]); ?></p>
+		    		<p class="time" style="margin:5px 0 0 80px; font-size:14px;"><?php echo ($d["addtime"]); ?></p>
 		    		<div class="co">
-		    			<p>如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
+		    			<p><?php echo ($d["content"]); ?></p>
 		    		</div>
 		    	</div>
 		    	<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
@@ -125,35 +122,8 @@
 		    					<!--回复区域 end-->
 							</div>
 						</div>
-		    			
-		    </div>
-
-		    <div class="page" style="float:right;">
-		    			<div class="cont">
-		    				<a href=""><img src="/HelloWorld/helloworld-houtai/Public/front/img/ltouxiang.png" style="margin:10px 0 0 10px;"></a>
-		    				<p class="username" style="margin:-50px 0 0 80px; font-size:15px;">你的梦里有我吗</p>
-		    				<p class="time" style="margin:5px 0 0 80px; font-size:14px;">8:00</p>
-		    				<div class="co">
-		    					<p>如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦如果你无法简洁的表达你的想法，那只说明你还不够了解它。-- 阿尔伯特·爱因斯坦</p>
-		    				</div>
-		    			</div>
-		    			<img src="/HelloWorld/helloworld-houtai/Public/front/img/longline.png" style="margin-left:6px;">
-		    			<div class="bt">
-		    				<button type="button" class="btn btn-md" style="margin-left:10px;">
-						   		<span>阅读 80</span>
-						   	</button>
-						   	<a href="javascript:void(0)" class="share"><button type="button" class="btn btn-m " style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-share">分享</span>
-						   	</button></a>
-						   	<button type="button" class="btn btn-md" style="margin-left:140px;">
-						   		<span class="glyphicon glyphicon-pencil">评论</span>
-						   	</button>
-						   	<button type="button" class="btn btn-md" style="float:right;margin-right:10px;" onclick="myZan()">
-						   		<span class="glyphicon glyphicon-thumbs-up">点赞</span>
-						   	</button>
-		    			</div>
-		    			
-		    </div>
+		    		
+		    </div><?php endforeach; endif; else: echo "" ;endif; ?>	
 
 		    <div style="margin-left:260px;">
 		    	<!--<p id="p1"></p>--><!--返回的页码值-->
